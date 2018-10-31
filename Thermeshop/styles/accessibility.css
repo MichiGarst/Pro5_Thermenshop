@@ -1,0 +1,25 @@
+a.skipToMain{
+    left:-999em;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+
+a.skipToMain:focus, a.skipToMain:active{
+    color: black;
+    background-color: white;
+    left: auto;
+    top: auto;
+    width: 10%;
+    height: auto;
+    overflow: auto;
+    margin: 1em 10%;
+    padding: 1em;
+    border-radius: 1em;
+    border: 0.2em solid black;
+    text-align: center;
+    font-size: 0.8em;
+}
