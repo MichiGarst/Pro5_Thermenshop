@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<title>Anfrage</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Thermenshop Bad Füssing Kontakt">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/accessibility.css">
+</head>
+<body>
+
+<div class="content">
+
+	<!-- Header -->
+
+	<header class="header">
+		<a class="skipToMain" href="#main" tabindex="0">Navigation überspringen</a>
+		<div class="info">
+			<div class="adresse"><img src="images/adressePin.png" alt="" width="2%">Kurallee, 94072 Bad Füssing</div>
+			<div class="telefonnummer"><img src="images/telefon.png" alt="" width="1.5%">Tel: +49 8531 94460</div>
+
+		</div>
+		<nav aria-label="Navigation">
+			<ul id="menubar1"
+				role="menubar"
+				aria-label="Navigation">
+				<li>
+					<a role="menuitem"
+					   href="index.html"
+					   tabindex="0"
+					   lang="en">
+						Home
+					</a>
+				</li>
+				<li>
+					<a role="menuitem"
+					   href="about.html"
+					   tabindex="0">
+						Über uns
+					</a>
+				</li>
+				<li>
+					<a role="menuitem"
+					   href="shop.html"
+					   tabindex="0">
+						Sortiment
+					</a>
+				</li>
+				<li>
+					<a role="menuitem"
+					   href="request.html"
+					   tabindex="0">
+						Anfragen
+					</a>
+				</li>
+				<li>
+					<a role="menuitem"
+					   href="coffee.html"
+					   tabindex="0">
+						Kaffee
+					</a>
+				</li>
+				<li>
+					<a role="menuitem"
+					   href="contact.html"
+					   tabindex="0">
+						Kontakt
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Menu -->
+
+
+	<img src="images/therme.jpg" alt="" width="100%" id="thermePic">
+
+
+	<!-- Contact -->
+
+	<div id="main" tabindex="-1">
+
+		<h1>Anfrage senden</h1>
+		<img src="images/produkt1.png" alt="" width="18%" class="produktPic">
+		<p id="RequestText"><strong>Das Produkt</strong><br>
+			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
+		<form method="POST" aria-label="Anfrageformular">
+
+			<div>
+
+				<div role="checkbox"
+					 class="group_checkbox"
+					 aria-checked="false"
+					 aria-labelledby="label0 group1"
+					 aria-describedby="checkboxHelp"
+					 tabindex="0"
+					 onclick="toggleGroupCheckbox(event)"
+					 onkeydown="toggleGroupCheckbox(event)"
+					 onfocus="focusCheckbox(event)"
+					 onblur="blurCheckbox(event)">
+					<img src="./images/checkbox-unchecked-black.png" alt="">
+					<span> Farbe: </span>
+
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" name="checkbox" id="checkbox1_group1" value="value" aria-labelledby="label1 group1">
+					<label for="checkbox1_group1">Grau</label>
+
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" name="checkbox" id="checkbox2_group1" value="value" aria-labelledby="label2 group1">
+					<label for="checkbox2_group1">Blau</label>
+
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" name="checkbox" id="checkbox3_group1" value="value" aria-labelledby="label3 group1">
+					<label for="checkbox3_group1">Rosa</label>
+				</div>
+
+			</div>
+
+			<div>
+
+				<div role="checkbox"
+					 class="group_checkbox"
+					 aria-checked="false"
+					 aria-labelledby="label0 group2"
+					 aria-describedby="checkboxHelpHide"
+					 tabindex="0"
+					 onclick="toggleGroupCheckbox(event)"
+					 onkeydown="toggleGroupCheckbox(event)"
+					 onfocus="focusCheckbox(event)"
+					 onblur="blurCheckbox(event)">
+					<img src="./images/checkbox-unchecked-black.png" alt="">
+					<span> Größe: </span>
+
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" name="checkbox" id="checkbox1_group2" value="value" aria-labelledby="label1 group2">
+					<label for="checkbox1_group2">S</label>
+
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" name="checkbox" id="checkbox2_group2" value="value" aria-labelledby="label2 group2">
+					<label for="checkbox2_group2">M</label>
+
+				</div>
+
+				<div class="checkbox">
+					<input type="checkbox" name="checkbox" id="checkbox3_group2" value="value" aria-labelledby="label3 group2">
+					<label for="checkbox3_group2">L</label>
+
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" name="checkbox" id="checkbox4_group2" value="value" aria-labelledby="label4 group2">
+					<label for="checkbox4_group2">XL</label>
+
+				</div>
+
+			</div>
+
+			<div id="checkboxHelp">Sie können einmal oder mehrmals dasselbe Produkt bestellen. </div>
+			<div id="checkboxHelpHide" hidden>Sie können einmal oder mehrmals dasselbe Produkt bestellen. </div>
+
+
+			<label for="vorname">Vorname:</label>
+			<input type="text" autocomplete="vorname" id="vorname" name="vorname">
+
+			<label for="nachname">Nachname:</label>
+			<input type="text" autocomplete="nachname" id="nachname" name="vorname">
+
+			<label for="email">E-Mail:</label>
+			<input type="email" autocomplete="email" id="email" name="email">
+
+			<label for="telefon">Telefon:</label>
+			<input type="tel" autocomplete="tel" id="telefon" name="telefon">
+
+			<label for="wuensche">Ihre Wünsche:</label>
+			<textarea type="text" id="wuensche" name="wuensche"></textarea>
+
+
+			<button type="submit">Senden</button>
+		</form>
+
+
+
+	</div>
+
+	<footer class="footer">
+		<div class="info">
+			<p class="adresse">Adresse: <br>Kurallee, 94072 Bad Füssing</p>
+			<p class="telefonnummer">Telefon: <br>+49 8531 94460</p>
+			<p class="telefonnummer">E-Mail: <br>mail.insel@office.at</p>
+			<hr>
+			<a href="https://www.facebook.com/" title="Facebook"><img src="images/facebook.png" alt="" width="1.8%" aria-labelledby="zur Thermeninsel Facebookseite"></a>
+			<p id="agb"><a role="menuitem" href="agb.html" tabindex="0">AGB</a></p>
+			<p id="datenschutz"><a role="menuitem" href="datenschutz.html" tabindex="0">Datenschutzerklärung</a></p>
+			<p id="impressum"><a role="menuitem" href="impressum.html" tabindex="0">Impressum</a></p>
+			<p id="sitemap"><a role="menuitem" href="sitemap.html" tabindex="0" lang="en">Sitemap</a></p>
+		</div>
+	</footer>
+
+</div>
+
+</body>
+</html>
