@@ -21,8 +21,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/indexstyle.css">
 
 
-<!-- Javascript -->
-	<link rel="script" href="JS/Navigation.js">
+
 </head>
 <body>
 
@@ -40,13 +39,13 @@
 		<nav aria-label="Navigation" class="navbar" role="navigation">
 			<div class="navbar-brand">
 					<img src="images/Logo.jpg" id="logo">
-				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				<a role="button" class="navbar-burger" aria-label="menu" data-target="navMenu" aria-expanded="false" id="burger">
 					<span aria-hidden="true"></span>
 					<span aria-hidden="true"></span>
 					<span aria-hidden="true"></span>
 				</a>
 			</div>
-			<div id="navbar" class="navbar-menu">
+			<div  class="navbar-menu" id="navMenu" role="menubar" aria-label="Navigation">
 				<div class="navbar-start">
 					<a role="menuitem" href="index.html" tabindex="0" lang="en" class="navbar-item">
 						Home
@@ -66,6 +65,9 @@
 					<a role="menuitem" href="contact.html" tabindex="0" class="navbar-item">
 						Kontakt
 					</a>
+				</div>
+				<div class="navbar-end">
+
 				</div>
 			</div>
 
@@ -177,6 +179,13 @@
 	</footer>
 
 </div>
+
+
+
+
+<!-- Javascript -->
+<link rel="script" type="text/javascript" href="JS/Navigation.js">
+<script src="JS/hello.js"></script>
 
 </body>
 </html>
