@@ -32,3 +32,11 @@ header {
         height: 100px;
     }
 }
+
+box {
+    padding: 20px;
+    background-color: red;
+    width:50%;
+    top:20px;
+    left:50%;
+}
