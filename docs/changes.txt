@@ -1,9 +1,0 @@
-https://veerasundar.com/blog/2009/07/how-to-change-xampp-server-port/
-
-Stop the XAMPP server, if it is running already.
-Open the file [XAMPP Installation Folder]/apache/conf/httpd.conf.
-Now search for the string Listen 80 (I’m assuming that your XAMPP was using the port 80. Otherwise, just search for the string ‘Listen’). This is the port number which XAMPP uses. Change this 80 to any other number which you prefer.
-Then search for the string ServerName and update the port number there also.
-Now save and re-start XAMPP server and you are done.
-
-
