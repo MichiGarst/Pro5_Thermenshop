@@ -3,3 +3,23 @@
     margin:20px;
     padding: 10px;
 }
+
+@media screen and (max-width:1024px) {
+    .produktPic {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .produktPic {
+        width: 500px;
+        height: 333px;
+    }
+}
+
+.produktPic {
+    padding: 10px;
+    border-color: #cfcfcf;
+    border-style: double;
+}
