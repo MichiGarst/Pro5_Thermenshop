@@ -6,6 +6,19 @@
 	<meta name="description" content="Thermenshop Bad Füssing Kontakt">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles/accessibility.css">
+
+	<!-- Bulma einbindung -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
+		  integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css"
+		  integrity="sha256-dMQYvN6BU9M4mHK94P22cZ4dPGTSGOVP41yVXvXatws=" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
+		  integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css.map">
+
+	<!-- Andere Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="styles/shopstyle.css">
+
 </head>
 <body>
 
@@ -15,139 +28,147 @@
 
 	<header class="header">
 		<a class="skipToMain" href="#main" tabindex="0">Navigation überspringen</a>
-		<div class="info">
-			<div class="adresse"><img src="images/adressePin.png" alt="" width="2%">Kurallee, 94072 Bad Füssing</div>
-			<div class="telefonnummer"><img src="images/telefon.png" alt="" width="1.5%">Tel: +49 8531 94460</div>
-
+		<div class="level">
+			<div class="level-item has-text-centered is-mobile">
+				<img src="images/adressePin.png" alt="" width="2%">Kurallee, 94072 Bad Füssing
+			</div>
+			<div class="level-item has-text-centered">
+				<img src="images/telefon.png" alt="" width="1.5%">Tel: +49 8531 94460
+			</div>
 		</div>
-		<nav aria-label="Navigation">
-			<ul id="menubar1"
-				role="menubar"
-				aria-label="Navigation">
-				<li>
-					<a role="menuitem"
-					   href="index.html"
-					   tabindex="0"
-					   lang="en">
+		<nav aria-label="Navigation" class="navbar" role="navigation">
+			<div class="navbar-brand">
+				<img src="images/Logo.jpg" id="logo">
+				<a role="button" class="navbar-burger" aria-label="menu" data-target="navMenu" aria-expanded="false"
+				   id="burger">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+			<div class="navbar-menu" id="navMenu" role="menubar" aria-label="Navigation">
+				<div class="navbar-start">
+					<a role="menuitem" href="index.html" tabindex="0" lang="en" class="navbar-item">
 						Home
 					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="about.html"
-					   tabindex="0">
+					<a role="menuitem" href="about.html" tabindex="0" class="navbar-item">
 						Über uns
 					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="shop.html"
-					   tabindex="0">
+					<a role="menuitem" href="shop.html" tabindex="0" class="navbar-item">
 						Sortiment
 					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="request.html"
-					   tabindex="0">
+					<a role="menuitem" href="request.html" tabindex="0" class="navbar-item">
 						Anfragen
 					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="coffee.html"
-					   tabindex="0">
+					<a role="menuitem" href="coffee.html" tabindex="0" class="navbar-item">
 						Kaffee
 					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="contact.html"
-					   tabindex="0">
+					<a role="menuitem" href="contact.html" tabindex="0" class="navbar-item">
 						Kontakt
 					</a>
-				</li>
-			</ul>
+				</div>
+				<div class="navbar-end">
+
+				</div>
+			</div>
 		</nav>
 	</header>
 
 	<!-- Menu -->
-
-	<img src="images/therme.jpg" alt="" width="100%" id="thermePic">
-
+	<div class="is-centered">
+		<img src="images/fashyHorizontalStart.jpg" alt="" width="100%" id="thermePic">
+	</div>
 
 
 	<!-- Contact -->
 
-	<div id="main" tabindex="-1">
-		<h1>Der Thermenshop</h1>
-		<p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata est Lorem ipsum dolor sit amet.</p>
-		<h2>Die Produkte</h2>
-		<div class="first">
+
+	<h1>Der Thermenshop</h1>
+	<p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata est Lorem ipsum dolor sit amet.</p>
+	<h2>Die Produkte</h2>
+
+	<div id="main" tabindex="-1" class="columns is-multiline is-centered is-mobile">
+		<div class="column is-narrow">
 			<img src="images/produkt1.png" alt="" width="18%" class="produktPic">
 			<p class="produktText"><strong>Das Produkt</strong><br>
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
 		</div>
-		<div class="second">
+		<div class="column is-narrow">
 			<img src="images/produkt1.png" alt="" width="18%" class="produktPic">
 			<p class="produktText"><strong>Das Produkt</strong><br>
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
 		</div>
-		<div class="third">
+		<div class="column is-narrow">
 			<img src="images/produkt1.png" alt="" width="18%" class="produktPic">
 			<p class="produktText"><strong>Das Produkt</strong><br>
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
 		</div>
-		<div class="first">
+		<div class="column is-narrow">
 			<img src="images/produkt1.png" alt="" width="18%" class="produktPic">
 			<p class="produktText"><strong>Das Produkt</strong><br>
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
 		</div>
-		<div class="second">
+		<div class="column is-narrow">
 			<img src="images/produkt1.png" alt="" width="18%" class="produktPic">
 			<p class="produktText"><strong>Das Produkt</strong><br>
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
 		</div>
-		<div class="third">
-			<img src="images/produkt1.png" alt="" width="18%" class="produktPic">
-			<p class="produktText"><strong>Das Produkt</strong><br>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
-		</div>
-		<div class="first">
-			<img src="images/produkt1.png" alt="" width="18%" class="produktPic">
-			<p class="produktText"><strong>Das Produkt</strong><br>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
-		</div>
-		<div class="second">
-			<img src="images/produkt1.png" alt="" width="18%" class="produktPic">
-			<p class="produktText"><strong>Das Produkt</strong><br>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
-		</div>
-		<div class="third">
+		<div class="column is-narrow">
 			<img src="images/produkt1.png" alt="" width="18%" class="produktPic">
 			<p class="produktText"><strong>Das Produkt</strong><br>
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
 		</div>
 	</div>
 
+	<footer>
+		<div class="level">
+			<div class="level-item has-text-centered">
+				<div>
+					<p >Adresse</p>
+					<p >Kurallee 1, 94072 Bad Füssing</p>
+				</div>
+			</div>
+			<div class="level-item has-text-centered">
+				<div>
+					<p >Telefon</p>
+					<p >+49 8531 978706</p>
+				</div>
+			</div>
+			<div class="level-item has-text-centered">
+				<div>
+					<p >Email</p>
+					<p >mail.insel@office.at</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="level">
+			<div class="level-item has-text-centered">
+				<div><a href="hhtps://www.facebook.com" title="Facebook">Facebook</a></div>
 
-	</div>
+			</div>
+			<div class="level-item has-text-centered">
+				<div><a role="menuitem" href="agb.html" tabindex="0">AGB</a></div>
 
-	<footer class="footer">
-		<div class="info">
-			<p class="adresse">Adresse: <br>Kurallee, 94072 Bad Füssing</p>
-			<p class="telefonnummer">Telefon: <br>+49 8531 94460</p>
-			<p class="telefonnummer">E-Mail: <br>mail.insel@office.at</p>
-			<hr>
-			<a href="https://www.facebook.com/" title="Facebook"><img src="images/facebook.png" alt="" width="1.8%"></a>
-			<p id="agb"><a role="menuitem" href="agb.html" tabindex="0">AGB</a></p>
-			<p id="datenschutz"><a role="menuitem" href="datenschutz.html" tabindex="0">Datenschutzerklärung</a></p>
-			<p id="impressum"><a role="menuitem" href="impressum.html" tabindex="0">Impressum</a></p>
-			<p id="sitemap"><a role="menuitem" href="sitemap.html" tabindex="0" lang="en">Sitemap</a></p>
+			</div>
+			<div class="level-item has-text-centered">
+				<div><a role="menuitem" href="datenschutz.html" tabindex="0">Datenschutzerklärung</a></div>
+
+			</div>
+			<div class="level-item has-text-centered">
+				<div><a role="menuitem" href="impressum.html" tabindex="0">Impressum</a></div>
+
+			</div>
+			<div class="level-item has-text-centered">
+				<div><a role="menuitem" href="sitemap.html" tabindex="0" lang="en">Sitemap</a></div>
+
+			</div>
 		</div>
 	</footer>
 
 </div>
 
+
+<script src="JS/hello.js"></script>
 </body>
 </html>
