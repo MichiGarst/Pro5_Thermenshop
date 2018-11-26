@@ -31,7 +31,7 @@
         <a class="skipToMain" href="#main" tabindex="0">Navigation überspringen</a>
         <div class="level">
             <div class="level-item has-text-centered is-mobile">
-               <img src="images/adressePin.png" alt="" width="2%">Kurallee, 94072 Bad Füssing
+                <img src="images/adressePin.png" alt="" width="2%">Kurallee, 94072 Bad Füssing
             </div>
             <div class="level-item has-text-centered">
                 <img src="images/telefon.png" alt="" width="1.5%">Tel: +49 8531 94460
@@ -129,10 +129,10 @@
     <!-- Menu -->
     <div class="is-centered">
         <!--  <img src="images/fashyHorizontalStart.jpg" alt="" width="100%" id="thermePic"> -->
-     </div>
+    </div>
 
 
-     <!-- Contact -->
+    <!-- Contact -->
 
     <div id="main" class="has-text-centered">
 

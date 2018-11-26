@@ -8,7 +8,7 @@ a.skipToMain{
     z-index: -999;
 }
 
-a.skipToMain:focus, a.skipToMain:active{
+/*a.skipToMain:focus, a.skipToMain:active{
     color: black;
     background-color: white;
     left: auto;
@@ -20,6 +20,21 @@ a.skipToMain:focus, a.skipToMain:active{
     padding: 1em;
     border-radius: 1em;
     border: 0.2em solid black;
+    text-align: center;
+    font-size: 0.8em;
+}*/
+a.skipToMain:focus, a.skipToMain:active {
+    color: black;
+    background-color: white;
+    left: auto;
+    top: auto;
+    width: 7em;
+    height: 4em;
+    align-content: center;
+    margin-top: 12em;
+    padding: 0.2em;
+    border-radius: 1em;
+    border: 0.1em solid black;
     text-align: center;
     font-size: 0.8em;
 }
