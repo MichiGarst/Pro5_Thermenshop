@@ -27,9 +27,14 @@ header {
 }
 
 
-@media screen and (max-width:1024px) {
+
+@media screen and (max-width:1279px) {
     #thermePic {
-        width: 1280px;
-        height: 650px;
+
+    }
+}
+@media screen and (min-width:1280px) {
+    #thermePic {
+
     }
 }
