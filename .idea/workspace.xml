@@ -53,8 +53,8 @@
       <file leaf-file-name="Nav.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Thermeninsel/styles/Nav.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -72,15 +72,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shop.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shop.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Thermeninsel/shop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="198" column="71" lean-forward="false" selection-start-line="198" selection-start-column="71" selection-end-line="198" selection-end-column="71" />
+            <state relative-caret-position="944">
+              <caret line="156" column="50" lean-forward="false" selection-start-line="156" selection-start-column="50" selection-end-line="156" selection-end-column="50" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#2835#4314#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopstyle.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Thermeninsel/styles/shopstyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,13 +120,13 @@
         <option value="$PROJECT_DIR$/Thermeninsel/index.php" />
         <option value="$PROJECT_DIR$/Thermeninsel/Components/Header.html" />
         <option value="$PROJECT_DIR$/Thermeninsel/styles/aboutstyle.css" />
-        <option value="$PROJECT_DIR$/Thermeninsel/styles/shopstyle.css" />
         <option value="$PROJECT_DIR$/Thermeninsel/JS/Navigation.js" />
         <option value="$PROJECT_DIR$/Thermeninsel/styles/indexstyle.css" />
         <option value="$PROJECT_DIR$/Thermeninsel/styles/Nav.css" />
         <option value="$PROJECT_DIR$/Thermeninsel/index.html" />
         <option value="$PROJECT_DIR$/Thermeninsel/about.html" />
         <option value="$PROJECT_DIR$/Thermeninsel/shop.html" />
+        <option value="$PROJECT_DIR$/Thermeninsel/styles/shopstyle.css" />
       </list>
     </option>
   </component>
@@ -391,12 +401,12 @@
       <workItem from="1543218448603" duration="4091000" />
       <workItem from="1543223593194" duration="2394000" />
       <workItem from="1543226067874" duration="55000" />
-      <workItem from="1543227961465" duration="5610000" />
+      <workItem from="1543227961465" duration="6873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29119000" />
+    <option name="totallyTimeSpent" value="30382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="298" width="1382" height="744" extended-state="6" />
@@ -732,13 +742,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Thermeninsel/index.php" />
-    <entry file="file://$PROJECT_DIR$/Thermeninsel/styles/shopstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Thermeninsel/Components/Header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -772,14 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thermeninsel/styles/Nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Thermeninsel/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-653">
@@ -803,12 +798,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Thermeninsel/shop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="198" column="71" lean-forward="false" selection-start-line="198" selection-start-column="71" selection-end-line="198" selection-end-column="71" />
+        <state relative-caret-position="944">
+          <caret line="156" column="50" lean-forward="false" selection-start-line="156" selection-start-column="50" selection-end-line="156" selection-end-column="50" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2835#4314#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thermeninsel/styles/Nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thermeninsel/styles/shopstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
