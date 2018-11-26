@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Thermeninsel/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-653">
-              <caret line="136" column="108" lean-forward="false" selection-start-line="136" selection-start-column="108" selection-end-line="136" selection-end-column="108" />
+              <caret line="136" column="107" lean-forward="false" selection-start-line="136" selection-start-column="107" selection-end-line="136" selection-end-column="107" />
               <folding>
                 <element signature="e#2764#4243#0" expanded="false" />
               </folding>
@@ -72,12 +72,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shop.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="shop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Thermeninsel/shop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="275">
+              <caret line="191" column="18" lean-forward="true" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
+              <folding>
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#2835#4314#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,11 +112,11 @@
         <option value="$PROJECT_DIR$/Thermeninsel/styles/aboutstyle.css" />
         <option value="$PROJECT_DIR$/Thermeninsel/styles/shopstyle.css" />
         <option value="$PROJECT_DIR$/Thermeninsel/JS/Navigation.js" />
-        <option value="$PROJECT_DIR$/Thermeninsel/shop.html" />
         <option value="$PROJECT_DIR$/Thermeninsel/styles/indexstyle.css" />
         <option value="$PROJECT_DIR$/Thermeninsel/styles/Nav.css" />
         <option value="$PROJECT_DIR$/Thermeninsel/index.html" />
         <option value="$PROJECT_DIR$/Thermeninsel/about.html" />
+        <option value="$PROJECT_DIR$/Thermeninsel/shop.html" />
       </list>
     </option>
   </component>
@@ -388,12 +391,12 @@
       <workItem from="1543218448603" duration="4091000" />
       <workItem from="1543223593194" duration="2394000" />
       <workItem from="1543226067874" duration="55000" />
-      <workItem from="1543227961465" duration="4239000" />
+      <workItem from="1543227961465" duration="5102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27748000" />
+    <option name="totallyTimeSpent" value="28611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="298" width="1382" height="744" extended-state="6" />
@@ -444,7 +447,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2835#4314#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -491,7 +497,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2835#4314#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -550,7 +559,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1424">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="84" />
-          <folding />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2835#4314#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -752,14 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thermeninsel/shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Thermeninsel/styles/indexstyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -776,6 +780,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Thermeninsel/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-653">
+          <caret line="136" column="107" lean-forward="false" selection-start-line="136" selection-start-column="107" selection-end-line="136" selection-end-column="107" />
+          <folding>
+            <element signature="e#2764#4243#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Thermeninsel/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -787,12 +801,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thermeninsel/about.html">
+    <entry file="file://$PROJECT_DIR$/Thermeninsel/shop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-653">
-          <caret line="136" column="108" lean-forward="false" selection-start-line="136" selection-start-column="108" selection-end-line="136" selection-end-column="108" />
+        <state relative-caret-position="275">
+          <caret line="191" column="18" lean-forward="true" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
           <folding>
-            <element signature="e#2764#4243#0" expanded="false" />
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2835#4314#0" expanded="false" />
           </folding>
         </state>
       </provider>
