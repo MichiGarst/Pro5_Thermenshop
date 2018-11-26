@@ -6,6 +6,19 @@
 	<meta name="description" content="Thermenshop Bad Füssing Kontakt">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles/accessibility.css">
+
+	<!-- Bulma einbindung -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
+		  integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css"
+		  integrity="sha256-dMQYvN6BU9M4mHK94P22cZ4dPGTSGOVP41yVXvXatws=" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
+		  integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css.map">
+
+	<!-- Andere Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="styles/shopstyle.css">
+
 </head>
 <body>
 
@@ -15,66 +28,56 @@
 
 	<header class="header">
 		<a class="skipToMain" href="#main" tabindex="0">Navigation überspringen</a>
-		<div class="info">
-			<div class="adresse"><img src="images/adressePin.png" alt="" width="2%">Kurallee, 94072 Bad Füssing</div>
-			<div class="telefonnummer"><img src="images/telefon.png" alt="" width="1.5%">Tel: +49 8531 94460</div>
-
+		<div class="level">
+			<div class="level-item has-text-centered is-mobile">
+				<img src="images/adressePin.png" alt="" width="2%">Kurallee, 94072 Bad Füssing
+			</div>
+			<div class="level-item has-text-centered">
+				<img src="images/telefon.png" alt="" width="1.5%">Tel: +49 8531 94460
+			</div>
 		</div>
-		<nav aria-label="Navigation">
-			<ul id="menubar1"
-				role="menubar"
-				aria-label="Navigation">
-				<li>
-					<a role="menuitem"
-					   href="index.html"
-					   tabindex="0"
-					   lang="en">
+		<nav aria-label="Navigation" class="navbar" role="navigation">
+			<div class="navbar-brand">
+				<img src="images/Logo.jpg" id="logo">
+				<a role="button" class="navbar-burger" aria-label="menu" data-target="navMenu" aria-expanded="false"
+				   id="burger">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+			<div class="navbar-menu" id="navMenu" role="menubar" aria-label="Navigation">
+				<div class="navbar-start">
+					<a role="menuitem" href="index.html" tabindex="0" lang="en" class="navbar-item">
 						Home
 					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="about.html"
-					   tabindex="0">
+					<a role="menuitem" href="about.html" tabindex="0" class="navbar-item">
 						Über uns
 					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="shop.html"
-					   tabindex="0">
+					<a role="menuitem" href="shop.html" tabindex="0" class="navbar-item">
 						Sortiment
 					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="request.html"
-					   tabindex="0">
+					<a role="menuitem" href="request.html" tabindex="0" class="navbar-item">
 						Anfragen
 					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="coffee.html"
-					   tabindex="0">
+					<a role="menuitem" href="coffee.html" tabindex="0" class="navbar-item">
 						Kaffee
 					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="contact.html"
-					   tabindex="0">
+					<a role="menuitem" href="contact.html" tabindex="0" class="navbar-item">
 						Kontakt
 					</a>
-				</li>
-			</ul>
+				</div>
+				<div class="navbar-end">
+
+				</div>
+			</div>
 		</nav>
 	</header>
 
 	<!-- Menu -->
-
-	<img src="images/therme.jpg" alt="" width="100%" id="thermePic">
-
+	<div class="is-centered">
+		<img src="images/fashyHorizontalStart.jpg" alt="" width="100%" id="thermePic">
+	</div>
 
 
 	<!-- Contact -->
@@ -149,5 +152,7 @@
 
 </div>
 
+
+<script src="JS/hello.js"></script>
 </body>
 </html>
