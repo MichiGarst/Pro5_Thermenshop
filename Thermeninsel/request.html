@@ -233,19 +233,19 @@
 <div class="is-centered">
 	<div>
 		<label for="first_name">Vorname:</label>
-		<input type="text" autocomplete="first_name" id="first_name" name="first_name">
+		<input type="text" autocomplete="first_name" id="first_name" name="first_name" required>
 	</div>
 	<div>
 		<label for="last_name">Nachname:</label>
-		<input type="text" autocomplete="last_name" id="last_name" name="last_name">
+		<input type="text" autocomplete="last_name" id="last_name" name="last_name" required>
 	</div>
 	<div>
 		<label for="email">E-Mail:</label>
-		<input type="email" autocomplete="email" id="email" name="email">
+		<input type="email" autocomplete="email" id="email" name="email" required>
 	</div>
 	<div>
 		<label for="telephone">Telefon:</label>
-		<input type="tel" autocomplete="telephone" id="telephone" name="telephone">
+		<input type="tel"  pattern="[0-9]{11}" autocomplete="telephone" id="telephone" name="telephone" required>
 	</div>
 	<div>
 		<label for="desires">Ihre Wünsche:</label>
@@ -253,15 +253,6 @@
 	</div>
 
 </div>
-
-
-
-
-
-
-
-
-
 
 
 			<button type="submit">Senden</button>
