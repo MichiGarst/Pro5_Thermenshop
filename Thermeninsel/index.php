@@ -12,8 +12,7 @@
     ?>
     <!-- Andere Stylesheets -->
     <link rel="stylesheet" type="text/css" href="styles/indexstyle.css">
-    <link rel="stylesheet" type="text/css" href="styles/Nav.css">
-    <link rel="stylesheet" type="text/css" href="styles/accessibility.css">
+
 
 
 </head>
@@ -141,10 +140,6 @@
     ?>
 
 </div>
-
-
-<!-- Javascript -->
-<script src="JS/Navigation.js"></script>
 
 </body>
 </html>
