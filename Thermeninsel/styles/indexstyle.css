@@ -1,4 +1,4 @@
-#welcome, #kaffee {
+#welcome, #kaffee, #angebot, #sortiment{
     background-color: #F7F7F6;
     margin: 20px;
     padding: 10px;
@@ -8,12 +8,14 @@
     padding: 10px;
     margin-left: 30px;
     margin-right:10px;
+    margin-top: 20px;
 }
 #time {
     background-color: #F7F7F6;
     padding: 10px;
     margin-right:30px;
     margin-left: 10px;
+    margin-top: 20px;
 }
 .kontaktText, .zeit {
     font-weight: bold;
@@ -56,4 +58,44 @@
 
 #text {
     padding-right: 20px;
+}
+@media screen and (max-width: 768px) {
+    #sort {
+        width:210px !important;
+        height: 150px !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #sort {
+        width:252px !important;
+        height: 180px !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #sort {
+        width:350px !important;
+        height: 250px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    #mann {
+        width:210px !important;
+        height: 300px !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #mann {
+        width:252px !important;
+        height: 340px !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #mann {
+        width:200px !important;
+        height: 350px !important;
+    }
 }
