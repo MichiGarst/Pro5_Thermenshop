@@ -55,7 +55,7 @@
 				</li>
 				<li>
 					<a role="menuitem"
-					   href="contact.html"
+					   href="OldHTML/contact.html"
 					   tabindex="0">
 						Kontakt
 					</a>
