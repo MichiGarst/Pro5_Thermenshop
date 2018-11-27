@@ -11,9 +11,17 @@ require 'PHPMailer\src\PHPMailer.php';
 /* SMTP class, needed if you want to use SMTP. */
 require 'PHPMailer\src\SMTP.php';
 
-$name = $_POST["first_name"];
+$firstname = $_POST["first_name"];
+$lastname = $_POST["last_name"];
+$email = $_POST["email"];
+$telephone = $_POST["telephone"];
+$desire = $_POST["desires"];
 
-echo("<script>console.log('PHP: 1 ".$name."');</script>");
+echo("<script>console.log('Vorname ".$firstname."');</script>");
+echo("<script>console.log('Nachname ".$lastname."');</script>");
+echo("<script>console.log('E-Mail ".$email."');</script>");
+echo("<script>console.log('Telefon ".$telephone."');</script>");
+echo("<script>console.log('Wunsch ".$desire."');</script>");
 
 $mail = new PHPMailer(TRUE);
 
@@ -31,8 +39,8 @@ $mail->addAddress('S1610238017@students.fh-hagenberg.at', 'Joe User');     // Ad
 $mail->addReplyTo('S1610238017@students.fh-hagenberg.at', 'Information');
 $mail->addCC('S1610238017@students.fh-hagenberg.at');
 $mail->isHTML(true);                                  // Set email format to HTML
-$mail->Subject = 'Here is the subject';
-$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+$mail->Subject = 'Neue Anfrage';
+$mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> Das wars.";
 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 try{
