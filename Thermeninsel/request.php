@@ -81,9 +81,10 @@
                 <div role="checkbox"
                      class="group_checkbox"
                      aria-checked="false"
-                     aria-labelledby="label0 group1"
+                     aria-labelledby="label1"
                      aria-describedby="checkboxHelp"
                      tabindex="0"
+                     id="label1"
                      onclick="toggleGroupCheckbox(event)"
                      onkeydown="toggleGroupCheckbox(event)"
                      onfocus="focusCheckbox(event)"
@@ -93,18 +94,18 @@
 
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="checkbox" id="checkbox1_group1" value="value"
-                           aria-labelledby="label1 group1">
+                    <input type="checkbox" name="checkbox" id="checkbox1_group1" value="Atlantic"
+                           aria-labelledby="label1">
                     <label for="checkbox1_group1">Atlantic</label>
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="checkbox" id="checkbox2_group1" value="value"
-                           aria-labelledby="label2 group1">
+                    <input type="checkbox" name="checkbox" id="checkbox2_group1" value="Purpur"
+                           aria-labelledby="label1">
                     <label for="checkbox2_group1">Purpur</label>
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="checkbox" id="checkbox3_group1" value="value"
-                           aria-labelledby="label3 group1">
+                    <input type="checkbox" name="checkbox" id="checkbox3_group1" value="Lagoon"
+                           aria-labelledby="label1">
                     <label for="checkbox3_group1">Lagoon</label>
                 </div>
             </div>
@@ -113,9 +114,10 @@
                 <div role="checkbox"
                      class="group_checkbox"
                      aria-checked="false"
-                     aria-labelledby="label0 group2"
+                     aria-labelledby="label2"
                      aria-describedby="checkboxHelpHide"
                      tabindex="0"
+                     id="label2"
                      onclick="toggleGroupCheckbox(event)"
                      onkeydown="toggleGroupCheckbox(event)"
                      onfocus="focusCheckbox(event)"
@@ -124,35 +126,35 @@
                     <span> Größe: </span>
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="checkbox" id="checkbox1_group2" value="value"
-                           aria-labelledby="label1 group2">
+                    <input type="checkbox" name="checkbox" id="checkbox1_group2" value="xs"
+                           aria-labelledby="label2">
                     <label for="checkbox1_group2">XS</label>
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="checkbox" id="checkbox2_group2" value="value"
-                           aria-labelledby="label1 group2">
-                    <label for="checkbox1_group2">S</label>
+                    <input type="checkbox" name="checkbox" id="checkbox2_group2" value="s"
+                           aria-labelledby="label2">
+                    <label for="checkbox2_group2">S</label>
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="checkbox" id="checkbox3_group2" value="value"
-                           aria-labelledby="label2 group2">
-                    <label for="checkbox2_group2">M</label>
+                    <input type="checkbox" name="checkbox" id="checkbox3_group2" value="m"
+                           aria-labelledby="label2">
+                    <label for="checkbox3_group2">M</label>
                 </div>
 
                 <div class="checkbox">
-                    <input type="checkbox" name="checkbox" id="checkbox4_group2" value="value"
-                           aria-labelledby="label3 group2">
-                    <label for="checkbox3_group2">L</label>
+                    <input type="checkbox" name="checkbox" id="checkbox4_group2" value="l"
+                           aria-labelledby="label2">
+                    <label for="checkbox4_group2">L</label>
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="checkbox" id="checkbox5_group2" value="value"
-                           aria-labelledby="label4 group2">
-                    <label for="checkbox4_group2">XL</label>
+                    <input type="checkbox" name="checkbox" id="checkbox5_group2" value="xl"
+                           aria-labelledby="label2">
+                    <label for="checkbox5_group2">XL</label>
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="checkbox" id="checkbox6_group2" value="value"
-                           aria-labelledby="label4 group2">
-                    <label for="checkbox4_group2">XXL</label>
+                    <input type="checkbox" name="checkbox" id="checkbox6_group2" value="xxl"
+                           aria-labelledby="label2">
+                    <label for="checkbox6_group2">XXL</label>
                 </div>
             </div>
 
