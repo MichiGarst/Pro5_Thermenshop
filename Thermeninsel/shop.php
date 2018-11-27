@@ -35,7 +35,7 @@
     <!-- Contact -->
 
 
-    <div class="has-text-centered">
+    <div id="main" class="has-text-centered">
         <div id="welcome">
             <h1>Der Thermenshop</h1>
             <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor

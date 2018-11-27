@@ -43,7 +43,7 @@
 		<img src="images/Texas3.jpg" alt="" class="produktPic">
 		<p id="RequestText"><strong>Vossen Texas</strong><br>
 			Vossen Texas, 100% Baumwolle, Unisex </p>
-		<form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular">
+        <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular">
 
 			<div>
 
@@ -131,39 +131,29 @@
 			<div id="checkboxHelp">Sie können einmal oder mehrmals dasselbe Produkt bestellen. </div>
 			<div id="checkboxHelpHide" hidden>Sie können einmal oder mehrmals dasselbe Produkt bestellen. </div>
 
-<div class="is-centered">
-	<div>
-		<label for="first_name">Vorname:</label>
-		<input type="text" autocomplete="first_name" id="first_name" name="first_name">
-	</div>
-	<div>
-		<label for="last_name">Nachname:</label>
-		<input type="text" autocomplete="last_name" id="last_name" name="last_name">
-	</div>
-	<div>
-		<label for="email">E-Mail:</label>
-		<input type="email" autocomplete="email" id="email" name="email">
-	</div>
-	<div>
-		<label for="telephone">Telefon:</label>
-		<input type="tel" autocomplete="telephone" id="telephone" name="telephone">
-	</div>
-	<div>
-		<label for="desires">Ihre Wünsche:</label>
-		<textarea type="text" id="desires" name="desires"></textarea>
-	</div>
+            <div class="is-centered">
+                <div>
+                    <label for="first_name">Vorname:</label>
+                    <input type="text" autocomplete="first_name" id="first_name" name="first_name" required>
+                </div>
+                <div>
+                    <label for="last_name">Nachname:</label>
+                    <input type="text" autocomplete="last_name" id="last_name" name="last_name" required>
+                </div>
+                <div>
+                    <label for="email">E-Mail:</label>
+                    <input type="email" autocomplete="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="telephone">Telefon:</label>
+                    <input type="tel"  pattern="[0-9]{11}" autocomplete="telephone" id="telephone" name="telephone" required>
+                </div>
+                <div>
+                    <label for="desires">Ihre Wünsche:</label>
+                    <textarea type="text" id="desires" name="desires"></textarea>
+                </div>
 
-</div>
-
-
-
-
-
-
-
-
-
-
+            </div>
 
 			<button type="submit">Senden</button>
 		</form>
