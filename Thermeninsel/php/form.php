@@ -2,7 +2,6 @@
 $name = $_POST["first_name"];
 
 echo("<script>console.log('PHP: 1 ".$name."');</script>");
-ini_set("SMTP","smtp.gmail.com");
 
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
