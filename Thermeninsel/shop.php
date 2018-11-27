@@ -9,7 +9,7 @@
 
 	<!-- Bulma einbindung -->
     <?php
-    include("Components/Header.html");
+    include("Components/BulmaEinbindung.html");
     ?>
 
 	<!-- Andere Stylesheets -->
@@ -86,12 +86,8 @@
 
 	</div>
 
-	<div>
-
-	</div>
-
     <?php
-    include("Components/Header.html");
+    include("Components/Footer.html");
     ?>
 
 </div>
