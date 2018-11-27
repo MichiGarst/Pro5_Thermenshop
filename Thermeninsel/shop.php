@@ -14,7 +14,6 @@
 
 	<!-- Andere Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="styles/shopstyle.css">
-	<link rel="stylesheet" type="text/css" href="styles/Nav.css">
 
 </head>
 <body>
@@ -83,7 +82,6 @@
 				<img src="images/wewologo.png" alt="" width="18%" class="produktPic">
 			</div>
 		</div>
-
 	</div>
 
     <?php
@@ -92,7 +90,6 @@
 
 </div>
 
-<!-- Javascript -->
-<script src="JS/Navigation.js"></script>
+
 </body>
 </html>

@@ -12,7 +12,6 @@
     include("Components/BulmaEinbindung.html");
     ?>
 	<!-- Andere Stylesheets -->
-	<link rel="stylesheet" type="text/css" href="styles/Nav.css">
 </head>
 <body>
 
@@ -73,11 +72,10 @@
 	</div>
 
     <?php
-    include("Components/Header.html");
+    include("Components/Footer.html");
     ?>
 
 </div>
-<!-- Javascript -->
-<script src="JS/Navigation.js"></script>
+
 </body>
 </html>
