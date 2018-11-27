@@ -25,16 +25,3 @@ header {
     margin:0px;
     padding: 0px;
 }
-
-
-
-@media screen and (max-width:1279px) {
-    #thermePic {
-
-    }
-}
-@media screen and (min-width:1280px) {
-    #thermePic {
-
-    }
-}

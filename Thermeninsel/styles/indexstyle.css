@@ -1,9 +1,44 @@
-#contact, #time, #welcome {
+#contact, #time, #welcome, #kaffee {
     background-color: #F7F7F6;
-    margin:20px;
+    margin: 20px;
     padding: 10px;
 }
 
-.kontaktText, .zeit{
+.kontaktText, .zeit {
     font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+    .text #text{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .text #text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #coffee {
+        width:150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #coffee {
+        width:200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #coffee {
+        width:250px;
+        height: 250px;
+    }
 }

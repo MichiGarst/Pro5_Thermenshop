@@ -122,7 +122,19 @@
                 </p>
             </div>
         </div>
+        <div id="kaffee">
+            <h1>Café Bar</h1>
+            <div class="columns is-centered">
+                <img src="images/coffee.jpg" alt="" id="coffee" class="column">
+                <p class="column" id="text">
+                    Bei unserer Café Bar kannst du dich nach dem Baden noch etwas entspannen. Egal ob Cappuccino, Latte Macchiato oder einfach nur ein
+                    normaler Café Crema. Lass noch einen Moment die Seele baumeln, bevor der stressige Alltag dich wieder einholt.
+                    Natürlich kann man bei sowohl Kaltgetränke in Flaschen als auch Kaffee mitnehmen.
 
+                </p>
+            </div>
+
+        </div>
     </div>
 
     <?php
