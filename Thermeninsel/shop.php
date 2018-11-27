@@ -38,9 +38,11 @@
     <div id="main" class="has-text-centered">
         <div id="welcome">
             <h1>Der Thermenshop</h1>
-            <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata est Lorem ipsum dolor sit amet.</p>
+            <p class="text">Bei uns erhältst du alles, was du für einen entspannten Bade- und Saunaaufenthalt. Wir sind dein Profi, wenn es
+            um Bademoden für Damen und Herren geht.<br> Mit unseren großen Auswahl findet jeder das richtige. Modisch immer aktuell auf dem neuesten
+             Stand und exklusive Bademode aus Italien.<br> Egal ob Bademäntel, Badeanzüge, Bikini, Tankini, Badehosen oder Bermudas, bei uns ist alles von bester Qualität
+             und ausgewählten Marken, auch Made-in-Germany.
+            </p>
         </div>
         <div id="produkte">
             <h2>Unsere Prdukte</h2>
