@@ -50,19 +50,30 @@
             <div tabindex="-1" class="columns is-multiline is-centered is-mobile">
                 <div class="column is-narrow">
                     <img src="images/poppy1.jpg" alt="" width="18%" class="produktPic">
-                    <p class="produktText"><strong>Vossen Poppy</strong><br>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
+                    <p class="produktText"><strong>Bademäntel</strong><br>
+                        Große Auswahl an Bademäntel. Einige sind in unseren Shop erhältlich. </p>
                 </div>
                 <div class="column is-narrow">
-                    <img src="images/texas2.jpg" alt="" width="18%" class="produktPic">
-                    <p class="produktText"><strong>Vossen Texas</strong><br>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
+                    <img src="images/fashyStart.jpg" alt="" width="18%" class="produktPic">
+                    <p class="produktText"><strong>Damen Bademode</strong><br>
+                        Von Badeanzüge, über Tankini bis hin zu Bikni ist alles dabei.</p>
                 </div>
                 <div class="column is-narrow">
-                    <img src="images/lederbadehose.jpg" alt="" width="18%" class="produktPic">
-                    <p class="produktText"><strong>Lederbadehose</strong><br>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
+                    <img src="images/mann3.jpg" alt="" width="18%" class="produktPic">
+                    <p class="produktText"><strong>Herren Bademode</strong><br>
+                        Für unsere Männer bieten wir verschiedene Modelle von Slips bis Bermuda an.</p>
                 </div>
+                <div class="column is-narrow">
+                    <img src="images/Badeschuhe.jpg" alt="" width="18%" class="produktPic">
+                    <p class="produktText"><strong>Badeschuhe</strong><br>
+                        Unsere Badeschuhabteilung bietet natürlich auch Abwechslung, damit jeder den richtigen Schuh findet. </p>
+                </div>
+                <div class="column is-narrow">
+                    <img src="images/Badeschuhe.jpg" alt="" width="18%" class="produktPic">
+                    <p class="produktText"><strong>Badeaccessoires</strong><br>
+                        In unserem Sortiment befindne sich auch Bademützen, Cappen oder auch Taucherbrillen. </p>
+                </div>
+
             </div>
         </div>
 
