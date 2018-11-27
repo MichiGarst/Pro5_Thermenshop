@@ -26,7 +26,7 @@
 				aria-label="Navigation">
 				<li>
 					<a role="menuitem"
-					   href="OldHTML/index.html"
+					   href="index.php"
 					   tabindex="0"
 					   lang="en">
 						Home
@@ -34,35 +34,28 @@
 				</li>
 				<li>
 					<a role="menuitem"
-					   href="OldHTML/about.html"
+					   href="about.php"
 					   tabindex="0">
 						Über uns
 					</a>
 				</li>
 				<li>
 					<a role="menuitem"
-					   href="OldHTML/shop.html"
+					   href="shop.php"
 					   tabindex="0">
 						Sortiment
 					</a>
 				</li>
 				<li>
 					<a role="menuitem"
-					   href="request.html"
+					   href="request.php"
 					   tabindex="0">
 						Anfragen
 					</a>
 				</li>
 				<li>
 					<a role="menuitem"
-					   href="coffee.html"
-					   tabindex="0">
-						Kaffee
-					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="contact.html"
+					   href="OldHTML/contact.html"
 					   tabindex="0">
 						Kontakt
 					</a>
@@ -73,7 +66,7 @@
 
 	<!-- Menu -->
 
-	<img src="images/therme.jpg" alt="" width="100%" id="thermePic">
+	<img src="images/fashybild3.jpg" alt="" width="100%" id="thermePic">
 
 
 
@@ -113,7 +106,7 @@
 			<a href="https://www.facebook.com/" title="Facebook"><img src="images/facebook.png" alt="" width="1.8%"></a>
 			<p id="agb"><a role="menuitem" href="agb.html" tabindex="0">AGB</a></p>
 			<p id="datenschutz"><a role="menuitem" href="datenschutz.html" tabindex="0">Datenschutzerklärung</a></p>
-			<p id="impressum"><a role="menuitem" href="Components/impressum.html" tabindex="0">Impressum</a></p>
+			<p id="impressum"><a role="menuitem" href="OldHTML/impressum.html" tabindex="0">Impressum</a></p>
 			<p id="sitemap"><a role="menuitem" href="sitemap.html" tabindex="0" lang="en">Sitemap</a></p>
 		</div>
 	</footer>
