@@ -1,115 +1,71 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<title>Kontakt</title>
-<meta charset="utf-8">
-<meta name="description" content="Thermenshop Bad Füssing Kontakt">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/accessibility.css">
+    <title>Kontakt</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Thermenshop Bad Füssing Kontakt">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <?php
+    include("Components/BulmaEinbindung.html");
+    ?>
+
+    <link rel="stylesheet" type="text/css" href="styles/contactstyle.css">
+
 </head>
 <body>
 
 <div class="content">
-	
-	<!-- Header -->
 
-	<header class="header">
-		<a class="skipToMain" href="#main" tabindex="0">Navigation überspringen</a>
-		<div class="info">
-			<div class="adresse"><img src="images/adressePin.png" alt="" width="2%">Kurallee, 94072 Bad Füssing</div>
-			<div class="telefonnummer"><img src="images/telefon.png" alt="" width="1.5%">Tel: +49 8531 94460</div>
+    <!-- Header -->
 
-		</div>
-		<nav aria-label="Navigation">
-			<ul id="menubar1"
-				role="menubar"
-				aria-label="Navigation">
-				<li>
-					<a role="menuitem"
-					   href="index.php"
-					   tabindex="0"
-					   lang="en">
-						Home
-					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="about.php"
-					   tabindex="0">
-						Über uns
-					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="shop.php"
-					   tabindex="0">
-						Sortiment
-					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="request.php"
-					   tabindex="0">
-						Anfragen
-					</a>
-				</li>
-				<li>
-					<a role="menuitem"
-					   href="OldHTML/contact.html"
-					   tabindex="0">
-						Kontakt
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+    <?php
+    include("Components/Header.html");
+    ?>
 
-	<!-- Menu -->
-
-	<img src="images/fashybild3.jpg" alt="" width="100%" id="thermePic">
+    <!-- Menu -->
 
 
+    <!-- Contact -->
 
-	<!-- Contact -->
-
-	<div id="main" tabindex="-1">
-
-		<p id="kontakt">
-			<h1>Kontakt</h1>
-			<div class="kontaktUE">Adresse</div>
-			<div class="kontaktText">Kurallee, 94072 Bad Füssing</div>
-			<div class="kontaktUE">Telefon</div>
-			<div class="kontaktText">+49 8531 94460</div>
-			<div class="kontaktUE">E-Mail</div>
-			<div class="kontaktText">mail.insel@office.at</div>
-		</p>
-
-		<p id="Öffnungszeiten">
-			<h2>Öffnungszeiten</h2>
-			<div class="tag">Montag - Donnerstag</div>
-			<div class="zeit">09:00 - 20:00</div>
-			<div class="tag">Freitag und Samstag</div>
-			<div class="zeit">09:00 - 22:00</div>
-			<div class="tag">Sonn- und Feiertag</div>
-			<div class="zeit">09:00 - 18:00</div>
-		</p>
+    <div id="main" tabindex="-1">
 
 
-	</div>
+        <div class="columns is-multiline has-text-centered">
+            <div class="column is-centered" id="contact">
+                <p id="Kontakt">
+                <h2>Kontakt</h2>
+                <div class="kontaktUE">Adresse</div>
+                <div class="kontaktText">Kurallee 1, 94072 Bad Füssing</div>
+                <div class="kontaktUE">Telefon</div>
+                <div class="kontaktText">+49 8531 978706</div>
+                <div class="kontaktUE">E-Mail</div>
+                <div class="kontaktText">info@lorenzer.com</div>
+                </p>
+            </div>
+            <div class="column is-centered" id="time">
+                <p id="Öffnungszeiten">
+                <h2>Öffnungszeiten</h2>
+                <div class="tag">Montag - Freitag</div>
+                <div class="zeit">07:30 - 17:30</div>
+                <div class="tag">Samstag</div>
+                <div class="zeit">08:30 - 16:30</div>
+                <div class="tag">Sonn- und Feiertag</div>
+                <div class="zeit">08:30 - 16:30</div>
+                </p>
+            </div>
+        </div>
+        <div class="column is-centered is-one-third">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2651.3122690543278!2d13.310488315995087!3d48.3545229792414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4774442c918c4b39%3A0xca1cd92b66fe1e54!2sThermeninsel+Bad+F%C3%BCssing+in+der+Therme+1!5e0!3m2!1sde!2sde!4v1543326955698"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
 
-	<footer class="footer">
-		<div class="info">
-			<p class="adresse">Adresse: <br>Kurallee, 94072 Bad Füssing</p>
-			<p class="telefonnummer">Telefon: <br>+49 8531 94460</p>
-			<p class="telefonnummer">E-Mail: <br>mail.insel@office.at</p>
-			<hr>
-			<a href="https://www.facebook.com/" title="Facebook"><img src="images/facebook.png" alt="" width="1.8%"></a>
-			<p id="agb"><a role="menuitem" href="agb.html" tabindex="0">AGB</a></p>
-			<p id="datenschutz"><a role="menuitem" href="datenschutz.html" tabindex="0">Datenschutzerklärung</a></p>
-			<p id="impressum"><a role="menuitem" href="OldHTML/impressum.html" tabindex="0">Impressum</a></p>
-			<p id="sitemap"><a role="menuitem" href="sitemap.html" tabindex="0" lang="en">Sitemap</a></p>
-		</div>
-	</footer>
+
+    </div>
+
+    <?php
+    include("Components/Footer.html");
+    ?>
 
 </div>
 
