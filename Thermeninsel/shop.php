@@ -29,7 +29,7 @@
 
 	<!-- Menu -->
 	<div class="is-centered">
-		<img src="images/fashyHorizontalStart.jpg" alt="" width="100%" id="thermePic">
+		<img src="images/fashybild2.jpg" alt="" width="100%" id="thermePic">
 	</div>
 
 
