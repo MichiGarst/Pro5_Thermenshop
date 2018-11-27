@@ -1,10 +1,12 @@
 <?php
-if(isset($_POST['email'])) {
+$name = $_POST["first_name"];
+
+echo("<script>console.log('PHP: 1 ".$name."');</script>");
+
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "S1610238017@students.fh-hagenberg.at";
     $email_subject = "Thermeninsel Anfrage";
-
     function died($error) {
         // your error code can go here
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
@@ -16,11 +18,7 @@ if(isset($_POST['email'])) {
 
 
     // validation expected data exists
-    if(!isset($_POST['first_name']) ||
-        !isset($_POST['last_name']) ||
-        !isset($_POST['email']) ||
-        !isset($_POST['telephone']) ||
-        !isset($_POST['desires'])) {
+    if(!isset($_POST['first_name'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
@@ -62,6 +60,7 @@ if(isset($_POST['email'])) {
     }
 
 
+echo("<script>console.log('PHP: 2');</script>");
 
     $email_message .= "First Name: ".clean_string($first_name)."\n";
     $email_message .= "Last Name: ".clean_string($last_name)."\n";
@@ -73,7 +72,7 @@ if(isset($_POST['email'])) {
     $headers = 'From: '.$email_from."\r\n".
         'Reply-To: '.$email_from."\r\n" .
         'X-Mailer: PHP/' . phpversion();
-    @mail($email_to, $email_subject, $email_message, $headers);
+    mail($email_to, $email_subject, $email_message, $headers);
     ?>
 
     <!-- include your own success html here -->
@@ -81,7 +80,3 @@ if(isset($_POST['email'])) {
     Thank you for contacting us. We will be in touch with you very soon.
 
 
-    <?php
-
-}
-?>
