@@ -17,6 +17,10 @@ $email = $_POST["email"];
 $telephone = $_POST["telephone"];
 $desire = $_POST["desires"];
 
+if (!preg_match("/^[a-zA-Z ]*$/",$firstname)) {
+    $nameError = "Only letters and white space allowed";
+}
+
 echo("<script>console.log('Vorname ".$firstname."');</script>");
 echo("<script>console.log('Nachname ".$lastname."');</script>");
 echo("<script>console.log('E-Mail ".$email."');</script>");
