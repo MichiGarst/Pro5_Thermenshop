@@ -129,9 +129,9 @@
                 </div>
                 <div class="column is-half">
                     <p  id="text">
-                        Bei unserer Café Bar kannst du dich nach dem Baden noch etwas entspannen. Egal ob Cappuccino, Latte Macchiato oder einfach nur ein
-                        normaler Café Crema. Lass noch einen Moment die Seele baumeln, bevor der stressige Alltag dich wieder einholt.
-                        Natürlich kann man bei sowohl Kaltgetränke in Flaschen als auch Kaffee mitnehmen.
+                        Bei uns an der Café Bar kannst du deinen Urlaub noch einen kleinen Moment verlängern. Egal ob Cappuccino, Latte Macchiato oder einfach nur ein
+                        normaler Café Crema.<br> Lass noch einen Moment die Seele baumeln, bevor der stressige Alltag dich wieder einholt.
+                        Natürlich kannst du bei uns auch alles mitnehmen. Im Angebot haben wir auch Kaltgetränke, welche Flaschenweise mit in die Therme genommen werden dürfen.
 
                     </p>
                 </div>
