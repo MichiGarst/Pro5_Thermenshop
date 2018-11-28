@@ -34,8 +34,8 @@ ini_set("smtp_port","465"); //No further need to edit your configuration files.
 $mail->SMTPAuth = true;
 $mail->Host = "smtp.gmail.com"; // SMTP server
 $mail->SMTPSecure = "ssl";
-$mail->Username = "thermeninsel@gmail.com"; //account with which you want to send mail. Or use this account. i dont care :-P
-$mail->Password = "Geheim007"; //this account's password.
+$mail->Username = 'thermeninsel@gmail.com'; //account with which you want to send mail. Or use this account. i dont care :-P
+$mail->Password = 'Geheim007'; //this account's password.
 $mail->Port = "465";
 $mail->isSMTP();  // telling the class to use SMTP
 $mail->SetFrom('thermeninsel@gmail.com');
