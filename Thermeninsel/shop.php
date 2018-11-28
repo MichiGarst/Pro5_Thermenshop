@@ -49,17 +49,17 @@
             <br>
             <div tabindex="-1" class="columns is-multiline is-centered">
                 <div class="column is-one-third">
-                    <img src="images/poppy1.jpg" alt="" width="18%" class="produktPic">
+                    <img src="images/poppy2.jpg" alt="" width="18%" class="produktPic">
                     <p class="produktText"><strong>Bademäntel</strong><br>
                         Große Auswahl an Bademäntel. Einige sind in unseren Shop erhältlich. </p>
                 </div>
                 <div class="column is-one-third">
-                    <img src="images/fashyStart.jpg" alt="" width="18%" class="produktPic">
+                    <img src="images/fashyStart2.jpg" alt="" width="18%" class="produktPic">
                     <p class="produktText"><strong>Damen Bademode</strong><br>
                         Von Badeanzüge, über Tankini bis hin zu Bikni ist alles dabei.</p>
                 </div>
                 <div class="column is-one-third">
-                    <img src="images/mann3.jpg" alt="" width="18%" class="produktPic">
+                    <img src="images/mann3.jpg" alt="" width="18%" class="produktPic" >
                     <p class="produktText"><strong>Herren Bademode</strong><br>
                         Für unsere Männer bieten wir verschiedene Modelle von Slips bis Bermuda an.</p>
                 </div>
@@ -80,9 +80,9 @@
                      Produkte, Spitzner Duschschaum, Bodylotion, Sunlotion uvm.</p>
                 </div>
                 <div class="column is-one-third">
-                    <img src="images/Accessoiress.jpg" alt="" width="18%" class="produktPic">
-                    <p class="produktText"><strong>Bade- und Saunaaccessoires</strong><br>
-                        Wir verkaufen auch Badehauben, Caps, Sonnenbrillen, Taucherbrillen, Badetaschen, Badetücher, Saunatücher, uvm.  </p>
+                    <img src="images/magazine.jpg" alt="" width="18%" class="produktPic">
+                    <p class="produktText"><strong>Pressefachhandel</strong><br>
+                        Tageszeitungen, Zeitschriften, Taschenbücher und Romane  </p>
                 </div>
             </div>
         </div>
