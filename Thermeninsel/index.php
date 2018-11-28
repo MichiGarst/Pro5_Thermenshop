@@ -86,7 +86,7 @@
 
 
         <div id="welcome">
-            <h1 class="ueberschrift">Herzlich Willkommen bei der Thermeninsel!</h1>
+            <h1 id="ueberschrift1">Herzlich Willkommen bei der Thermeninsel!</h1>
             <p class="text">Wir sind ihr Spezialist in Sachen Bademoden!
                 Bei uns ist dein Badevergnügen sicher. Hier findest du alles, was du für einen gelungenen Badetag oder
                 Wellnestag benötigst.<br>
@@ -103,7 +103,7 @@
         <div class="columns">
             <div class="column is-centered" id="contact">
                 <p id="kontakt">
-                <h2>Kontakt</h2>
+                <h2 id="ueberschrift2">Kontakt</h2>
                 <div class="kontaktUE">Adresse</div>
                 <div class="kontaktText">Kurallee 1, 94072 Bad Füssing</div>
                 <div class="kontaktUE">Telefon</div>
@@ -114,7 +114,7 @@
             </div>
             <div class="column is-centered" id="time">
                 <p id="Öffnungszeiten">
-                <h2>Öffnungszeiten</h2>
+                <h2 id="ueberschrift3">Öffnungszeiten</h2>
                 <div class="tag">Montag - Freitag</div>
                 <div class="zeit">07:30 - 17:30</div>
                 <div class="tag">Samstag</div>
@@ -131,7 +131,7 @@
                     <img src="images/fashyStart.jpg" alt="" id="sort">
                 </div>
                 <div class="column is-half has-text-centered" >
-                    <h1 class="ueberschrift">Unser Sortiment</h1>
+                    <h1 id="ueberschrift4">Unser Sortiment</h1>
                     <p class="sortimenttext">
                         Bei uns gibt es immer die neusten Designs in Sachen Bademode. Egal ob Badeanzug, Bikini, Tankini
                         oder Badehose,
@@ -151,7 +151,7 @@
             <div class="columns is-centered">
 
                 <div class="column is-half has-text-centered">
-                    <h1 class="ueberschrift">Angebote</h1>
+                    <h1 id="ueberschrift5">Angebote</h1>
                     <p id="angebottext">
                         Wir haben das ganze Jahr <b>Badeanzüge um 19,99€</b> und <b>Badehosen auf 15,00€ </b>
                         reduziert.<br><b> Bademäntel gibt es ab 39,99€</b>. Schau einfach mal vorbei, es ist für jeden
@@ -171,7 +171,7 @@
                     <img src="images/coffee.jpg" alt="" id="coffee">
                 </div>
                 <div class="column is-half has-text-centered">
-                    <h1>Café Bar</h1>
+                    <h1 id="ueberschrift6">Café Bar</h1>
                     <p id="kaffeetext">
                         Bei uns an der Café Bar kannst du deinen Urlaub noch einen kleinen Moment verlängern. Egal ob
                         Cappuccino, Latte Macchiato oder einfach nur ein

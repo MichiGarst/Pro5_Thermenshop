@@ -37,7 +37,7 @@
 
     <div id="main" class="has-text-centered" tabindex="-1">
         <div id="welcome">
-            <h1>Der Thermenshop</h1>
+            <h1 class="ueberschrift" id="ueberschrift1">Der Thermenshop</h1>
             <p class="text">Bei uns erhältst du alles, was du für einen entspannten Bade- und Saunaaufenthalt. Wir sind dein Profi, wenn es
             um Bademoden für Damen und Herren geht.<br> Mit unseren großen Auswahl findet jeder das richtige. Modisch immer aktuell auf dem neuesten
              Stand und exklusive Bademode aus Italien.<br> Egal ob Bademäntel, Badeanzüge, Bikini, Tankini, Badehosen oder Bermudas, bei uns ist alles von bester Qualität
@@ -45,7 +45,7 @@
             </p>
         </div>
         <div id="produkte">
-            <h2>Unsere Prdukte</h2>
+            <h2 class="ueberschrift" id="ueberschrift2">Unsere Prdukte</h2>
             <br>
             <div tabindex="-1" class="columns is-multiline is-centered">
                 <div class="column is-one-third">
@@ -88,7 +88,7 @@
         </div>
 
         <div id="marken">
-            <h2>Unsere Marken</h2>
+            <h2 id="ueberschrift3">Unsere Marken</h2>
             <br>
             <div tabindex="-1" class="columns is-multiline is-centered is-mobile">
                 <div class="column is-narrow">
