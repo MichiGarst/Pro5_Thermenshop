@@ -129,7 +129,7 @@
                 </div>
                 <div class="column is-half">
                     <h1>Unser Sortiment</h1>
-                    <p  id="text">
+                    <p class="text">
                         Bei uns gibt es immer die neusten Designs in Sachen Bademode. Egal ob Badeanzug, Bikini, Tankini oder Badehose,
                         bei uns kommt jeder auf seine Kosten. Mit bekannten Marken aud Italien aber auch Made-in-Germany schauen wir
                         auf Qualität und bieten unseren Kunden dennoch preiswerte Bademode. Auch für Lesestoff ist gesorgt mit unseren

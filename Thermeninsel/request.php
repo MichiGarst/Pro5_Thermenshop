@@ -45,7 +45,7 @@
         <div class="columns" id="produkte">
             <div class="column is-one-third">
                 <img src="images/Texas3.jpg" alt="" class="produktPic">
-                <p id="RequestText"><strong>Vossen Texas</strong><br>
+                <p><strong>Vossen Texas</strong><br>
                     Der absolut trendige Kapuzenbademantel Texas ist in acht sehr
                     modernen, frischen Farben erhältlich. Aufgrund seiner hochwertigen Veloursoberfläche zeichnet sich
                     der Mantel durch eine besondere
@@ -55,7 +55,7 @@
             </div>
             <div class="column is-one-third">
                 <img src="images/poppy1.jpg" alt="" class="produktPic">
-                <p id="RequestText"><strong>Vossen Poppy</strong><br>
+                <p><strong>Vossen Poppy</strong><br>
                     Der Doubleface-Kapuzenbademantel liegt mit seiner Farbstellung voll im Trend. Die farblich dunklere
                     Außenseite aus Mikrofaser setzt sich optisch von der etwas helleren Innenseite aus hochwertigem
                     Wirkfrottier ab. Dadurch wird dieser einzigartige Mantel zu einem absoluten Blickfang. Neben den
@@ -65,7 +65,7 @@
             </div>
             <div>
                 <img src="images/texas2.jpg" alt="" class="produktPic">
-                <p id="RequestText"><strong>Vossen Texas</strong><br>
+                <p><strong>Vossen Texas</strong><br>
                     Der absolut trendige Kapuzenbademantel Texas ist in acht sehr
                     modernen, frischen Farben erhältlich. Aufgrund seiner hochwertigen Veloursoberfläche zeichnet sich
                     der Mantel durch eine besondere
