@@ -43,7 +43,7 @@
         </div>
 
         <div class="columns" id="produkte">
-            <div class="column is-one-third" onclick="setForm('bademantel')">
+            <div class="column is-one-third" onclick="setForm('bademantel', 'eins')" id="eins">
                 <img src="images/Texas3.jpg" alt="" class="produktPic">
                 <p><strong>Vossen Texas</strong><br>
                     Der absolut trendige Kapuzenbademantel Texas ist in acht sehr
@@ -53,7 +53,7 @@
                     Model zu einem absoluten Blickfang. <br>
                     <b>100% Baumwolle</b></p>
             </div>
-            <div class="column is-one-third" onclick="setForm('bikini')">
+            <div class="column is-one-third" onclick="setForm('bikini', 'zwei')" id="zwei">
                 <img src="images/poppy1.jpg" alt="" class="produktPic">
                 <p><strong>Vossen Poppy</strong><br>
                     Der Doubleface-Kapuzenbademantel liegt mit seiner Farbstellung voll im Trend. Die farblich dunklere
@@ -63,7 +63,7 @@
                     Tragekomfort und höchste Saugfähigkeit aus.<br>
                     <b>20% Baumwolle, 35% Bambus, 45% Polyester</b></p>
             </div>
-            <div onclick="setForm('hose')">
+            <div class="column is-one-third" onclick="setForm('hose', 'drei')" id="drei">
                 <img src="images/texas2.jpg" alt="" class="produktPic">
                 <p><strong>Vossen Texas</strong><br>
                     Der absolut trendige Kapuzenbademantel Texas ist in acht sehr
@@ -423,14 +423,20 @@
 </html>
 
 <script>
-    function setForm(product) {
+    function setForm(product, line123) {
         var x = document.getElementsByClassName("requestForm");
         var i;
         for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";
         }
 
+       
+
+
         document.getElementById(product).style.display='inline';
+
+        document.getElementById(line123).style.backgroundColor ='red';
+
     }
 </script>
 
