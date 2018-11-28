@@ -21,19 +21,6 @@
     font-weight: bold;
 }
 
-@media screen and (min-width: 1024px) {
-    .text #sortimenttext, #angebottext, #kaffeetext{
-        padding-left: 200px;
-        padding-right: 200px;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .text #sortimenttext, #angebottext, #kaffeetext{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     #coffee {
@@ -56,9 +43,7 @@
     }
 }
 
-#sortimenttext, #angebottext, #kaffeetext {
-    padding-right: 20px;
-}
+
 @media screen and (max-width: 768px) {
     #sort {
         width:210px !important;
