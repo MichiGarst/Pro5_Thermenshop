@@ -86,7 +86,7 @@
 
 
         <div id="welcome">
-            <h1>Herzlich Willkommen bei der Thermeninsel</h1>
+            <h1 class="ueberschrift">Herzlich Willkommen bei der Thermeninsel!</h1>
             <p class="text">Wir sind ihr Spezialist in Sachen Bademoden!
                 Bei uns ist dein Badevergnügen sicher. Hier findest du alles, was du für einen gelungenen Badetag oder
                 Wellnestag benötigst.<br>
@@ -131,7 +131,7 @@
                     <img src="images/fashyStart.jpg" alt="" id="sort">
                 </div>
                 <div class="column is-half has-text-centered" >
-                    <h1>Unser Sortiment</h1>
+                    <h1 class="ueberschrift">Unser Sortiment</h1>
                     <p class="sortimenttext">
                         Bei uns gibt es immer die neusten Designs in Sachen Bademode. Egal ob Badeanzug, Bikini, Tankini
                         oder Badehose,
@@ -151,7 +151,7 @@
             <div class="columns is-centered">
 
                 <div class="column is-half has-text-centered">
-                    <h1>Angebote</h1>
+                    <h1 class="ueberschrift">Angebote</h1>
                     <p id="angebottext">
                         Wir haben das ganze Jahr <b>Badeanzüge um 19,99€</b> und <b>Badehosen auf 15,00€ </b>
                         reduziert.<br><b> Bademäntel gibt es ab 39,99€</b>. Schau einfach mal vorbei, es ist für jeden

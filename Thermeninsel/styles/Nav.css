@@ -3,7 +3,7 @@ header {
 }
 
 #burger:hover {
-    color: #F7F7F6;
+    color: #ffcc00;
 }
 
 
@@ -24,4 +24,8 @@ header {
 #kopfzeile {
     margin:0px;
     padding: 0px;
+}
+
+#item1:hover, #item2:hover, #item3:hover, #item4:hover, #item5:hover {
+    color: #ffcc00;
 }
