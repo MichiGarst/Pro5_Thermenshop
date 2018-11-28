@@ -35,7 +35,7 @@
     <!-- Contact -->
 
 
-    <div id="main" class="has-text-centered">
+    <div id="main" class="has-text-centered" tabindex="-1">
         <div id="welcome">
             <h1>Der Thermenshop</h1>
             <p class="text">Bei uns erhältst du alles, was du für einen entspannten Bade- und Saunaaufenthalt. Wir sind dein Profi, wenn es

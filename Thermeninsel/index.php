@@ -83,7 +83,7 @@
 
      <!-- Contact -->
 
-    <div id="main" class="has-text-centered">
+    <div id="main" class="has-text-centered" tabindex="-1">
 
 
         <div id="welcome">
