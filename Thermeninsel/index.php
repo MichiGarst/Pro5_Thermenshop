@@ -129,7 +129,7 @@
                 </div>
                 <div class="column is-half">
                     <h1>Unser Sortiment</h1>
-                    <p class="text">
+                    <p class="sortimenttext">
                         Bei uns gibt es immer die neusten Designs in Sachen Bademode. Egal ob Badeanzug, Bikini, Tankini oder Badehose,
                         bei uns kommt jeder auf seine Kosten. Mit bekannten Marken aud Italien aber auch Made-in-Germany schauen wir
                         auf Qualität und bieten unseren Kunden dennoch preiswerte Bademode. Auch für Lesestoff ist gesorgt mit unseren
@@ -145,7 +145,7 @@
 
                 <div class="column is-half">
                     <h1>Angebote</h1>
-                    <p  id="text">
+                    <p  id="angebottext">
                         Wir haben das ganze Jahr <b>Badeanzüge um 19,99€</b> und <b>Badehosen auf 15,00€ </b>
                         reduziert.<br><b> Bademäntel gibt es ab 39,99€</b>. Schau einfach mal vorbei, es ist für jeden was dabei!
                         Oder du shopst Bademäntel ganz einfach <a href="request.php">hier</a> bei uns.
@@ -164,7 +164,7 @@
                 </div>
                 <div class="column is-half">
                     <h1>Café Bar</h1>
-                    <p  id="text">
+                    <p  id="kaffeetext">
                         Bei uns an der Café Bar kannst du deinen Urlaub noch einen kleinen Moment verlängern. Egal ob Cappuccino, Latte Macchiato oder einfach nur ein
                         normaler Café Crema.<br> Lass noch einen Moment die Seele baumeln, bevor der stressige Alltag dich wieder einholt.
                         Natürlich kannst du bei uns auch alles mitnehmen. Im Angebot haben wir auch Kaltgetränke, welche Flaschenweise mit in die Therme genommen werden dürfen.
