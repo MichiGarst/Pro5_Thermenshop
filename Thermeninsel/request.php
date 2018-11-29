@@ -430,13 +430,14 @@
             x[i].style.display = "none";
         }
 
-       
-
+        var y = document.getElementsByClassName("column is-one-third");
+        var j;
+        for (j = 0; j < y.length; j++) {
+            y[j].style.backgroundColor = "#F7F7F6";
+        }
 
         document.getElementById(product).style.display='inline';
-
-        document.getElementById(line123).style.backgroundColor ='red';
-
+        document.getElementById(line123).style.backgroundColor ='#ffcc00';
     }
 </script>
 
