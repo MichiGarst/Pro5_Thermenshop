@@ -38,14 +38,14 @@ $lastname = $_POST["last_name"];
 $email = $_POST["email"];
 $telephone = $_POST["telephone"];
 $desire = $_POST["desires"];
-$test1 = $_POST['checkbox1'];
-$test2 = $_POST['checkbox2'];
+$product = $_POST["product"];
 
 
 if (!preg_match("/^[a-zA-Z ]*$/",$firstname)) {
     $nameError = "Only letters and white space allowed";
 }
 
+echo("<script>console.log('Wunsch ".$product."');</script>");
 echo("<script>console.log('Vorname ".$firstname."');</script>");
 echo("<script>console.log('Nachname ".$lastname."');</script>");
 echo("<script>console.log('E-Mail ".$email."');</script>");
@@ -53,11 +53,11 @@ echo("<script>console.log('Telefon ".$telephone."');</script>");
 echo("<script>console.log('Wunsch ".$desire."');</script>");
 
 
-
 $mail = new PHPMailer(TRUE);
 
 ini_set("SMTP","ssl://smtp.gmail.com");
 ini_set("smtp_port","465"); //No further need to edit your configuration files.
+$mail->CharSet ="UTF-8";
 $mail->SMTPAuth = true;
 $mail->Host = "smtp.gmail.com"; // SMTP server
 $mail->SMTPSecure = "ssl";
@@ -71,7 +71,16 @@ $mail->addReplyTo('S1610238017@students.fh-hagenberg.at', 'Information');
 $mail->addCC('S1610238017@students.fh-hagenberg.at');
 $mail->isHTML(true);                                  // Set email format to HTML
 $mail->Subject = 'Neue Anfrage';
-$mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> Das wars.";
+$mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> <br>  Produkt: ".$product."<br>Farbe: ";
+foreach($_POST['checkbox1'] as $selected1) {
+    $mail->Body .= $selected1."  ";
+}
+$mail->Body .= "<br> Größe: ";
+foreach($_POST['checkbox2'] as $selected2) {
+    $mail->Body .= $selected2."  ";
+}
+$mail->Body .= "<br> Fertig";
+
 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 try{
