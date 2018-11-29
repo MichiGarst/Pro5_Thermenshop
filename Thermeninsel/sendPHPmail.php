@@ -11,18 +11,7 @@ require 'PHPMailer\src\PHPMailer.php';
 /* SMTP class, needed if you want to use SMTP. */
 require 'PHPMailer\src\SMTP.php';
 
-foreach ($_POST as $key => $value) {
-    echo "<tr>";
-    echo "<td>";
-    echo $key;
-    echo "</td>";
-    echo "<td>";
-    echo $value;
-    echo "</td>";
-    echo "</tr>";
-}
-
-var_dump($_POST);
+//var_dump($_POST);
 
 foreach($_POST['checkbox1'] as $selected1) {
 echo ("<script>console.log('Farbe ".$selected1."');</script>");
@@ -90,4 +79,5 @@ try{
 //Something went bad
     echo "Fail - " . $mail->ErrorInfo;
 }
+header("Location: http://localhost:63342/Pro5_Thermenshop/Thermeninsel/request.php");
 ?>
