@@ -11,11 +11,36 @@ require 'PHPMailer\src\PHPMailer.php';
 /* SMTP class, needed if you want to use SMTP. */
 require 'PHPMailer\src\SMTP.php';
 
+foreach ($_POST as $key => $value) {
+    echo "<tr>";
+    echo "<td>";
+    echo $key;
+    echo "</td>";
+    echo "<td>";
+    echo $value;
+    echo "</td>";
+    echo "</tr>";
+}
+
+var_dump($_POST);
+
+foreach($_POST['checkbox1'] as $selected1) {
+echo ("<script>console.log('Farbe ".$selected1."');</script>");
+}
+
+foreach($_POST['checkbox2'] as $selected2) {
+    echo ("<script>console.log('Größe ".$selected2."');</script>");
+}
+
+
 $firstname = $_POST["first_name"];
 $lastname = $_POST["last_name"];
 $email = $_POST["email"];
 $telephone = $_POST["telephone"];
 $desire = $_POST["desires"];
+$test1 = $_POST['checkbox1'];
+$test2 = $_POST['checkbox2'];
+
 
 if (!preg_match("/^[a-zA-Z ]*$/",$firstname)) {
     $nameError = "Only letters and white space allowed";
@@ -26,6 +51,8 @@ echo("<script>console.log('Nachname ".$lastname."');</script>");
 echo("<script>console.log('E-Mail ".$email."');</script>");
 echo("<script>console.log('Telefon ".$telephone."');</script>");
 echo("<script>console.log('Wunsch ".$desire."');</script>");
+
+
 
 $mail = new PHPMailer(TRUE);
 

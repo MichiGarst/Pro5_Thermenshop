@@ -319,17 +319,17 @@
 
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkbox1_group1" value="Atlantic"
+                        <input type="checkbox" name="checkbox1[]" id="checkbox1_group1" value="Atlantic"
                                aria-labelledby="label1">
                         <label for="checkbox1_group1">Atlantic</label>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkbox2_group1" value="Purpur"
+                        <input type="checkbox" name="checkbox1[]" id="checkbox2_group1" value="Purpur"
                                aria-labelledby="label1">
                         <label for="checkbox2_group1">Purpur</label>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkbox3_group1" value="Lagoon"
+                        <input type="checkbox" name="checkbox1[]" id="checkbox3_group1" value="Lagoon"
                                aria-labelledby="label1">
                         <label for="checkbox3_group1">Lagoon</label>
                     </div>
@@ -351,33 +351,33 @@
                         <span> Größe: </span>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkbox1_group2" value="xs"
+                        <input type="checkbox" name="checkbox2[]" id="checkbox1_group2" value="xs"
                                aria-labelledby="label2">
                         <label for="checkbox1_group2">XS</label>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkbox2_group2" value="s"
+                        <input type="checkbox" name="checkbox2[]" id="checkbox2_group2" value="s"
                                aria-labelledby="label2">
                         <label for="checkbox2_group2">S</label>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkbox3_group2" value="m"
+                        <input type="checkbox" name="checkbox2[]" id="checkbox3_group2" value="m"
                                aria-labelledby="label2">
                         <label for="checkbox3_group2">M</label>
                     </div>
 
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkbox4_group2" value="l"
+                        <input type="checkbox" name="checkbox2[]" id="checkbox4_group2" value="l"
                                aria-labelledby="label2">
                         <label for="checkbox4_group2">L</label>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkbox5_group2" value="xl"
+                        <input type="checkbox" name="checkbox2[]" id="checkbox5_group2" value="xl"
                                aria-labelledby="label2">
                         <label for="checkbox5_group2">XL</label>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkbox6_group2" value="xxl"
+                        <input type="checkbox" name="checkbox2[]" id="checkbox6_group2" value="xxl"
                                aria-labelledby="label2">
                         <label for="checkbox6_group2">XXL</label>
                     </div>
