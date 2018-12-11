@@ -100,6 +100,7 @@
                 dich!
             </p>
         </div>
+        <hr>
         <div class="columns">
             <div class="column is-centered" id="contact">
                 <p id="kontakt">
@@ -124,6 +125,7 @@
                 </p>
             </div>
         </div>
+        <hr>
         <div id="sortiment">
 
             <div class="columns is-centered">
@@ -146,6 +148,7 @@
 
             </div>
         </div>
+        <hr>
         <div id="angebot">
 
             <div class="columns is-centered">
@@ -164,6 +167,7 @@
                 </div>
             </div>
         </div>
+        <hr>
         <div id="kaffee">
 
             <div class="columns is-centered">
