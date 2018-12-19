@@ -1,0 +1,15 @@
+#anfrage, #main {
+    padding: 15px;
+    margin: 15px;
+}
+
+#welcome {
+    padding: 20px;
+}
+#anfrage, #anfrageAussen {
+    background-color: #F7F7F6;
+}
+
+.column:hover {
+    background-color: #ffcc00;
+}

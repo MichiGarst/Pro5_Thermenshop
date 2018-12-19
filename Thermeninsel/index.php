@@ -124,7 +124,6 @@
                 <div class="zeit">08:30 - 16:30</div>
                 </p>
             </div>
-        </div>
         <hr>
         <div id="sortiment">
 

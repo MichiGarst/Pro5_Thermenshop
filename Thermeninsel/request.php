@@ -12,8 +12,8 @@
     include("Components/BulmaEinbindung.html");
     ?>
 
-    <!-- Andere Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="styles/requeststyle.css">
+    <!-- Andere Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="styles/requeststyleNew.css">
 </head>
 <body>
 
@@ -26,22 +26,23 @@
     ?>
     <!-- Menu -->
 
-
-    <div class="is-centered">
-        <img src="images/fashybild3.jpg" alt="" width="100%" id="thermePic">
-    </div>
-
+<div id="anfrageAussen">
+        <div class="columns is-centered" id="anfrage">
+            <div class="is-centered">
+                <img src="images/fashybild3.jpg" alt="" width="100%" id="">
+            </div>
+            <div id="welcome" class="has-text-centered">
+                <h1 class="ueberschrift" id="h1">Anfrage senden</h1>
+                <p>Hier können Sie Bademäntel oder Lederbadehosen bestellen. Einfach Größe, Farbe auswählen und eine Anfrage
+                    abschicken. Wir nehmen dann gerne mit Ihnen
+                    Kontakt auf und geben Bescheid, wann der Artikel ankommt!</p>
+            </div>
+        </div>
+</div>
 
     <!-- Contact -->
-
+<div class="box">
     <div id="main" tabindex="-1" class="has-text-centered">
-        <div id="welcome">
-            <h1>Anfrage senden</h1>
-            <p>Hier kannst du Bademäntel oder Lederbadehosen bestellen. Einfach Größe, Farbe auswählen und eine Anfrage
-                abschicken. Wir nehmen dann mit dir
-                Kontakt auf und geben dir Bescheid, wann der Artikel ankommt!</p>
-        </div>
-
         <div class="columns" id="produkte">
             <div class="column is-one-third" onclick="setForm('bademantel', 'eins')" id="eins">
                 <img src="images/Texas3.jpg" alt="" class="produktPic">
@@ -53,7 +54,7 @@
                     Model zu einem absoluten Blickfang. <br>
                     <b>100% Baumwolle</b></p>
             </div>
-            <div class="column is-one-third" onclick="setForm('bikini', 'zwei')" id="zwei">
+            <div class="column" onclick="setForm('bikini', 'zwei')" id="zwei">
                 <img src="images/poppy1.jpg" alt="" class="produktPic">
                 <p><strong>Vossen Poppy</strong><br>
                     Der Doubleface-Kapuzenbademantel liegt mit seiner Farbstellung voll im Trend. Die farblich dunklere
@@ -63,7 +64,7 @@
                     Tragekomfort und höchste Saugfähigkeit aus.<br>
                     <b>20% Baumwolle, 35% Bambus, 45% Polyester</b></p>
             </div>
-            <div class="column is-one-third" onclick="setForm('hose', 'drei')" id="drei">
+            <div class="column" onclick="setForm('hose', 'drei')" id="drei">
                 <img src="images/texas2.jpg" alt="" class="produktPic">
                 <p><strong>Vossen Texas</strong><br>
                     Der absolut trendige Kapuzenbademantel Texas ist in acht sehr
@@ -74,8 +75,8 @@
                     <b>100% Baumwolle</b></p>
             </div>
         </div>
-
-        <div id="bademantel" class="requestForm">
+    </div>
+        <div id="bademantel" class="requestForm has-text-centered">
             <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular">
                 <div hidden>
                     <label for="product">Produkt:</label>
@@ -192,7 +193,7 @@
         </div>
 
 
-        <div id="hose" class="requestForm">
+        <div id="hose" class="requestForm has-text-centered">
             <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular">
                 <div hidden>
                     <label for="product">Produkt:</label>
@@ -308,7 +309,7 @@
             </form>
         </div>
 
-        <div id="bikini" class="requestForm">
+        <div id="bikini" class="requestForm has-text-centered">
             <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular">
                 <div hidden>
                     <label for="product">Produkt:</label>
@@ -442,7 +443,7 @@
             x[i].style.display = "none";
         }
 
-        var y = document.getElementsByClassName("column is-one-third");
+        var y = document.getElementsByClassName("column");
         var j;
         for (j = 0; j < y.length; j++) {
             y[j].style.backgroundColor = "#F7F7F6";
