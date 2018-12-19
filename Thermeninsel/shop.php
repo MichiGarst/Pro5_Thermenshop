@@ -13,7 +13,7 @@
     ?>
 
     <!-- Andere Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="styles/shopstyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/shopstyleNew.css">
 
 </head>
 <body>
@@ -27,60 +27,65 @@
     ?>
 
     <!-- Menu -->
-    <div class="is-centered">
-        <img src="images/fashybild2.jpg" alt="" width="100%" id="thermePic">
-    </div>
 
+    <div id="shopAussen">
+        <div class="columns is-centered" id="shop">
+            <div class="is-centered">
+                <img src="images/fashybild2.jpg" alt="" id="thermePic">
+            </div>
+            <div id="welcome">
+                <h1 class="ueberschrift" id="ueberschrift1">Der Thermenshop</h1>
+                <p class="text">Bei uns erhältst du alles, was du für einen entspannten Bade- und Saunaaufenthalt. Wir sind dein Profi, wenn es
+                    um Bademoden für Damen und Herren geht.<br> Mit unseren großen Auswahl findet jeder das richtige. Modisch immer aktuell auf dem neuesten
+                    Stand und exklusive Bademode aus Italien.<br> Egal ob Bademäntel, Badeanzüge, Bikini, Tankini, Badehosen oder Bermudas, bei uns ist alles von bester Qualität
+                    und ausgewählten Marken, auch Made-in-Germany.
+                </p>
+            </div>
+        </div>
+    </div>
 
     <!-- Contact -->
 
 
     <div id="main" class="has-text-centered" tabindex="-1">
-        <div id="welcome">
-            <h1 class="ueberschrift" id="ueberschrift1">Der Thermenshop</h1>
-            <p class="text">Bei uns erhältst du alles, was du für einen entspannten Bade- und Saunaaufenthalt. Wir sind dein Profi, wenn es
-            um Bademoden für Damen und Herren geht.<br> Mit unseren großen Auswahl findet jeder das richtige. Modisch immer aktuell auf dem neuesten
-             Stand und exklusive Bademode aus Italien.<br> Egal ob Bademäntel, Badeanzüge, Bikini, Tankini, Badehosen oder Bermudas, bei uns ist alles von bester Qualität
-             und ausgewählten Marken, auch Made-in-Germany.
-            </p>
-        </div>
+
         <div id="produkte">
             <h2 class="ueberschrift" id="ueberschrift2">Unsere Prdukte</h2>
             <br>
             <div tabindex="-1" class="columns is-multiline is-centered">
-                <div class="column is-one-third">
-                    <img src="images/poppy2.jpg" alt="" width="18%" class="produktPic">
+                <div class="column is-one-quarter">
+                    <img src="images/poppy2.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Bademäntel</strong><br>
                         Große Auswahl an Bademäntel. Einige sind in unseren Shop erhältlich. </p>
                 </div>
-                <div class="column is-one-third">
-                    <img src="images/fashyStart2.jpg" alt="" width="18%" class="produktPic">
+                <div class="column is-one-quarter">
+                    <img src="images/fashyStart2.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Damen Bademode</strong><br>
                         Von Badeanzüge, über Tankini bis hin zu Bikni ist alles dabei.</p>
                 </div>
-                <div class="column is-one-third">
-                    <img src="images/mann3.jpg" alt="" width="18%" class="produktPic" >
+                <div class="column is-one-quarter">
+                    <img src="images/mann3.jpg" alt="" class="produktPic" >
                     <p class="produktText"><strong>Herren Bademode</strong><br>
                         Für unsere Männer bieten wir verschiedene Modelle von Slips bis Bermuda an.</p>
                 </div>
-                <div class="column is-one-third">
-                    <img src="images/Badeschuhe.jpg" alt="" width="18%" class="produktPic">
+                <div class="column is-one-quarter">
+                    <img src="images/Badeschuhe.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Badeschuhe</strong><br>
                         Unsere Badeschuhabteilung bietet natürlich auch Abwechslung, damit jeder den richtigen Schuh findet. </p>
                 </div>
-                <div class="column is-one-third">
-                    <img src="images/Accessoiress.jpg" alt="" width="18%" class="produktPic">
+                <div class="column is-one-quarter">
+                    <img src="images/Accessoiress.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Bade- und Saunaaccessoires</strong><br>
                         Wir verkaufen auch Badehauben, Caps, Sonnenbrillen, Taucherbrillen, Badetaschen, Badetücher, Saunatücher, uvm.  </p>
                 </div>
-                <div class="column is-one-third">
-                    <img src="images/kosmetik.jpg" alt="" width="18%" class="produktPic">
+                <div class="column is-one-quarter">
+                    <img src="images/kosmetik.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Kosmetik</strong><br>
                         In unserer Kosmetikabteilung findest du Duschgel, Shampoo,<br> Aloe Vera
                      Produkte, Spitzner Duschschaum, Bodylotion, Sunlotion uvm.</p>
                 </div>
-                <div class="column is-one-third">
-                    <img src="images/magazine.jpg" alt="" width="18%" class="produktPic">
+                <div class="column is-one-quarter">
+                    <img src="images/magazine.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Pressefachhandel</strong><br>
                         Tageszeitungen, Zeitschriften, Taschenbücher und Romane  </p>
                 </div>
