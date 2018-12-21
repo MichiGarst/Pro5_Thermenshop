@@ -1,4 +1,3 @@
-@@ -1,45 +0,0 @@
 <?php
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
@@ -79,5 +78,7 @@ try{
 //Something went bad
     echo "Fail - " . $mail->ErrorInfo;
 }
-header("Location: http://localhost:63342/Pro5_Thermenshop/Thermeninsel/request.php");
+echo("<script>location.href='http://localhost:63342/Pro5_Thermenshop/Thermeninsel/request.php'</script>");
+
+//header("Location: http://localhost:63342/Pro5_Thermenshop/Thermeninsel/request.php");
 ?>
