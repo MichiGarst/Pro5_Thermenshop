@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>Bestellen</title>
+    <title>Thermeninsel - Bademoden Bestellen</title>
     <meta charset="utf-8">
     <meta name="description" content="Thermenshop Bad Füssing Kontakt">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -87,7 +87,7 @@
                          class="group_checkbox"
                          aria-checked="false"
                          aria-labelledby="label1"
-                         aria-describedby="checkboxHelp"
+                         aria-describedby="checkboxHelpHide"
                          tabindex="0"
                          id="label1"
                          onclick="toggleGroupCheckbox(event)"
@@ -204,7 +204,7 @@
                          class="group_checkbox"
                          aria-checked="false"
                          aria-labelledby="label1"
-                         aria-describedby="checkboxHelp"
+                         aria-describedby="checkboxHelpHide"
                          tabindex="0"
                          id="label1"
                          onclick="toggleGroupCheckbox(event)"
@@ -320,7 +320,7 @@
                          class="group_checkbox"
                          aria-checked="false"
                          aria-labelledby="label1"
-                         aria-describedby="checkboxHelp"
+                         aria-describedby="checkboxHelpHide"
                          tabindex="0"
                          id="label1"
                          onclick="toggleGroupCheckbox(event)"
@@ -421,7 +421,7 @@
                         <textarea type="text" id="desires" name="desires"></textarea>
                     </div>
                 </div>
-                <button type="submit">Senden</button>
+                <button type="submit" name="Produktanfrage jetzt senden" value="Produktanfrage senden" aria-describedby="Halloooooo" aria-labelledby="Anfrage senden sofort">Senden</button>
             </form>
         </div>
     </div>

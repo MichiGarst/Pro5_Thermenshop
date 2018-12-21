@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>Über uns</title>
+    <title>Die Thermeninsel stellt sich vor</title>
     <meta charset="utf-8">
     <meta name="description" content="Thermenshop Bad Füssing Kontakt">
     <meta name="viewport" content="width=device-width, initial-scale=1">
