@@ -76,7 +76,7 @@
                 <div class="column is-one-quarter">
                     <img src="images/Accessoiress.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Bade- und Saunaaccessoires</strong><br>
-                        Wir verkaufen auch Badehauben, Caps, Sonnenbrillen, Taucherbrillen, Badetaschen, Badetücher, Saunatücher, uvm.  </p>
+                        Wir verkaufen auch Badehauben, Caps, Sonnenbrillen, Schwimmbrillen, Badetaschen, Badetücher, Saunatücher, uvm.  </p>
                 </div>
                 <div class="column is-one-quarter">
                     <img src="images/kosmetik.jpg" alt="" class="produktPic">
