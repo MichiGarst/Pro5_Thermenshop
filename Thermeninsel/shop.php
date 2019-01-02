@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>Sortiment</title>
+    <title>Thermeninsel - Bademoden Sortiment</title>
     <meta charset="utf-8">
     <meta name="description" content="Thermenshop Bad Füssing Kontakt">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,7 +50,7 @@
     <div id="main" class="has-text-centered" tabindex="-1">
 
         <div id="produkte">
-            <h2 class="ueberschrift" id="ueberschrift2">Unsere Prdukte</h2>
+            <h2 class="ueberschrift" id="ueberschrift2">Unsere Produkte</h2>
             <br>
             <div tabindex="-1" class="columns is-multiline is-centered">
                 <div class="column is-one-quarter">
@@ -113,6 +113,7 @@
                 </div>
                 <div class="column is-narrow">
                     <img src="images/wewologo.png" alt="" width="18%" class="produktPic">
+
                 </div>
             </div>
         </div>

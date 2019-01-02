@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>Thermeninsel</title>
+    <title>Thermeninsel - Bademodenshop in der Thermeeins in Bad Füssing</title>
     <meta charset="utf-8">
     <meta name="description" content="Thermenshop Bad Füssing Kontakt">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -87,7 +87,8 @@
 
         <div id="welcome">
             <h1 id="ueberschrift1">Herzlich Willkommen bei der Thermeninsel!</h1>
-            <p class="text">Wir sind ihr Spezialist in Sachen Bademoden!
+            <p class="text">
+                Sample text for foreign language - English Sample text for foreign language - French Sample text for foreign language - Spanish Sample text for foreign language                Wir sind ihr Spezialist in Sachen Bademoden!
                 Bei uns ist dein Badevergnügen sicher. Hier findest du alles, was du für einen gelungenen Badetag oder
                 Wellnestag benötigst.<br>
                 Keinen Bademantel dabei? Badeschuhe vergessen? Badehose zu Hause gelassen? Die Sonnencreme schon leer?
@@ -132,7 +133,7 @@
                     <img src="images/fashyStart.jpg" alt="" id="sort">
                 </div>
                 <div class="column is-half has-text-centered" >
-                    <h1 id="ueberschrift4">Unser Sortiment</h1>
+                    <h2 id="ueberschrift4">Unser Sortiment</h2>
                     <p class="sortimenttext">
                         Bei uns gibt es immer die neusten Designs in Sachen Bademode. Egal ob Badeanzug, Bikini, Tankini
                         oder Badehose,
@@ -141,7 +142,7 @@
                         auf Qualität und bieten unseren Kunden dennoch preiswerte Bademode. Auch für Lesestoff ist
                         gesorgt mit unserem
                         riesigen Auswahl an Zeitschriften, Tagezeitungen und Büchern.
-                        <br> <a href="shop.php">Hier ansehen!</a>
+                        <br> <a href="shop.php" title="zum Sortiment">Hier ansehen!</a>
                     </p>
                 </div>
 
@@ -153,14 +154,21 @@
             <div class="columns is-centered">
 
                 <div class="column is-half has-text-centered">
-                    <h1 id="ueberschrift5">Angebote</h1>
+                    <h2 id="ueberschrift5">Angebote</h2>
                     <p id="angebottext">
+<<<<<<< HEAD
 
                         Wir haben das ganze Jahr <b>Badeanzüge</b> zum Sonderpreis von <b>19,99€</b> und <b>Badehosen</b>
                         <b>zu 15,00€</b>. <b>Bademäntel und Badekleider</b> bieten wir schon <b>ab 39,99€</b> an.
                         Schau einfach mal vorbei, es ist für jeden
                         was dabei!<br> Oder du shopst Bademäntel ganz einfach <a href="request.php">hier</a> bei uns.
 
+=======
+                        Wir haben das ganze Jahr <b>Badeanzüge um 19,99€</b> und <b>Badehosen auf 15,00€ </b>
+                        reduziert.<br><b> Bademäntel gibt es ab 39,99€</b>. Schau einfach mal vorbei, es ist für jeden
+                        was dabei!
+                        Oder du shopst Bademäntel ganz einfach <a href="request.php" title="zur Bestellseite">hier</a> bei uns.
+>>>>>>> 75868215abae9ed34f78d3f81cf66c42546cf143
                     </p>
                 </div>
                 <div class="column is-one-quarter">
@@ -176,7 +184,7 @@
                     <img src="images/coffee.jpg" alt="" id="coffee">
                 </div>
                 <div class="column is-half has-text-centered">
-                    <h1 id="ueberschrift6">Café Bar</h1>
+                    <h2 id="ueberschrift6">Café Bar</h2>
                     <p id="kaffeetext">
                         Bei uns an der Café Bar kannst du deinen Urlaub noch einen kleinen Moment verlängern. Egal ob
                         Cappuccino, Latte Macchiato oder einfach nur ein
