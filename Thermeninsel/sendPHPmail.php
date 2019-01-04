@@ -2,23 +2,15 @@
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 
-require 'PHPMailer\src\Exception.php';
+require 'Exception.php';
 
 /* The main PHPMailer class. */
-require 'PHPMailer\src\PHPMailer.php';
+require 'PHPMailer.php';
 
 /* SMTP class, needed if you want to use SMTP. */
-require 'PHPMailer\src\SMTP.php';
+require 'SMTP.php';
 
 //var_dump($_POST);
-
-foreach($_POST['checkbox1'] as $selected1) {
-echo ("<script>console.log('Farbe ".$selected1."');</script>");
-}
-
-foreach($_POST['checkbox2'] as $selected2) {
-    echo ("<script>console.log('Größe ".$selected2."');</script>");
-}
 
 
 $firstname = $_POST["first_name"];
@@ -27,6 +19,7 @@ $email = $_POST["email"];
 $telephone = $_POST["telephone"];
 $desire = $_POST["desires"];
 $product = $_POST["product"];
+$farbe = $_POST['farbe'];
 
 
 if (!preg_match("/^[a-zA-Z ]*$/",$firstname)) {
@@ -39,6 +32,8 @@ echo("<script>console.log('Nachname ".$lastname."');</script>");
 echo("<script>console.log('E-Mail ".$email."');</script>");
 echo("<script>console.log('Telefon ".$telephone."');</script>");
 echo("<script>console.log('Wunsch ".$desire."');</script>");
+echo("<script>console.log('Wunsch ".$farbe."');</script>");
+
 
 
 $mail = new PHPMailer(TRUE);
@@ -59,12 +54,14 @@ $mail->addReplyTo('S1610238017@students.fh-hagenberg.at', 'Information');
 $mail->addCC('S1610238017@students.fh-hagenberg.at');
 $mail->isHTML(true);                                  // Set email format to HTML
 $mail->Subject = 'Neue Anfrage';
-$mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> <br>  Produkt: ".$product."<br>Farbe: ";
-foreach($_POST['checkbox1'] as $selected1) {
+$mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> <br>  Produkt: ".$product."<br>Farbe: ".$farbe."<br> ";
+$mail->Body .= "Größe: ";
+foreach($_POST['groesse'] as $selected1) {
     $mail->Body .= $selected1."  ";
 }
-$mail->Body .= "<br> Größe: ";
-foreach($_POST['checkbox2'] as $selected2) {
+
+$mail->Body .= "<br> Land: ";
+foreach($_POST['land'] as $selected2) {
     $mail->Body .= $selected2."  ";
 }
 $mail->Body .= "<br> Fertig";
@@ -78,7 +75,7 @@ try{
 //Something went bad
     echo "Fail - " . $mail->ErrorInfo;
 }
-echo("<script>location.href='http://localhost:63342/Pro5_Thermenshop/Thermeninsel/request.php'</script>");
+echo("<script>location.href='https://thermenshop.000webhostapp.com/request.php'</script>");
 
-//header("Location: http://localhost:63342/Pro5_Thermenshop/Thermeninsel/request.php");
+//header("Location: https://thermenshop.000webhostapp.com/request.php");
 ?>

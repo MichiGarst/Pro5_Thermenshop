@@ -47,27 +47,27 @@
     <!-- Contact -->
 
 
-    <div id="main" class="has-text-centered" tabindex="-1">
+    <main id="main" role="main" class="has-text-centered" tabindex="-1">
 
         <div id="produkte">
             <h2 class="ueberschrift" id="ueberschrift2">Unsere Produkte</h2>
             <br>
-            <div tabindex="-1" class="columns is-multiline is-centered">
-                <div class="column is-one-quarter">
+            <div class="columns is-multiline is-centered"> <!-- Habe tabindex -1 von Petra gelöscht -->
+                <section class="column is-one-quarter"> <!-- kann ich da überall statt div die section einfügen? -->
                     <img src="images/poppy2.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Bademäntel</strong><br>
                         Große Auswahl an Bademäntel. Einige sind in unseren Shop erhältlich. </p>
-                </div>
+                </section>
                 <div class="column is-one-quarter">
                     <img src="images/fashyStart2.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Damen Bademode</strong><br>
                         Von Badeanzüge, über Tankini bis hin zu Bikni ist alles dabei.</p>
                 </div>
-                <div class="column is-one-quarter">
+                <section class="column is-one-quarter">
                     <img src="images/mann3.jpg" alt="" class="produktPic" >
                     <p class="produktText"><strong>Herren Bademode</strong><br>
                         Für unsere Männer bieten wir verschiedene Modelle von Slips bis Bermuda an.</p>
-                </div>
+                </section>
                 <div class="column is-one-quarter">
                     <img src="images/Badeschuhe.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Badeschuhe</strong><br>
@@ -76,7 +76,7 @@
                 <div class="column is-one-quarter">
                     <img src="images/Accessoiress.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Bade- und Saunaaccessoires</strong><br>
-                        Wir verkaufen auch Badehauben, Caps, Sonnenbrillen, Schwimmbrillen, Badetaschen, Badetücher, Saunatücher, uvm.  </p>
+                        Wir verkaufen auch Badehauben, Caps, Sonnenbrillen, Schwimmbrillen, Badetaschen, Badetücher, Saunatücher, <abbr title="und viele mehr">uvm.</abbr>  </p>
                 </div>
                 <div class="column is-one-quarter">
                     <img src="images/kosmetik.jpg" alt="" class="produktPic">
@@ -97,28 +97,28 @@
             <br>
             <div tabindex="-1" class="columns is-multiline is-centered is-mobile">
                 <div class="column is-narrow">
-                    <img src="images/fashyLogo.png" alt="" width="18%" class="produktPic">
+                    <img src="images/fashyLogo.png" alt="Fashy" width="18%" class="produktPic">
                 </div>
                 <div class="column is-narrow">
-                    <img src="images/palmbeachlogo.jpg" alt="" width="18%" class="produktPic">
+                    <img src="images/palmbeachlogo.jpg" alt="Palmbeach" width="18%" class="produktPic">
                 </div>
                 <div class="column is-narrow">
-                    <img src="images/selfcollectionlogo.png" alt="" width="18%" class="produktPic">
+                    <img src="images/selfcollectionlogo.png" alt="Selfcollection" width="18%" class="produktPic">
                 </div>
                 <div class="column is-narrow">
-                    <img src="images/vossenlogo.png" alt="" width="18%" class="produktPic">
+                    <img src="images/vossenlogo.png" alt="Vossen" width="18%" class="produktPic">
                 </div>
                 <div class="column is-narrow">
-                    <img src="images/comtessalogo.png" alt="" width="18%" class="produktPic">
+                    <img src="images/comtessalogo.png" alt="Comtessa" width="18%" class="produktPic">
                 </div>
                 <div class="column is-narrow">
-                    <img src="images/wewologo.png" alt="" width="18%" class="produktPic">
+                    <img src="images/wewologo.png" alt="wewo" width="18%" class="produktPic">
 
                 </div>
             </div>
         </div>
 
-    </div>
+    </main>
 
     <?php
     include("Components/Footer.html");

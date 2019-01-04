@@ -30,7 +30,7 @@
     </div>
     <!-- Contact -->
 
-    <div id="main" tabindex="-1" class="has-text-centered">
+    <main role="main" id="main" tabindex="-1" class="has-text-centered">
         <div id="welcome">
             <h1>Die Thermeninsel</h1>
             <p class="text">
@@ -76,7 +76,7 @@
             </div>
         </div>
 
-    </div>
+    </main>
 
     <?php
     include("Components/Footer.html");

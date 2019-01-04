@@ -32,51 +32,37 @@
     <!-- Contact -->
 
 
-    <div id="main" class="has-text-centered" tabindex="-1">
+        <main role="main" id="main" class="has-text-centered" tabindex="-1">
             <h1>Sitemap</h1>
             <ul id="SitemapList">
                 <li>
-                    <a href="index.php"
-                       tabindex="0"
-                       lang="en">
-                        Home
-                    </a>
+                    <a href="index.php" tabindex="0" lang="en" class="clickLink"> Home </a>
                 </li>
                 <li>
-                    <a href="about.php"
-                       tabindex="0">
-                        Über uns
-                    </a>
+                    <a href="about.php" tabindex="0" class="clickLink"> Über uns </a>
                 </li>
                 <li>
-                    <a href="shop.php"
-                       tabindex="0">
-                        Sortiment
-                    </a>
+                    <a href="shop.php" tabindex="0" class="clickLink"> Sortiment </a>
                 </li>
                 <li>
-                    <a href="request.php"
-                       tabindex="0">
-                        Anfragen
-                    </a>
+                    <a href="request.php" tabindex="0" class="clickLink"> Anfragen </a>
                 </li>
                 <li>
-                    <a href="contact.php"
-                       tabindex="0">
-                        Kontakt
-                    </a>
+                    <a href="contact.php" tabindex="0" class="clickLink"> Kontakt </a>
                 </li>
             </ul>
-
-
-
-        </div>
-
+        </main>
 
 
 
 
 
+<style>
+    .clickLink{
+        display:block;
+        height: 48px;
+    }
+</style>
 
 
 

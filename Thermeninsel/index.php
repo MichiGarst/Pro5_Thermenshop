@@ -82,13 +82,32 @@
 
     <!-- Contact -->
 
-    <div id="main" class="has-text-centered" tabindex="-1">
+    <main id="main" role="main" class="has-text-centered" tabindex="-1">
+
+        <div>
+            Laura non c'è, è andata via
+            Laura non è più cosa mia
+            E te che sei qua, e mi chiedi perché
+            L'amo se niente più mi dà
+            Mi manca da spezzare il fiato
+            Fa male e non lo sa
+            Che non mi è mai passata
+        </div>
+        <div lang="it">
+            Laura non c'è, è andata via
+            Laura non è più cosa mia
+            E te che sei qua, e mi chiedi perché
+            L'amo se niente più mi dà
+            Mi manca da spezzare il fiato
+            Fa male e non lo sa
+            Che non mi è mai passata
+        </div>
 
 
         <div id="welcome">
             <h1 id="ueberschrift1">Herzlich Willkommen bei der Thermeninsel!</h1>
             <p class="text">
-                Sample text for foreign language - English Sample text for foreign language - French Sample text for foreign language - Spanish Sample text for foreign language                Wir sind ihr Spezialist in Sachen Bademoden!
+                Wir sind ihr Spezialist in Sachen Bademoden!
                 Bei uns ist dein Badevergnügen sicher. Hier findest du alles, was du für einen gelungenen Badetag oder
                 Wellnestag benötigst.<br>
                 Keinen Bademantel dabei? Badeschuhe vergessen? Badehose zu Hause gelassen? Die Sonnencreme schon leer?
@@ -97,8 +116,8 @@
                 Wir bieten: Bademoden, Bade-Accessoires, Kosmetik, Aloe-Vera-Produkte, Sonnenschutz, Zeitschriften,
                 Bücher
                 und erstklassigen Kaffe an unserer Café-Bar! <br>
-                Außerdem sind wir <b>365 Tage im Jahr </b>für dich da. Schau einfach vorbei. <br> Wir freuen uns auf
-                dich!
+                Außerdem sind wir <strong>365 Tage im Jahr </strong>für dich da. Schau einfach vorbei. <br>
+                Wir freuen uns auf dich!
             </p>
         </div>
         <hr>
@@ -156,19 +175,16 @@
                 <div class="column is-half has-text-centered">
                     <h2 id="ueberschrift5">Angebote</h2>
                     <p id="angebottext">
-<<<<<<< HEAD
-
-                        Wir haben das ganze Jahr <b>Badeanzüge</b> zum Sonderpreis von <b>19,99€</b> und <b>Badehosen</b>
-                        <b>zu 15,00€</b>. <b>Bademäntel und Badekleider</b> bieten wir schon <b>ab 39,99€</b> an.
+                        Wir haben das ganze Jahr <strong>Badeanzüge</strong> zum Sonderpreis von <strong>19,99€</strong> und <strong>Badehosen</strong>
+                        <strong>zu 15,00€</strong>. <strong>Bademäntel und Badekleider</strong> bieten wir schon <strong>ab 39,99€</strong> an.
                         Schau einfach mal vorbei, es ist für jeden
-                        was dabei!<br> Oder du shopst Bademäntel ganz einfach <a href="request.php">hier</a> bei uns.
+                        was dabei!<br> Oder du shopst Bademäntel ganz einfach <a href="request.php" title="zur Bestellseite">hier</a> bei uns.
 
 =======
-                        Wir haben das ganze Jahr <b>Badeanzüge um 19,99€</b> und <b>Badehosen auf 15,00€ </b>
-                        reduziert.<br><b> Bademäntel gibt es ab 39,99€</b>. Schau einfach mal vorbei, es ist für jeden
+                        Wir haben das ganze Jahr <strong>Badeanzüge um 19,99€</strong> und <strong>Badehosen auf 15,00€ </strong>
+                        reduziert.<br><strong> Bademäntel gibt es ab 39,99€</strong>. Schau einfach mal vorbei, es ist für jeden
                         was dabei!
                         Oder du shopst Bademäntel ganz einfach <a href="request.php" title="zur Bestellseite">hier</a> bei uns.
->>>>>>> 75868215abae9ed34f78d3f81cf66c42546cf143
                     </p>
                 </div>
                 <div class="column is-one-quarter">
@@ -203,7 +219,7 @@
     include("Components/Footer.html");
     ?>
 
-</div>
+</main>
 
 </body>
 </html>

@@ -28,7 +28,7 @@
 
     <!-- Contact -->
 
-    <div id="main" tabindex="-1">
+    <main role="main" id="main" tabindex="-1">
 
 
         <div class="columns is-multiline has-text-centered">
@@ -61,7 +61,7 @@
         </div>
 
 
-    </div>
+    </main>
 
     <?php
     include("Components/Footer.html");
