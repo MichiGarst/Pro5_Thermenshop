@@ -78,7 +78,7 @@
         </div>
 
         <div id="bademantel" class="requestForm has-text-centered">
-            <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular">
+            <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
                 <div hidden>
                     <label for="product">Produkt:</label>
                     <input type="text" id="product" name="product" value="bademantel">
@@ -184,7 +184,7 @@
                 </select>
 
                 <fieldset>
-                    <legend aria-describedby="GroesseHelp">Wähle dein Land</legend>
+                    <legend>Wähle dein Land</legend>
                     <div class="row">
                         <input type="radio" id="de" name="land[]" value="de" checked/>
                         <label for="de"class="checkboxGroesse">Deutschland</label><br>
@@ -203,31 +203,31 @@
                 <div class="is-centered">
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
-                        <label for="first_name" id="formText">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="text" autocomplete="vorname" id="first_name" name="first_name" aria-labelledby="p5" required="required">
+                        <label for="first_name" id="formText">Vorname *
+                            <input type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
                     <div>
                         <label>
-                            user name <abbr class="require" title="Pflichtfeld">*</abbr> <input type="text" role="combobox" aria-required="true" required>
+                            Vorname * <input type="text" role="combobox" aria-required="true" required>
                         </label>
                     </div>
                     <div>
                         <span id="p4" hidden>Nachname Pflichtfeld</span>
-                        <label for="lastn" id="formText">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="text" autocomplete="nachname" id="lastn" name="lastn" aria-labelledby="p4" required="required">
+                        <label for="lastn" id="formText">Nachname *
+                            <input type="text" autocomplete="on" id="lastn" name="lastn" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
                         <span id="p3" hidden>Emailadresse Pflichfeld</span>
-                        <label for="email" id="formText">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="email" autocomplete="email" id="email" name="email" required="required" aria-labelledby="p3">
+                        <label for="email" id="formText">E-Mail *
+                            <input type="email" autocomplete="on" id="email" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
                         <label for="telephone" id="formText">Telefon:
-                            <input type="tel" pattern="[0-9]{12}" autocomplete="telephone" id="telephone" name="telephone" aria-labelledby="p2">
+                            <input type="tel" pattern="[0-9]{12}" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
@@ -247,7 +247,7 @@
 
 
         <div id="hose" class="requestForm has-text-centered">
-            <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular">
+            <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
                 <div hidden>
                     <label for="product">Produkt:</label>
                     <input type="text" id="product" name="product" value="hose">
@@ -349,7 +349,7 @@
                     </div>
                 </div> -->
                 <fieldset>
-                    <legend aria-describedby="GroesseHelp">Wähle dein Land</legend>
+                    <legend>Wähle dein Land</legend>
                     <div class="row">
                         <input type="radio" id="de" name="land[]" value="de" checked/>
                         <label for="de"class="checkboxGroesse">Deutschland</label><br>
@@ -410,7 +410,7 @@
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
                         <label for="first_name" id="formText">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="text" autocomplete="vorname" id="first_name" name="first_name" aria-labelledby="p5" required="required">
+                            <input type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
                     <div>
@@ -421,19 +421,19 @@
                     <div>
                         <span id="p4" hidden>Nachname Pflichtfeld</span>
                         <label for="lastn" id="formText">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="text" autocomplete="nachname" id="lastn" name="lastn" aria-labelledby="p4" required="required">
+                            <input type="text" autocomplete="on" id="lastn" name="lastn" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
                         <span id="p3" hidden>Emailadresse Pflichfeld</span>
                         <label for="email" id="formText">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="email" autocomplete="email" id="email" name="email" required="required" aria-labelledby="p3">
+                            <input type="email" autocomplete="on" id="email" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
                         <label for="telephone" id="formText">Telefon:
-                            <input type="tel" pattern="[0-9]{12}" autocomplete="telephone" id="telephone" name="telephone" aria-labelledby="p2">
+                            <input type="tel" pattern="[0-9]{12}" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
@@ -452,7 +452,7 @@
 
 
         <div id="bikini" class="requestForm has-text-centered">
-            <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular">
+            <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
                 <div hidden>
                     <label for="product">Produkt:</label>
                     <input type="text" id="product" name="product" value="bikini">
@@ -558,7 +558,7 @@
                 </select>
 
                 <fieldset>
-                    <legend aria-describedby="GroesseHelp">Wähle dein Land</legend>
+                    <legend>Wähle dein Land</legend>
                     <div class="row">
                         <input type="radio" id="de" name="land[]" value="de" checked/>
                         <label for="de"class="checkboxGroesse">Deutschland</label><br>
@@ -578,7 +578,7 @@
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
                         <label for="first_name" id="formText">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="text" autocomplete="vorname" id="first_name" name="first_name" aria-labelledby="p5" required="required">
+                            <input type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
                     <div>
@@ -589,19 +589,19 @@
                     <div>
                         <span id="p4" hidden>Nachname Pflichtfeld</span>
                         <label for="lastn" id="formText">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="text" autocomplete="nachname" id="lastn" name="lastn" aria-labelledby="p4" required="required">
+                            <input type="text" autocomplete="on" id="lastn" name="lastn" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
                         <span id="p3" hidden>Emailadresse Pflichfeld</span>
                         <label for="email" id="formText">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="email" autocomplete="email" id="email" name="email" required="required" aria-labelledby="p3">
+                            <input type="email" autocomplete="on" id="email" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
                         <label for="telephone" id="formText">Telefon:
-                            <input type="tel" pattern="[0-9]{12}" autocomplete="telephone" id="telephone" name="telephone" aria-labelledby="p2">
+                            <input type="tel" pattern="[0-9]{12}" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
