@@ -45,7 +45,7 @@
 <div class="box">
     <main id="main" role="main" tabindex="-1" class="has-text-centered">
         <div class="columns" id="produkte">
-            <section role="region" class="column is-one-third" onclick="setForm('bademantel', 'eins')" id="eins">
+            <div role="region" class="column is-one-third" onclick="setForm('bademantel', 'eins')" id="eins">
                 <img src="images/Texas3.jpg" alt="" class="produktPic">
                 <p onclick="setForm('bademantel', 'eins')"><strong>Vossen Texas</strong><br>
                     Der absolut trendige Kapuzenbademantel Texas ist in acht sehr
@@ -54,8 +54,8 @@
                     Leichtigkeit und einen angenehm zarten Griff aus. Die etwas kürzere Länge von 110cm macht dieses
                     Model zu einem absoluten Blickfang. <br>
                     <strong>100% Baumwolle</strong></p>
-            </section>
-            <section role="region" class="column" onclick="setForm('bikini', 'zwei')" id="zwei">
+            </div>
+            <div role="region" class="column" onclick="setForm('bikini', 'zwei')" id="zwei">
                 <img src="images/poppy1.jpg" alt="" class="produktPic">
                 <p onclick="setForm('bikini', 'zwei')"><strong>Vossen Poppy</strong><br>
                     Der Doubleface-Kapuzenbademantel liegt mit seiner Farbstellung voll im Trend. Die farblich dunklere
@@ -64,8 +64,8 @@
                     modernen Farben zeichnet sich Poppy durch einen wunderbar flauschigen Griff, einen sehr hohen
                     Tragekomfort und höchste Saugfähigkeit aus.<br>
                     <strong>20% Baumwolle, 35% Bambus, 45% Polyester</strong></p>
-            </section>
-            <section role="region" class="column" onclick="setForm('hose', 'drei')" id="drei">
+            </div>
+            <div role="region" class="column" onclick="setForm('hose', 'drei')" id="drei">
                 <img src="images/texas2.jpg" alt="" class="produktPic">
                 <p onclick="setForm('hose', 'drei')"><strong>Vossen Texas</strong><br>
                     Der absolut trendige Kapuzenbademantel Texas ist in acht sehr
@@ -74,7 +74,7 @@
                     Leichtigkeit und einen angenehm zarten Griff aus. Die etwas kürzere Länge von 110cm macht dieses
                     Model zu einem absoluten Blickfang. <br>
                     <strong>100% Baumwolle</strong></p>
-            </section>
+            </div>
         </div>
 
         <div id="bademantel" class="requestForm has-text-centered">
@@ -173,8 +173,9 @@
 
                 <br>
 
-                <label for="groesse1" aria-describedby="GroesseHelp">Wähle eine Größe:</label>
-                <select id="groesse1" name="groesse[]" multiple required>
+                <div id="GroesseHelp" hidden>Sie können mehrere Größen auswählen.</div>
+                <label for="groesse">Wähle eine Größe:</label>
+                <select id="groesse" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
                     <option value="XS">XS</option>
                     <option value="S">S</option>
                     <option value="M">M</option>
@@ -187,10 +188,10 @@
                     <legend>Wähle dein Land</legend>
                     <div class="row">
                         <input type="radio" id="de" name="land[]" value="de" checked/>
-                        <label for="de"class="checkboxGroesse">Deutschland</label><br>
+                        <label for="de" class="checkboxGroesse">Deutschland</label><br>
 
                         <input type="radio" id="at" name="land[]" value="at" />
-                        <label for="at"class="checkboxGroesse">Österreich</label><br>
+                        <label for="at" class="checkboxGroesse">Österreich</label><br>
 
                         <input type="radio" id="ch" name="land[]" value="ch" />
                         <label for="ch" class="checkboxGroesse">Schweiz</label><br>
@@ -203,7 +204,7 @@
                 <div class="is-centered">
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
-                        <label for="first_name" id="formText">Vorname *
+                        <label for="first_name">Vorname *
                             <input type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
@@ -214,25 +215,25 @@
                     </div>
                     <div>
                         <span id="p4" hidden>Nachname Pflichtfeld</span>
-                        <label for="lastn" id="formText">Nachname *
-                            <input type="text" autocomplete="on" id="lastn" name="lastn" aria-labelledby="p4" required="required">
+                        <label for="last_name">Nachname *
+                            <input type="text" autocomplete="on" id="last_name" name="last_name" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
                         <span id="p3" hidden>Emailadresse Pflichfeld</span>
-                        <label for="email" id="formText">E-Mail *
+                        <label for="email">E-Mail *
                             <input type="email" autocomplete="on" id="email" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
-                        <label for="telephone" id="formText">Telefon:
+                        <label for="telephone">Telefon:
                             <input type="tel" pattern="[0-9]{12}" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
                         <span id="p1" hidden>Ihre Wünsche</span>
-                        <label for="desires" id="formText">Ihre Wünsche:</label>
+                        <label for="desires">Ihre Wünsche:</label>
                         <textarea type="text" id="desires" name="desires" aria-labelledby="p1"></textarea>
                     </div>
                 </div>
@@ -285,15 +286,15 @@
                     </div>
                 </div> -->
 
-                <label for="farbe">Wähle eine Farbe:</label>
-                <select id="farbe" name="farbe">
+                <label for="farbe2">Wähle eine Farbe:</label>
+                <select id="farbe2" name="farbe">
                     <option value="Atlantic">Atlantic</option>
                     <option value="Purpur">Purpur</option>
                     <option value="Lagoon">Lagoon</option>
                 </select>
                 <br>
-                <label for="groesse1" aria-describedby="GroesseHelp">Wähle eine Größe:</label>
-                <select id="groesse1" name="groesse[]" multiple required>
+                <label for="groesse2" aria-describedby="GroesseHelp">Wähle eine Größe:</label>
+                <select id="groesse2" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
                     <option value="XS">XS</option>
                     <option value="S">S</option>
                     <option value="M">M</option>
@@ -351,17 +352,17 @@
                 <fieldset>
                     <legend>Wähle dein Land</legend>
                     <div class="row">
-                        <input type="radio" id="de" name="land[]" value="de" checked/>
-                        <label for="de"class="checkboxGroesse">Deutschland</label><br>
+                        <input type="radio" id="de2" name="land[]" value="de" checked/>
+                        <label for="de2" class="checkboxGroesse">Deutschland</label><br>
 
-                        <input type="radio" id="at" name="land[]" value="at" />
-                        <label for="at"class="checkboxGroesse">Österreich</label><br>
+                        <input type="radio" id="at2" name="land[]" value="at" />
+                        <label for="at2" class="checkboxGroesse">Österreich</label><br>
 
-                        <input type="radio" id="ch" name="land[]" value="ch" />
-                        <label for="ch" class="checkboxGroesse">Schweiz</label><br>
+                        <input type="radio" id="ch2" name="land[]" value="ch" />
+                        <label for="ch2" class="checkboxGroesse">Schweiz</label><br>
 
-                        <input type="radio" id="ot" name="land[]" value="ot" />
-                        <label for="ot" class="checkboxGroesse">Anderes Land</label>
+                        <input type="radio" id="ot2" name="land[]" value="ot" />
+                        <label for="ot2" class="checkboxGroesse">Anderes Land</label>
                     </div>
                 </fieldset>
 
@@ -409,37 +410,37 @@
                 <div class="is-centered">
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
-                        <label for="first_name" id="formText">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
+                        <label for="first_name2">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
+                            <input type="text" autocomplete="on" id="first_name2" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
                     <div>
                         <label>
-                            user name <abbr class="require" title="Pflichtfeld">*</abbr> <input type="text" role="combobox" aria-required="true" required>
+                            Vorname * <input type="text" role="combobox" aria-required="true" required>
                         </label>
                     </div>
                     <div>
                         <span id="p4" hidden>Nachname Pflichtfeld</span>
-                        <label for="lastn" id="formText">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="text" autocomplete="on" id="lastn" name="lastn" aria-labelledby="p4" required="required">
+                        <label for="last_name2">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
+                            <input type="text" autocomplete="on" id="last_name2" name="last_name" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
                         <span id="p3" hidden>Emailadresse Pflichfeld</span>
-                        <label for="email" id="formText">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="email" autocomplete="on" id="email" name="email" required="required" aria-labelledby="p3">
+                        <label for="email2">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
+                            <input type="email" autocomplete="on" id="email2" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
-                        <label for="telephone" id="formText">Telefon:
-                            <input type="tel" pattern="[0-9]{12}" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
+                        <label for="telephone2">Telefon:
+                            <input type="tel" pattern="[0-9]{12}" autocomplete="on" id="telephone2" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
                         <span id="p1" hidden>Ihre Wünsche</span>
-                        <label for="desires" id="formText">Ihre Wünsche:</label>
-                        <textarea type="text" id="desires" name="desires" aria-labelledby="p1"></textarea>
+                        <label for="desires2">Ihre Wünsche:</label>
+                        <textarea type="text" id="desires2" name="desires" aria-labelledby="p1"></textarea>
                     </div>
                 </div>
                 <button type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
@@ -538,8 +539,8 @@
                     </div>
                 </div> -->
 
-                <label for="farbe">Wähle eine Farbe:</label>
-                <select id="farbe" name="farbe">
+                <label for="farbe3">Wähle eine Farbe:</label>
+                <select id="farbe3" name="farbe">
                     <option value="Atlantic">Atlantic</option>
                     <option value="Purpur">Purpur</option>
                     <option value="Lagoon">Lagoon</option>
@@ -547,8 +548,8 @@
 
                 <br>
 
-                <label for="groesse1" aria-describedby="GroesseHelp">Wähle eine Größe:</label>
-                <select id="groesse1" name="groesse[]" multiple required>
+                <label for="groesse3" aria-describedby="GroesseHelp">Wähle eine Größe:</label>
+                <select id="groesse3" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
                     <option value="XS">XS</option>
                     <option value="S">S</option>
                     <option value="M">M</option>
@@ -560,54 +561,54 @@
                 <fieldset>
                     <legend>Wähle dein Land</legend>
                     <div class="row">
-                        <input type="radio" id="de" name="land[]" value="de" checked/>
-                        <label for="de"class="checkboxGroesse">Deutschland</label><br>
+                        <input type="radio" id="de3" name="land[]" value="de" checked/>
+                        <label for="de3" class="checkboxGroesse">Deutschland</label><br>
 
-                        <input type="radio" id="at" name="land[]" value="at" />
-                        <label for="at"class="checkboxGroesse">Österreich</label><br>
+                        <input type="radio" id="at3" name="land[]" value="at" />
+                        <label for="at3" class="checkboxGroesse">Österreich</label><br>
 
-                        <input type="radio" id="ch" name="land[]" value="ch" />
-                        <label for="ch" class="checkboxGroesse">Schweiz</label><br>
+                        <input type="radio" id="ch3" name="land[]" value="ch" />
+                        <label for="ch3" class="checkboxGroesse">Schweiz</label><br>
 
-                        <input type="radio" id="ot" name="land[]" value="ot" />
-                        <label for="ot" class="checkboxGroesse">Anderes Land</label>
+                        <input type="radio" id="ot3" name="land[]" value="ot" />
+                        <label for="ot3" class="checkboxGroesse">Anderes Land</label>
                     </div>
                 </fieldset>
 
                 <div class="is-centered">
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
-                        <label for="first_name" id="formText">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
+                        <label for="first_name3">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
+                            <input type="text" autocomplete="on" id="first_name3" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
                     <div>
                         <label>
-                            user name <abbr class="require" title="Pflichtfeld">*</abbr> <input type="text" role="combobox" aria-required="true" required>
+                            Vorname * <input type="text" role="combobox" aria-required="true" required>
                         </label>
                     </div>
                     <div>
                         <span id="p4" hidden>Nachname Pflichtfeld</span>
-                        <label for="lastn" id="formText">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="text" autocomplete="on" id="lastn" name="lastn" aria-labelledby="p4" required="required">
+                        <label for="last_name3">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
+                            <input type="text" autocomplete="on" id="last_name3" name="last_name" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
                         <span id="p3" hidden>Emailadresse Pflichfeld</span>
-                        <label for="email" id="formText">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
-                            <input type="email" autocomplete="on" id="email" name="email" required="required" aria-labelledby="p3">
+                        <label for="email3">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
+                            <input type="email" autocomplete="on" id="email3" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
-                        <label for="telephone" id="formText">Telefon:
-                            <input type="tel" pattern="[0-9]{12}" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
+                        <label for="telephone3">Telefon:
+                            <input type="tel" pattern="[0-9]{12}" autocomplete="on" id="telephone3" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
                         <span id="p1" hidden>Ihre Wünsche</span>
-                        <label for="desires" id="formText">Ihre Wünsche:</label>
-                        <textarea type="text" id="desires" name="desires" aria-labelledby="p1"></textarea>
+                        <label for="desires3">Ihre Wünsche:</label>
+                        <textarea type="text" id="desires3" name="desires" aria-labelledby="p1"></textarea>
                     </div>
                 </div>
                 <button type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
@@ -626,16 +627,16 @@
             <table summary="In dieser Tabelle werden alle Bikinigößen beschrieben.">
                 <caption aria-describedby="tabelleSummary">Größentabelle</caption>
                 <tr>
-                    <th>Größe</th>
-                    <th>XS</th>
-                    <th>S</th>
-                    <th>M</th>
-                    <th>L</th>
-                    <th>XL</th>
-                    <th>XXL</th>
+                    <th scope="col">Größe</th>
+                    <th scope="col">XS</th>
+                    <th scope="col">S</th>
+                    <th scope="col">M</th>
+                    <th scope="col">L</th>
+                    <th scope="col">XL</th>
+                    <th scope="col">XXL</th>
                 </tr>
                 <tr>
-                    <th>Konfektionsgröße</th>
+                    <th scope="row">Konfektionsgröße</th>
                     <td>34</td>
                     <td>36</td>
                     <td>40</td>
@@ -644,7 +645,7 @@
                     <td>52</td>
                 </tr>
                 <tr>
-                    <th>Brustumfang</th>
+                    <th scope="row">Brustumfang</th>
                     <td>86</td>
                     <td>90</td>
                     <td>99</td>
@@ -653,7 +654,7 @@
                     <td>129</td>
                 </tr>
                 <tr>
-                    <th>Hüftumfang</th>
+                    <th scope="row">Hüftumfang</th>
                     <td>96</td>
                     <td>98</td>
                     <td>107</td>
