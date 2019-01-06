@@ -715,6 +715,8 @@
     .checkboxGroesse {
         font-size: 1.5em;
         margin-right: 10%;
+        line-height: 2.15em;
+        padding: 15px 1px;
     }
 
     #groesseTabelle{
@@ -758,7 +760,8 @@
         padding-right: 0.75em;
         width: 20em;
         border: none;
-        margin-top: 2em;
+        margin-top: 1em;
+        margin-bottom: 0.8em;
     }
 
     table{
@@ -809,15 +812,17 @@
         box-sizing: border-box;
         position: relative;
         box-sizing: content-box;
-        margin-top: 1em;
+        margin-bottom: 1.25em;
         width: 200px;
-        height: 30px;
+        height: 35px;
         border-width: 0;
         transition: all .3s linear;
     }
 
     textarea{
         height: 100px;
+        margin-bottom: 0em;
+
     }
 
     caption{
@@ -833,8 +838,9 @@
         box-sizing: border-box;
         position: relative;
         box-sizing: content-box ;
+        margin-bottom: 0.8em;
         width: 200px;
-        height: 30px;
+        height: 35px;
         border-width: 0;
         padding: 0.2em;
         font-size: 1.5em;
