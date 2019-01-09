@@ -91,7 +91,8 @@
                 </div>
             </div>
         </div>
-
+    </main>
+    <main id="main2" role="main" class="has-text-centered" tabindex="-1">
         <div id="marken">
             <h2 id="ueberschrift3">Unsere Marken</h2>
             <br>
@@ -117,8 +118,8 @@
                 </div>
             </div>
         </div>
-
     </main>
+
 
     <?php
     include("Components/Footer.html");
