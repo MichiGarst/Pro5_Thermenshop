@@ -1,5 +1,11 @@
-#welcome, #team{
+#aboutInnen, #main{
+    padding: 15px;
+    margin: 15px;
+}
+
+#welcome {
+    padding: 20px;
+}
+#aboutInnen, #aboutAussen {
     background-color: #F7F7F6;
-    margin: 20px;
-    padding: 10px;
 }
