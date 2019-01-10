@@ -228,7 +228,7 @@
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
                         <label for="telephone">Telefon:
-                            <input type="tel" pattern="[0-9]{12}" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
+                            <input type="tel" pattern="[0-9]{10,13}" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
@@ -434,7 +434,7 @@
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
                         <label for="telephone2">Telefon:
-                            <input type="tel" pattern="[0-9]{12}" autocomplete="on" id="telephone2" name="telephone" aria-labelledby="p2">
+                            <input type="tel" pattern="[0-9]{10,13}" autocomplete="on" id="telephone2" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
@@ -602,7 +602,7 @@
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
                         <label for="telephone3">Telefon:
-                            <input type="tel" pattern="[0-9]{12}" autocomplete="on" id="telephone3" name="telephone" aria-labelledby="p2">
+                            <input type="tel" pattern="[0-9]{10,13}" autocomplete="on" id="telephone3" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>

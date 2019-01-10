@@ -78,7 +78,7 @@ try{
 //Something went bad
     echo "Fail - " . $mail->ErrorInfo;
 }
-echo("<script>location.href='https://thermenshop.000webhostapp.com/request.php'</script>");
-
+//echo("<script>location.href='https://thermenshop.000webhostapp.com/request.php'</script>");
+echo("<script>location.href='http://localhost:63342/Pro5_Thermenshop/Thermeninsel/request.php'</script>");
 //header("Location: https://thermenshop.000webhostapp.com/request.php");
 ?>
