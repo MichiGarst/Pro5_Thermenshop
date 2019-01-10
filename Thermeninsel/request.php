@@ -771,10 +771,8 @@
     input[type="checkbox"],input[type="radio"]{
         cursor: pointer;
         -webkit-appearance: none;
-        appearance: none;
         background: lightgrey;
         border-radius: 1px;
-        box-sizing: border-box;
         position: relative;
         box-sizing: content-box ;
         width: 30px;
@@ -787,10 +785,8 @@
     button{
         cursor: pointer;
         -webkit-appearance: none;
-        appearance: none;
         background: lightgrey;
         border-radius: 1px;
-        box-sizing: border-box;
         position: relative;
         box-sizing: content-box ;
         width: 85px;
@@ -806,10 +802,8 @@
     input[type="text"], input[type="email"], input[type="tel"], textarea{
         cursor: pointer;
         -webkit-appearance: none;
-        appearance: none;
         background: lightgrey;
         border-radius: 1px;
-        box-sizing: border-box;
         position: relative;
         box-sizing: content-box;
         margin-bottom: 1.25em;
@@ -832,10 +826,8 @@
     select{
         cursor: pointer;
         -webkit-appearance: none;
-        appearance: none;
         background: lightgrey;
         border-radius: 1px;
-        box-sizing: border-box;
         position: relative;
         box-sizing: content-box ;
         margin-bottom: 0.8em;

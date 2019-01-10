@@ -62,6 +62,10 @@
         display:block;
         height: 48px;
     }
+
+    #SitemapList{
+        list-style-type: none;
+    }
 </style>
 
 
