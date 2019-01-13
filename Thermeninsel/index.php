@@ -103,7 +103,7 @@
             Che non mi è mai passata
         </div>
 
-
+<div id="welcomeAussen">
         <div id="welcome">
             <h1 id="ueberschrift1">Herzlich Willkommen bei der Thermeninsel!</h1>
             <p class="text">
@@ -120,7 +120,8 @@
                 Wir freuen uns auf dich!
             </p>
         </div>
-        <hr>
+</div>
+
         <div class="columns">
             <div class="column is-centered" id="contact">
                 <p id="kontakt">
@@ -144,14 +145,12 @@
                 <div class="zeit">08:30 - 16:30</div>
                 </p>
             </div>
-        <hr>
-        <div id="sortiment">
-
-            <div class="columns is-centered">
-                <div class="column is-two-fifths">
+        </div>
+            <div class="columns is-centered" id="sortiment">
+                <div class="column">
                     <img src="images/fashyStart.jpg" alt="" id="sort">
                 </div>
-                <div class="column is-half has-text-centered" >
+                <div class="column  has-text-centered" >
                     <h2 id="ueberschrift4">Unser Sortiment</h2>
                     <p class="sortimenttext">
                         Bei uns gibt es immer die neusten Designs in Sachen Bademode. Egal ob Badeanzug, Bikini, Tankini
@@ -166,55 +165,36 @@
                 </div>
 
             </div>
-        </div>
-        <hr>
-        <div id="angebot">
-
-            <div class="columns is-centered">
-
-                <div class="column is-half has-text-centered">
+            <div class="columns is-centered" id="angebot">
+                <div class="column  has-text-centered">
                     <h2 id="ueberschrift5">Angebote</h2>
                     <p id="angebottext">
-                        Wir haben das ganze Jahr <strong>Badeanzüge</strong> zum Sonderpreis von <strong>19,99€</strong> und <strong>Badehosen</strong>
-                        <strong>zu 15,00€</strong>. <strong>Bademäntel und Badekleider</strong> bieten wir schon <strong>ab 39,99€</strong> an.
-                        Schau einfach mal vorbei, es ist für jeden
-                        was dabei!<br> Oder du shopst Bademäntel ganz einfach <a href="request.php" title="zur Bestellseite">hier</a> bei uns.
-
-=======
                         Wir haben das ganze Jahr <strong>Badeanzüge um 19,99€</strong> und <strong>Badehosen auf 15,00€ </strong>
-                        reduziert.<br><strong> Bademäntel gibt es ab 39,99€</strong>. Schau einfach mal vorbei, es ist für jeden
+                        reduziert.<strong> Bademäntel gibt es ab 39,99€</strong>. Schau einfach mal vorbei, es ist für jeden
                         was dabei!
                         Oder du shopst Bademäntel ganz einfach <a href="request.php" title="zur Bestellseite">hier</a> bei uns.
                     </p>
                 </div>
-                <div class="column is-one-quarter">
+                <div class="column">
                     <img src="images/fashyMann.jpg" alt="" id="mann">
                 </div>
             </div>
-        </div>
-        <hr>
-        <div id="kaffee">
-
-            <div class="columns is-centered">
-                <div class="column is-one-quarter">
+            <div class="columns is-centered" id="kaffee">
+                <div class="column">
                     <img src="images/coffee.jpg" alt="" id="coffee">
                 </div>
-                <div class="column is-half has-text-centered">
+                <div class="column  has-text-centered">
                     <h2 id="ueberschrift6">Café Bar</h2>
                     <p id="kaffeetext">
                         Bei uns an der Café Bar kannst du deinen Urlaub noch einen kleinen Moment verlängern. Egal ob
                         Cappuccino, Latte Macchiato oder einfach nur ein
                         normaler Café Crema.<br> Lass noch einen Moment die Seele baumeln, bevor der stressige Alltag
                         dich wieder einholt.
-                        Natürlich kannst du bei uns auch alles mitnehmen.
 
                     </p>
                 </div>
 
             </div>
-        </div>
-    </div>
-
     <?php
     include("Components/Footer.html");
     ?>

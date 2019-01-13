@@ -1,4 +1,4 @@
-body {
+#welcome, #welcomeAussen, #sortiment, #kaffee{
     background-color: #F7F7F6;
 }
 
@@ -6,9 +6,6 @@ body {
     margin: 20px;
     padding: 10px;
 
-}
-hr {
-    color: #ffcc00;
 }
 
 
@@ -18,33 +15,14 @@ hr {
 
 
 @media screen and (max-width: 768px) {
-    #coffee {
+    #sort, #coffee, #mann {
         width:150px !important;
         height: 150px !important;
     }
 }
 
 @media screen and (min-width: 769px) {
-    #coffee {
-        width:200px !important;
-        height: 200px !important;
-    }
-    #contact {
-        padding: 10px;
-        margin-left: 30px;
-        margin-right:10px;
-        margin-top: 20px;
-    }
-    #time {
-        padding: 10px;
-        margin-right:30px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    #coffee {
+    #sort, #coffee, #mann {
         width:250px !important;
         height: 250px !important;
     }
@@ -62,12 +40,28 @@ hr {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    #sort, #coffee, #mann {
+        width:350px !important;
+        height: 350px !important;
+    }
+    #contact {
+        padding: 10px;
+        margin-left: 30px;
+        margin-right:10px;
+        margin-top: 20px;
+    }
+    #time {
+        padding: 10px;
+        margin-right:30px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
-    #sort {
-        width:210px !important;
-        height: 150px !important;
-    }
+
     #contact {
         margin: 30px;
         padding: 10px;
@@ -78,39 +72,8 @@ hr {
     }
 }
 
-@media screen and (min-width: 769px) {
-    #sort {
-        width:252px !important;
-        height: 180px !important;
-    }
-}
 
-@media screen and (min-width: 1024px) {
-    #sort {
-        width:350px !important;
-        height: 250px !important;
-    }
-}
-@media screen and (max-width: 768px) {
-    #mann {
-        width:210px !important;
-        height: 300px !important;
-    }
-}
 
-@media screen and (min-width: 769px) {
-    #mann {
-        width:252px !important;
-        height: 340px !important;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    #mann {
-        width:200px !important;
-        height: 350px !important;
-    }
-}
 
 a:hover {
     font-weight: bolder;
