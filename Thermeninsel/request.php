@@ -67,18 +67,17 @@
             </div>
             <div role="region" class="column" onclick="setForm('hose', 'drei')" id="drei">
                 <img src="images/texas2.jpg" alt="" class="produktPic">
-                <p onclick="setForm('hose', 'drei')"><strong>Vossen Texas</strong><br>
-                    Der absolut trendige Kapuzenbademantel Texas ist in acht sehr
-                    modernen, frischen Farben erhältlich. Aufgrund seiner hochwertigen Veloursoberfläche zeichnet sich
-                    der Mantel durch eine besondere
-                    Leichtigkeit und einen angenehm zarten Griff aus. Die etwas kürzere Länge von 110cm macht dieses
-                    Model zu einem absoluten Blickfang. <br>
+                <p onclick="setForm('hose', 'drei')"><strong>Vossen Dallas</strong><br>
+                    Comfort Line / Unisex / Dallas, der moderne Velours-Unisexmantel aus
+                    100% Baumwolle besticht durch beste Qualität und höchsten Tragekomfort.
+                    Der exklusive Schnitt und die etwas kürzere Länge machen diesen Mantel
+                    zu einem absoluten Blickfang. Diese Kollektion ist in sehr modernen Farben erhältlich. <br>
                     <strong>100% Baumwolle</strong></p>
             </div>
         </div>
 
         <div id="bademantel" class="requestForm has-text-centered">
-            <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
+            <form class="columns "  action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
                 <div hidden>
                     <label for="product">Produkt:</label>
                     <input type="text" id="product" name="product" value="bademantel">
@@ -163,16 +162,24 @@
                         <label for="checkbox6_group2">XXL</label>
                     </div>
                 </div> -->
-
+<div class="column has-text-centered">
                 <label for="farbe">Wähle eine Farbe:</label>
                 <select id="farbe" name="farbe">
-                    <option value="Atlantic">Atlantic</option>
                     <option value="Purpur">Purpur</option>
                     <option value="Lagoon">Lagoon</option>
+                    <option value="Winternight">Winternight</option>
+                    <option value="Cranberry">Cranberry</option>
+                    <option value="Flanell">Flanell</option>
+                    <option value="Atlantik">Atlantik</option>
+                    <option value="Schwarz">Schwarz</option>
+                    <option value="Turquoise">Turquoise</option>
+                    <option value="Weiss">Weiß</option>
+                    <option value="MeadowGreen">Meadow Green</option>
+
                 </select>
-
+</div>
                 <br>
-
+<div class="column">
                 <div id="GroesseHelp" hidden>Sie können mehrere Größen auswählen.</div>
                 <label for="groesse">Wähle eine Größe:</label>
                 <select id="groesse" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
@@ -183,8 +190,8 @@
                     <option value="XL">XL</option>
                     <option value="XXL">XXL</option>
                 </select>
-
-                <fieldset>
+</div>
+                <fieldset class="column">
                     <legend>Wähle dein Land</legend>
                     <div class="row">
                         <input type="radio" id="de" name="land[]" value="de" checked/>
@@ -201,7 +208,7 @@
                     </div>
                 </fieldset>
 
-                <div class="is-centered">
+                <div class="column is-centered ">
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
                         <label for="first_name">Vorname *
@@ -221,13 +228,13 @@
                     </div>
                     <div>
                         <span id="p3" hidden>Emailadresse Pflichfeld</span>
-                        <label for="email">E-Mail *
+                        <label for="email">E-Mail Adresse*
                             <input type="email" autocomplete="on" id="email" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
-                        <label for="telephone">Telefon:
+                        <label for="telephone">Telefonnummer:
                             <input type="tel" pattern="[0-9]{10,13}" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
@@ -288,9 +295,14 @@
 
                 <label for="farbe2">Wähle eine Farbe:</label>
                 <select id="farbe2" name="farbe">
-                    <option value="Atlantic">Atlantic</option>
-                    <option value="Purpur">Purpur</option>
-                    <option value="Lagoon">Lagoon</option>
+                    <option value="Flanell">Flanell</option>
+                    <option value="Shell">Shell</option>
+                    <option value="Rubin">Rubin</option>
+                    <option value="Winternight">Winternight</option>
+                    <option value="Turquoise">Turquoise</option>
+                    <option value="Weiss">Weiß</option>
+
+
                 </select>
                 <br>
                 <label for="groesse2" aria-describedby="GroesseHelp">Wähle eine Größe:</label>
@@ -541,9 +553,18 @@
 
                 <label for="farbe3">Wähle eine Farbe:</label>
                 <select id="farbe3" name="farbe">
-                    <option value="Atlantic">Atlantic</option>
                     <option value="Purpur">Purpur</option>
+                    <option value="Timber">Timber</option>
+                    <option value="Cranberry">Cranberry</option>
+                    <option value="Flanell">Flanell</option>
+                    <option value="Winternight">Winternight</option>
+                    <option value="Anthrazit">Anthrazit</option>
+                    <option value="Graphit">Graphit</option>
+                    <option value="Cosmos">Cosmos</option>
+                    <option value="Violet">Violet</option>
                     <option value="Lagoon">Lagoon</option>
+                    <option value="ValleyGreen">Valley Green</option>
+                    <option value="Curacao">Curacao</option>
                 </select>
 
                 <br>
@@ -619,7 +640,7 @@
         </div>
 
         <div id="GroesseHelp" hidden>Sie können mehrere Größen auswählen.</div>
-        <div id="checkboxHelpHide" hidden>Sie können einmal oder mehrmals dasselbe Produkt bestellen.</div>
+      <!--  <div id="checkboxHelpHide" hidden>Sie können einmal oder mehrmals dasselbe Produkt bestellen.</div>-->
 
 
         <div id="groesseTabelle">
