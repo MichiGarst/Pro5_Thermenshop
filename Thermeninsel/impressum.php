@@ -10,7 +10,7 @@
     include("Components/BulmaEinbindung.html");
     ?>
 
-    <link rel="stylesheet" type="text/css" href="styles/contactstyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/agbstyle.css">
 
 </head>
 <body>
