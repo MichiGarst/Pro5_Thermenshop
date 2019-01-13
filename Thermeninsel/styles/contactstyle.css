@@ -1,5 +1,5 @@
 
-#time, #contact {
+#information {
     background-color: #F7F7F6;
     margin: 30px;
     padding: 10px;
@@ -7,3 +7,8 @@
 .kontaktText, .zeit {
     font-weight: bold;
 }
+#maps {
+    margin: 30px;
+    padding: 10px;
+}
+
