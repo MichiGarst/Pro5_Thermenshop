@@ -84,7 +84,7 @@
 
     <main id="main" role="main" class="has-text-centered" tabindex="-1">
 
-        <div class="italienisch">
+        <div class="italienisch" hidden>
             Laura non c'è, è andata via
             Laura non è più cosa mia
             E te che sei qua, e mi chiedi perché
@@ -93,7 +93,7 @@
             Fa male e non lo sa
             Che non mi è mai passata
         </div>
-        <div lang="it" class="italienisch">
+        <div lang="it" class="italienisch" hidden>
             Laura non c'è, è andata via
             Laura non è più cosa mia
             E te che sei qua, e mi chiedi perché
