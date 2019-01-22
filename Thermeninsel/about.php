@@ -31,20 +31,20 @@
             <div class="is-centered">
                 <img src="images/fashybild1.jpg" alt="" id="thermePic">
             </div>
-            <div id="welcome">
+            <section id="welcome">
                 <h1 class="ueberschrift" id="ueberschrift1">Die Thermeninsel</h1>
                 <p class="text">
                     Die Seele der Thermeninsel sind unsere Mitarbeiter, die mit viel Herz, Erfahrung und Tatendrang ihre Arbeit
                     erledigen.
                     Mit unserer jahrenlagen Erfahrung beraten wir dich gerne und helfen dir das richtige zu finden.
                 </p>
-            </div>
+            </section>
         </div>
     </div>
 
     <main role="main" id="main" tabindex="-1" class="has-text-centered">
 
-        <div id="team">
+        <section id="team">
             <h2>Das Team</h2>
             <div tabindex="-1" class="columns is-multiline is-centered">
                 <div class="column is-narrow has-text-centered is-one-quarter">
@@ -72,7 +72,7 @@
                     </figure>
                 </div>
             </div>
-        </div>
+        </section>
 
     </main>
 

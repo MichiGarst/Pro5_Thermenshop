@@ -32,12 +32,12 @@
             <div class="is-centered">
                 <img src="images/fashybild3.jpg" alt="" width="100%" id="">
             </div>
-            <div id="welcome" class="has-text-centered">
+            <section id="welcome" class="has-text-centered">
                 <h1 class="ueberschrift" id="h1">Anfrage senden</h1>
                 <p>Hier können Sie Bademäntel oder Lederbadehosen bestellen. Einfach Größe, Farbe auswählen und eine Anfrage
                     abschicken. Wir nehmen dann gerne mit Ihnen
                     Kontakt auf und geben Bescheid, wann der Artikel ankommt!</p>
-            </div>
+            </section>
         </div>
 </div>
 
@@ -76,10 +76,10 @@
             </div>
         </div>
 
-        <h2 id="requestForm">Anfrageformular</h2>
-        <div id="bademantel" class="requestForm has-text-centered">
+        <section id="bademantel" class="requestForm has-text-centered">
+            <h2 id="requestForm">Anfrageformular</h2>
             <form class="columns "  action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
-                <strong class="FormHeading">Bademantel Texas</strong>
+                <strong class="FormHeading">Bademantel Texas</strong><br><br>
                 <div hidden>
                     <label for="product">Produkt:</label>
                     <input type="text" id="product" name="product" value="bademantel Texas">
@@ -181,7 +181,7 @@
                 </select>
 </div>
                 <br>
-<div class="column">
+<fieldset class="column">
                 <div id="GroesseHelp" hidden>Sie können mehrere Größen auswählen.</div>
                 <label for="groesse">Wähle eine Größe:</label>
                 <select id="groesse" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
@@ -192,7 +192,7 @@
                     <option value="XL">XL</option>
                     <option value="XXL">XXL</option>
                 </select>
-</div>
+</fieldset>
                 <fieldset class="column">
                     <legend>Wähle dein Land</legend>
                     <div class="row">
@@ -210,7 +210,7 @@
                     </div>
                 </fieldset>
 
-                <div class="column is-centered ">
+                <fieldset class="column is-centered ">
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
                         <label for="first_name" class="DataField">Vorname *
@@ -243,22 +243,23 @@
                     <div>
                         <span id="p1" hidden>Ihre Wünsche</span>
                         <label for="desires" class="DataField">Ihre Wünsche:</label>
-                        <textarea type="text" id="desires" name="desires" aria-labelledby="p1"></textarea>
+                        <textarea id="desires" name="desires" aria-labelledby="p1"></textarea>
                     </div>
-                </div>
+                </fieldset>
                 <button type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
             </form>
             <section id="tableButton">
                 <button type="button" name="tabelle" role="button" id="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
             </section>
-        </div>
+        </section>
 
 
 
 
-        <div id="hose" class="requestForm has-text-centered">
+        <section id="hose" class="requestForm has-text-centered">
+            <h2 id="requestForm">Anfrageformular</h2>
             <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
-                <strong class="FormHeading">Bademantel Dallas</strong>
+                <strong class="FormHeading">Bademantel Dallas</strong><br><br>
                 <div hidden>
                     <label for="product">Produkt:</label>
                     <input type="text" id="product" name="product" value="Bademantel Dallas">
@@ -304,8 +305,6 @@
                     <option value="Winternight">Winternight</option>
                     <option value="Turquoise">Turquoise</option>
                     <option value="Weiss">Weiß</option>
-
-
                 </select>
                 <br>
                 <label for="groesse2" aria-describedby="GroesseHelp">Wähle eine Größe:</label>
@@ -422,7 +421,7 @@
                     <label for="XXL">XXL</label>
                 </fieldset>-->
 
-                <div class="is-centered">
+                <fieldset class="is-centered">
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
                         <label for="first_name2" class="DataField">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
@@ -457,17 +456,18 @@
                         <label for="desires2" class="DataField">Ihre Wünsche:</label>
                         <textarea type="text" id="desires2" name="desires" aria-labelledby="p1"></textarea>
                     </div>
-                </div>
+                </fieldset>
                 <button type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
             </form>
             <section id="tableButton">
                 <button type="button" name="tabelle" role="button" id="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
             </section>
-        </div>
+        </section>
 
 
 
-        <div id="bikini" class="requestForm has-text-centered">
+        <section id="bikini" class="requestForm has-text-centered">
+            <h2 id="requestForm">Anfrageformular</h2>
             <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
                 <strong class="FormHeading">Bademantel Poppy</strong><br><br>
                 <div hidden>
@@ -600,7 +600,7 @@
                     </div>
                 </fieldset>
 
-                <div class="is-centered">
+                <fieldset class="is-centered">
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
                         <label for="first_name3" class="DataField">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
@@ -635,13 +635,13 @@
                         <label for="desires3" class="DataField">Ihre Wünsche:</label>
                         <textarea type="text" id="desires3" name="desires" aria-labelledby="p1"></textarea>
                     </div>
-                </div>
+                </fieldset>
                 <button type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
             </form>
             <section id="tableButton">
            <button type="button" name="tabelle" role="button" id="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
             </section>
-        </div>
+        </section>
 
         <div id="GroesseHelp" hidden>Sie können mehrere Größen auswählen.</div>
       <!--  <div id="checkboxHelpHide" hidden>Sie können einmal oder mehrmals dasselbe Produkt bestellen.</div>-->

@@ -33,14 +33,14 @@
             <div class="is-centered">
                 <img src="images/fashybild2.jpg" alt="" id="thermePic">
             </div>
-            <div id="welcome">
+            <section id="welcome">
                 <h1 class="ueberschrift" id="ueberschrift1">Der Thermenshop</h1>
-                <p class="text">Bei uns erhältst du alles, was du für einen entspannten Bade- und Saunaaufenthalt. Wir sind dein Profi, wenn es
+                <p class="text">Bei uns erhältst du alles, was du für einen entspannten Bade- und Saunaaufenthalt benötigst. Wir sind dein Profi, wenn es
                     um Bademoden für Damen und Herren geht.<br> Mit unseren großen Auswahl findet jeder das richtige. Modisch immer aktuell auf dem neuesten
                     Stand und exklusive Bademode aus Italien.<br> Egal ob Bademäntel, Badeanzüge, Bikini, Tankini, Badehosen oder Bermudas, bei uns ist alles von bester Qualität
                     und ausgewählten Marken, auch Made-in-Germany.
                 </p>
-            </div>
+            </section>
         </div>
     </div>
 
@@ -50,7 +50,7 @@
 
     <main id="main" role="main" class="has-text-centered" tabindex="-1">
 
-        <div id="produkte">
+        <section id="produkte">
             <h2 class="ueberschrift" id="ueberschrift2">Unsere Produkte</h2>
             <br>
             <div class="columns is-multiline is-centered"> <!-- Habe tabindex -1 von Petra gelöscht -->
@@ -91,34 +91,33 @@
                         Tageszeitungen, Zeitschriften, Taschenbücher und Romane  </p>
                 </div>
             </div>
-        </div>
-    </main>
-    <main id="main2" role="main" class="has-text-centered" tabindex="-1">
-        <div id="marken">
-            <h2 id="ueberschrift3">Unsere Marken</h2>
-            <br>
-            <div tabindex="-1" class="columns is-multiline is-centered is-mobile">
-                <div class="column is-narrow">
-                    <img src="images/fashyLogo.png" alt="Fashy" width="18%" class="produktPic">
-                </div>
-                <div class="column is-narrow">
-                    <img src="images/palmbeachlogo.jpg" alt="Palmbeach" width="18%" class="produktPic">
-                </div>
-                <div class="column is-narrow">
-                    <img src="images/selfcollectionlogo.png" alt="Selfcollection" width="18%" class="produktPic">
-                </div>
-                <div class="column is-narrow">
-                    <img src="images/vossenlogo.png" alt="Vossen" width="18%" class="produktPic">
-                </div>
-                <div class="column is-narrow">
-                    <img src="images/comtessalogo.png" alt="Comtessa" width="18%" class="produktPic">
-                </div>
-                <div class="column is-narrow">
-                    <img src="images/wewologo.png" alt="wewo" width="18%" class="produktPic">
-
+        </section>
+        <section id="main2" role="main" class="has-text-centered" tabindex="-1">
+            <div id="marken">
+                <h2 id="ueberschrift3">Unsere Marken</h2>
+                <br>
+                <div tabindex="-1" class="columns is-multiline is-centered is-mobile">
+                    <div class="column is-narrow">
+                        <img src="images/fashyLogo.png" alt="Fashy" width="18%" class="produktPic">
+                    </div>
+                    <div class="column is-narrow">
+                        <img src="images/palmbeachlogo.jpg" alt="Palmbeach" width="18%" class="produktPic">
+                    </div>
+                    <div class="column is-narrow">
+                        <img src="images/selfcollectionlogo.png" alt="Selfcollection" width="18%" class="produktPic">
+                    </div>
+                    <div class="column is-narrow">
+                        <img src="images/vossenlogo.png" alt="Vossen" width="18%" class="produktPic">
+                    </div>
+                    <div class="column is-narrow">
+                        <img src="images/comtessalogo.png" alt="Comtessa" width="18%" class="produktPic">
+                    </div>
+                    <div class="column is-narrow">
+                        <img src="images/wewologo.png" alt="wewo" width="18%" class="produktPic">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
 
