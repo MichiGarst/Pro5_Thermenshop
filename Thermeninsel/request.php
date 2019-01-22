@@ -45,9 +45,9 @@
 <div class="box">
     <main id="main" role="main" tabindex="-1" class="has-text-centered">
         <div class="columns" id="produkte">
-            <div role="region" class="column is-one-third" onclick="setForm('bademantel', 'eins')" id="eins">
+            <div class="column is-one-third" onclick="setForm('bademantel', 'texas')" id="texas">
                 <img src="images/Texas3.jpg" alt="" class="produktPic">
-                <p onclick="setForm('bademantel', 'eins')"><strong>Vossen Texas</strong><br>
+                <p onclick="setForm('bademantel', 'texas')"><strong>Vossen Texas</strong><br>
                     Der absolut trendige Kapuzenbademantel Texas ist in acht sehr
                     modernen, frischen Farben erhältlich. Aufgrund seiner hochwertigen Veloursoberfläche zeichnet sich
                     der Mantel durch eine besondere
@@ -55,9 +55,9 @@
                     Model zu einem absoluten Blickfang. <br>
                     <strong>100% Baumwolle</strong></p>
             </div>
-            <div role="region" class="column" onclick="setForm('bikini', 'zwei')" id="zwei">
+            <div class="column" onclick="setForm('bikini', 'poppy')" id="poppy">
                 <img src="images/poppy1.jpg" alt="" class="produktPic">
-                <p onclick="setForm('bikini', 'zwei')"><strong>Vossen Poppy</strong><br>
+                <p onclick="setForm('bikini', 'poppy')"><strong>Vossen Poppy</strong><br>
                     Der Doubleface-Kapuzenbademantel liegt mit seiner Farbstellung voll im Trend. Die farblich dunklere
                     Außenseite aus Mikrofaser setzt sich optisch von der etwas helleren Innenseite aus hochwertigem
                     Wirkfrottier ab. Dadurch wird dieser einzigartige Mantel zu einem absoluten Blickfang. Neben den
@@ -65,9 +65,9 @@
                     Tragekomfort und höchste Saugfähigkeit aus.<br>
                     <strong>20% Baumwolle, 35% Bambus, 45% Polyester</strong></p>
             </div>
-            <div role="region" class="column" onclick="setForm('hose', 'drei')" id="drei">
+            <div class="column" onclick="setForm('hose', 'dallas')" id="dallas">
                 <img src="images/texas2.jpg" alt="" class="produktPic">
-                <p onclick="setForm('hose', 'drei')"><strong>Vossen Dallas</strong><br>
+                <p onclick="setForm('hose', 'dallas')"><strong>Vossen Dallas</strong><br>
                     Comfort Line / Unisex / Dallas, der moderne Velours-Unisexmantel aus
                     100% Baumwolle besticht durch beste Qualität und höchsten Tragekomfort.
                     Der exklusive Schnitt und die etwas kürzere Länge machen diesen Mantel
@@ -76,11 +76,13 @@
             </div>
         </div>
 
+        <h2 id="requestForm">Anfrageformular</h2>
         <div id="bademantel" class="requestForm has-text-centered">
             <form class="columns "  action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
+                <strong class="FormHeading">Bademantel Texas</strong>
                 <div hidden>
                     <label for="product">Produkt:</label>
-                    <input type="text" id="product" name="product" value="bademantel">
+                    <input type="text" id="product" name="product" value="bademantel Texas">
                 </div>
               <!--  <div>
                     <div role="checkbox"
@@ -211,36 +213,36 @@
                 <div class="column is-centered ">
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
-                        <label for="first_name">Vorname *
+                        <label for="first_name" class="DataField">Vorname *
                             <input type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
                     <div>
-                        <label>
+                        <label class="DataField">
                             Vorname * <input type="text" role="combobox" aria-required="true" required>
                         </label>
                     </div>
                     <div>
                         <span id="p4" hidden>Nachname Pflichtfeld</span>
-                        <label for="last_name">Nachname *
+                        <label for="last_name" class="DataField">Nachname *
                             <input type="text" autocomplete="on" id="last_name" name="last_name" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
                         <span id="p3" hidden>Emailadresse Pflichfeld</span>
-                        <label for="email">E-Mail Adresse*
+                        <label for="email" class="DataField">E-Mail Adresse*
                             <input type="email" autocomplete="on" id="email" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
-                        <label for="telephone">Telefonnummer:
+                        <label for="telephone" class="DataField">Telefonnummer:
                             <input type="tel" pattern="[0-9]{10,13}" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
                         <span id="p1" hidden>Ihre Wünsche</span>
-                        <label for="desires">Ihre Wünsche:</label>
+                        <label for="desires" class="DataField">Ihre Wünsche:</label>
                         <textarea type="text" id="desires" name="desires" aria-labelledby="p1"></textarea>
                     </div>
                 </div>
@@ -256,9 +258,10 @@
 
         <div id="hose" class="requestForm has-text-centered">
             <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
+                <strong class="FormHeading">Bademantel Dallas</strong>
                 <div hidden>
                     <label for="product">Produkt:</label>
-                    <input type="text" id="product" name="product" value="hose">
+                    <input type="text" id="product" name="product" value="Bademantel Dallas">
                 </div>
                <!-- <div>
                     <div role="checkbox"
@@ -422,36 +425,36 @@
                 <div class="is-centered">
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
-                        <label for="first_name2">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
+                        <label for="first_name2" class="DataField">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="text" autocomplete="on" id="first_name2" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
                     <div>
-                        <label>
+                        <label class="DataField">
                             Vorname * <input type="text" role="combobox" aria-required="true" required>
                         </label>
                     </div>
                     <div>
                         <span id="p4" hidden>Nachname Pflichtfeld</span>
-                        <label for="last_name2">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
+                        <label for="last_name2" class="DataField">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="text" autocomplete="on" id="last_name2" name="last_name" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
                         <span id="p3" hidden>Emailadresse Pflichfeld</span>
-                        <label for="email2">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
+                        <label for="email2" class="DataField">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="email" autocomplete="on" id="email2" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
-                        <label for="telephone2">Telefon:
+                        <label for="telephone2" class="DataField">Telefon:
                             <input type="tel" pattern="[0-9]{10,13}" autocomplete="on" id="telephone2" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
                         <span id="p1" hidden>Ihre Wünsche</span>
-                        <label for="desires2">Ihre Wünsche:</label>
+                        <label for="desires2" class="DataField">Ihre Wünsche:</label>
                         <textarea type="text" id="desires2" name="desires" aria-labelledby="p1"></textarea>
                     </div>
                 </div>
@@ -466,9 +469,10 @@
 
         <div id="bikini" class="requestForm has-text-centered">
             <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
+                <strong class="FormHeading">Bademantel Poppy</strong><br><br>
                 <div hidden>
                     <label for="product">Produkt:</label>
-                    <input type="text" id="product" name="product" value="bikini">
+                    <input type="text" id="product" name="product" value="Bademantel Poppy">
                 </div>
               <!--  <div>
                     <div role="checkbox"
@@ -599,36 +603,36 @@
                 <div class="is-centered">
                     <div>
                         <span id="p5" hidden>Vorname Pflichtfeld</span>
-                        <label for="first_name3">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
+                        <label for="first_name3" class="DataField">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="text" autocomplete="on" id="first_name3" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
                     <div>
-                        <label>
+                        <label class="DataField">
                             Vorname * <input type="text" role="combobox" aria-required="true" required>
                         </label>
                     </div>
                     <div>
                         <span id="p4" hidden>Nachname Pflichtfeld</span>
-                        <label for="last_name3">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
+                        <label for="last_name3" class="DataField">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="text" autocomplete="on" id="last_name3" name="last_name" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
                         <span id="p3" hidden>Emailadresse Pflichfeld</span>
-                        <label for="email3">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
+                        <label for="email3" class="DataField">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="email" autocomplete="on" id="email3" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
                         <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
-                        <label for="telephone3">Telefon:
+                        <label for="telephone3" class="DataField">Telefon:
                             <input type="tel" pattern="[0-9]{10,13}" autocomplete="on" id="telephone3" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
                         <span id="p1" hidden>Ihre Wünsche</span>
-                        <label for="desires3">Ihre Wünsche:</label>
+                        <label for="desires3" class="DataField">Ihre Wünsche:</label>
                         <textarea type="text" id="desires3" name="desires" aria-labelledby="p1"></textarea>
                     </div>
                 </div>
@@ -643,7 +647,7 @@
       <!--  <div id="checkboxHelpHide" hidden>Sie können einmal oder mehrmals dasselbe Produkt bestellen.</div>-->
 
 
-        <div id="groesseTabelle">
+       <!-- <div id="groesseTabelle">
             <div id="tabelleSummary" hidden>Diese Tabelle beschreibt alle Bikinigrößen.</div>
             <table summary="In dieser Tabelle werden alle Bikinigößen beschrieben.">
                 <caption aria-describedby="tabelleSummary">Größentabelle</caption>
@@ -655,33 +659,89 @@
                     <th scope="col">L</th>
                     <th scope="col">XL</th>
                     <th scope="col">XXL</th>
+                    <th scope="col">3XL</th>
+                    <th scope="col">4XL</th>
+                    <th scope="col">5XL</th>
                 </tr>
                 <tr>
                     <th scope="row">Konfektionsgröße</th>
-                    <td>34</td>
-                    <td>36</td>
-                    <td>40</td>
-                    <td>44</td>
-                    <td>48</td>
-                    <td>52</td>
+                    <td>34/40</td>
+                    <td>38/44</td>
+                    <td>42/48</td>
+                    <td>46/52</td>
+                    <td>50/56</td>
+                    <td>54/60</td>
+                    <td>58/64</td>
+                    <td>62/68</td>
+                    <td>66/72</td>
                 </tr>
                 <tr>
-                    <th scope="row">Brustumfang</th>
-                    <td>86</td>
-                    <td>90</td>
-                    <td>99</td>
-                    <td>109</td>
-                    <td>119</td>
-                    <td>129</td>
+                    <th scope="row">Länge</th>
+                    <td>110</td>
+                    <td>110</td>
+                    <td>110</td>
+                    <td>110</td>
+                    <td>110</td>
+                    <td>114</td>
+                    <td>114</td>
+                    <td>114</td>
+                    <td>114</td>
+                </tr>
+            </table> -->
+
+         <div id="groesseTabelle">
+            <div id="tabeleSum" hidden>Diese Tabelle beschreibt alle Bademantelgrößen.</div>
+            <table summary="In dieser Tabelle werden alle Bademantelgrößen beschrieben.">
+                <caption aria-describedby="tabeleSum">Größentabelle</caption>
+                <tr>
+                    <th scope="col">Größe</th>
+                    <th scope="col">Konfektionsgröße</th>
+                    <th scope="col">Länge</th>
                 </tr>
                 <tr>
-                    <th scope="row">Hüftumfang</th>
-                    <td>96</td>
-                    <td>98</td>
-                    <td>107</td>
-                    <td>117</td>
-                    <td>127</td>
-                    <td>137</td>
+                    <th scope="row">XS</th>
+                    <td>34 / 40</td>
+                    <td>110</td>
+                </tr>
+                <tr>
+                    <th scope="row">S</th>
+                    <td>38 / 44</td>
+                    <td>110</td>
+                </tr>
+                <tr>
+                    <th scope="row">M</th>
+                    <td>42 / 48</td>
+                    <td>110</td>
+                </tr>
+                <tr>
+                    <th scope="row">L</th>
+                    <td>46 / 52</td>
+                    <td>110</td>
+                </tr>
+                <tr>
+                    <th scope="row">XL</th>
+                    <td>50 / 56</td>
+                    <td>110</td>
+                </tr>
+                <tr>
+                    <th scope="row">XXL</th>
+                    <td>54 / 60</td>
+                    <td>114</td>
+                </tr>
+                <tr>
+                    <th scope="row">3XL</th>
+                    <td>58 / 64</td>
+                    <td>114</td>
+                </tr>
+                <tr>
+                    <th scope="row">4XL</th>
+                    <td>62 / 68</td>
+                    <td>114</td>
+                </tr>
+                <tr>
+                    <th scope="row">5XL</th>
+                    <td>66 / 72</td>
+                    <td>114</td>
                 </tr>
             </table>
         </div>
@@ -713,6 +773,8 @@
 
         document.getElementById(product).style.display='inline';
         document.getElementById(line123).style.backgroundColor ='#ffcc00';
+        window.scrollTo(0,document.getElementById(product).offsetTop);
+
     }
 
     function setTable() {
@@ -882,6 +944,23 @@
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
+    }
+
+
+    .FormHeading{
+        margin-top: 1.7em;
+        margin-bottom: 1em;
+    }
+
+    #requestForm{
+        margin-top: 2.25em;
+
+    }
+
+    @media only screen and (max-width: 600px) {
+        .DataField{
+            float: left;
+        }
     }
    /* .testingIT {
         margin-left: auto;

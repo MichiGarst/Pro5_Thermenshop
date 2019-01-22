@@ -104,7 +104,7 @@
         </div>
 
 <div id="welcomeAussen">
-        <div id="welcome">
+        <section id="welcome">
             <h1 id="ueberschrift1">Herzlich Willkommen bei der Thermeninsel!</h1>
             <p class="text">
                 Wir sind ihr Spezialist in Sachen Bademoden!
@@ -119,12 +119,12 @@
                 Außerdem sind wir <strong>365 Tage im Jahr </strong>für dich da. Schau einfach vorbei. <br>
                 Wir freuen uns auf dich!
             </p>
-        </div>
+        </section>
 </div>
 
         <div class="columns">
             <div class="column is-centered" id="contact">
-                <p id="kontakt">
+                <section id="kontakt">
                 <h2 id="ueberschrift2">Kontakt</h2>
                 <div class="kontaktUE">Adresse</div>
                 <div class="kontaktText">Kurallee 1, 94072 Bad Füssing</div>
@@ -132,10 +132,10 @@
                 <div class="kontaktText">+49 8531 978706</div>
                 <div class="kontaktUE">E-Mail</div>
                 <div class="kontaktText">info@lorenzer.com</div>
-                </p>
+                </section>
             </div>
             <div class="column is-centered" id="time">
-                <p id="Öffnungszeiten">
+                <section id="Öffnungszeiten">
                 <h2 id="ueberschrift3">Öffnungszeiten</h2>
                 <div class="tag">Montag - Freitag</div>
                 <div class="zeit">07:30 - 17:30</div>
@@ -143,14 +143,14 @@
                 <div class="zeit">08:30 - 16:30</div>
                 <div class="tag">Sonn- und Feiertag</div>
                 <div class="zeit">08:30 - 16:30</div>
-                </p>
+                </section>
             </div>
         </div>
             <div class="columns is-centered" id="sortiment">
                 <div class="column">
                     <img src="images/fashyStart.jpg" alt="" id="sort">
                 </div>
-                <div class="column  has-text-centered" >
+                <section class="column  has-text-centered" >
                     <h2 id="ueberschrift4">Unser Sortiment</h2>
                     <p class="sortimenttext">
                         Bei uns gibt es immer die neusten Designs in Sachen Bademode. Egal ob Badeanzug, Bikini, Tankini
@@ -162,11 +162,11 @@
                         riesigen Auswahl an Zeitschriften, Tagezeitungen und Büchern.
                         <br> <a href="shop.php" title="zum Sortiment">Hier ansehen!</a>
                     </p>
-                </div>
+                </section>
 
             </div>
             <div class="columns is-centered" id="angebot">
-                <div class="column  has-text-centered">
+                <section class="column  has-text-centered">
                     <h2 id="ueberschrift5">Angebote</h2>
                     <p id="angebottext">
                         Wir haben das ganze Jahr <strong>Badeanzüge um 19,99€</strong> und <strong>Badehosen auf 15,00€ </strong>
@@ -174,7 +174,7 @@
                         was dabei!
                         Oder du shopst Bademäntel ganz einfach <a href="request.php" title="zur Bestellseite">hier</a> bei uns.
                     </p>
-                </div>
+                </section>
                 <div class="column">
                     <img src="images/fashyMann.jpg" alt="" id="mann">
                 </div>
@@ -183,7 +183,7 @@
                 <div class="column">
                     <img src="images/coffee.jpg" alt="" id="coffee">
                 </div>
-                <div class="column  has-text-centered">
+                <section class="column  has-text-centered">
                     <h2 id="ueberschrift6">Café Bar</h2>
                     <p id="kaffeetext">
                         Bei uns an der Café Bar kannst du deinen Urlaub noch einen kleinen Moment verlängern. Egal ob
@@ -192,7 +192,7 @@
                         dich wieder einholt.
 
                     </p>
-                </div>
+                </section>
 
             </div>
     <?php

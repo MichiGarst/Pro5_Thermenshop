@@ -54,21 +54,21 @@
             <h2 class="ueberschrift" id="ueberschrift2">Unsere Produkte</h2>
             <br>
             <div class="columns is-multiline is-centered"> <!-- Habe tabindex -1 von Petra gelöscht -->
-                <section class="column is-one-quarter"> <!-- kann ich da überall statt div die section einfügen? -->
+                <div class="column is-one-quarter">
                     <img src="images/poppy2.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Bademäntel</strong><br>
                         Große Auswahl an Bademäntel. Einige sind in unseren Shop erhältlich. </p>
-                </section>
+                </div>
                 <div class="column is-one-quarter">
                     <img src="images/fashyStart2.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Damen Bademode</strong><br>
                         Von Badeanzüge, über Tankini bis hin zu Bikni ist alles dabei.</p>
                 </div>
-                <section class="column is-one-quarter">
+                <div class="column is-one-quarter">
                     <img src="images/mann3.jpg" alt="" class="produktPic" >
                     <p class="produktText"><strong>Herren Bademode</strong><br>
                         Für unsere Männer bieten wir verschiedene Modelle von Slips bis Bermuda an.</p>
-                </section>
+                </div>
                 <div class="column is-one-quarter">
                     <img src="images/Badeschuhe.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Badeschuhe</strong><br>

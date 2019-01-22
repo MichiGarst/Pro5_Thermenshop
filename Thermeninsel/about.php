@@ -66,10 +66,10 @@
                     </p>
                 </div>
                 <div class="column is-narrow has-text-centered is-one-quarter">
-                    <img src="images/Kathi.jpeg" alt="" class="team">
-                    <p>
-                        <strong>Katharina Graf</strong><br>Mitarbeiterin
-                    </p>
+                    <figure>                                                      <!-- Bereich ist kleiner weil ".content figure" margins besitzt -->
+                        <img src="images/Kathi.jpeg" alt="" class="team">
+                        <figcaption><strong>Katharina Graf</strong><br>Mitarbeiterin</figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
