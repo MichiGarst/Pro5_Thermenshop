@@ -193,11 +193,12 @@
                 </section>
 
             </div>
+
     <?php
     include("Components/Footer.html");
     ?>
 
-</main>
-
+    </main>
+</div>
 </body>
 </html>

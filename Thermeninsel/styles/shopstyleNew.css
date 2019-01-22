@@ -3,9 +3,14 @@
     margin: 15px;
 }
 
+abbr{
+    text-decoration: none;
+}
+
 #welcome {
     padding: 20px;
 }
 #shop, #shopAussen, #marken, #main2 {
     background-color: #F7F7F6;
 }
+

@@ -83,7 +83,7 @@
                     <img src="images/kosmetik.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Kosmetik</strong><br>
                         In unserer Kosmetikabteilung findest du Duschgel, Shampoo,<br> Aloe Vera
-                     Produkte, Spitzner Duschschaum, Bodylotion, Sunlotion uvm.</p>
+                     Produkte, Spitzner Duschschaum, Bodylotion, Sunlotion <abbr title="und viele mehr">uvm.</abbr></p>
                 </div>
                 <div class="column is-one-quarter">
                     <img src="images/magazine.jpg" alt="" class="produktPic">

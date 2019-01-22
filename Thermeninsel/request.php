@@ -15,6 +15,10 @@
 
     <!-- Andere Stylesheets-->
     <link rel="stylesheet" type="text/css" href="styles/requeststyleNew.css">
+    <link rel="stylesheet" type="text/css" href="styles/form.css">
+    <script src="js/Request.js"></script>
+
+
 </head>
 <body>
 
@@ -30,7 +34,7 @@
 <div id="anfrageAussen">
         <div class="columns is-centered" id="anfrage">
             <div class="is-centered">
-                <img src="images/fashybild3.jpg" alt="" width="100%" id="">
+                <img src="images/fashybild3.jpg" alt="" width="100%">
             </div>
             <section id="welcome" class="has-text-centered">
                 <h1 class="ueberschrift" id="h1">Anfrage senden</h1>
@@ -76,13 +80,26 @@
             </div>
         </div>
 
+
+        <!-- Beschreibungen für Formularfelder -->
+
+        <span id="p1" hidden>Ihre Wünsche</span>
+        <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
+        <span id="p3" hidden>Emailadresse Pflichfeld</span>
+        <span id="p4" hidden>Nachname Pflichtfeld</span>
+        <span id="p5" hidden>Vorname Pflichtfeld</span>
+        <div id="GroesseHelp" hidden>Sie können mehrere Größen auswählen.</div>
+        <div id="landDesc" hidden>Wähle dein Land.</div>
+
+
+
         <section id="bademantel" class="requestForm has-text-centered">
-            <h2 id="requestForm">Anfrageformular</h2>
-            <form class="columns "  action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
+            <h2 class="formUE">Anfrageformular</h2>
+            <form class="columns" action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
                 <strong class="FormHeading">Bademantel Texas</strong><br><br>
                 <div hidden>
-                    <label for="product">Produkt:</label>
-                    <input type="text" id="product" name="product" value="bademantel Texas">
+                    <label for="productT">Produkt:</label>
+                    <input type="text" name="productT" id="productT" value="bademantel Texas">
                 </div>
               <!--  <div>
                     <div role="checkbox"
@@ -164,7 +181,8 @@
                         <label for="checkbox6_group2">XXL</label>
                     </div>
                 </div> -->
-<div class="column has-text-centered">
+<fieldset class="column has-text-centered">
+        <legend hidden>Persönliche Daten</legend>
                 <label for="farbe">Wähle eine Farbe:</label>
                 <select id="farbe" name="farbe">
                     <option value="Purpur">Purpur</option>
@@ -179,10 +197,10 @@
                     <option value="MeadowGreen">Meadow Green</option>
 
                 </select>
-</div>
+</fieldset>
                 <br>
 <fieldset class="column">
-                <div id="GroesseHelp" hidden>Sie können mehrere Größen auswählen.</div>
+        <legend hidden>Persönliche Daten</legend>
                 <label for="groesse">Wähle eine Größe:</label>
                 <select id="groesse" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
                     <option value="XS">XS</option>
@@ -196,73 +214,63 @@
                 <fieldset class="column">
                     <legend>Wähle dein Land</legend>
                     <div class="row">
-                        <input type="radio" id="de" name="land[]" value="de" checked/>
+                        <input type="radio" id="de" name="land[]" value="de" aria-describedby="landDesc" checked/>
                         <label for="de" class="checkboxGroesse">Deutschland</label><br>
 
-                        <input type="radio" id="at" name="land[]" value="at" />
+                        <input type="radio" id="at" name="land[]" value="at" aria-describedby="landDesc" />
                         <label for="at" class="checkboxGroesse">Österreich</label><br>
 
-                        <input type="radio" id="ch" name="land[]" value="ch" />
+                        <input type="radio" id="ch" name="land[]" value="ch" aria-describedby="landDesc" />
                         <label for="ch" class="checkboxGroesse">Schweiz</label><br>
 
-                        <input type="radio" id="ot" name="land[]" value="ot" />
+                        <input type="radio" id="ot" name="land[]" value="ot" aria-describedby="landDesc" />
                         <label for="ot" class="checkboxGroesse">Anderes Land</label>
                     </div>
                 </fieldset>
 
                 <fieldset class="column is-centered ">
+                    <legend hidden>Persönliche Daten</legend>
+
                     <div>
-                        <span id="p5" hidden>Vorname Pflichtfeld</span>
                         <label for="first_name" class="DataField">Vorname *
                             <input type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
                     <div>
-                        <label class="DataField">
-                            Vorname * <input type="text" role="combobox" aria-required="true" required>
-                        </label>
-                    </div>
-                    <div>
-                        <span id="p4" hidden>Nachname Pflichtfeld</span>
                         <label for="last_name" class="DataField">Nachname *
                             <input type="text" autocomplete="on" id="last_name" name="last_name" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
-                        <span id="p3" hidden>Emailadresse Pflichfeld</span>
                         <label for="email" class="DataField">E-Mail Adresse*
                             <input type="email" autocomplete="on" id="email" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
-                        <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
                         <label for="telephone" class="DataField">Telefonnummer:
                             <input type="tel" pattern="[0-9]{10,13}" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
-                        <span id="p1" hidden>Ihre Wünsche</span>
                         <label for="desires" class="DataField">Ihre Wünsche:</label>
                         <textarea id="desires" name="desires" aria-labelledby="p1"></textarea>
                     </div>
                 </fieldset>
                 <button type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
             </form>
-            <section id="tableButton">
-                <button type="button" name="tabelle" role="button" id="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
-            </section>
+            <div class="tableButton">
+                <button type="button" name="tabelle" role="button" class="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
+            </div>
         </section>
 
 
-
-
         <section id="hose" class="requestForm has-text-centered">
-            <h2 id="requestForm">Anfrageformular</h2>
-            <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
+            <h2 class="formUE">Anfrageformular</h2>
+            <form action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
                 <strong class="FormHeading">Bademantel Dallas</strong><br><br>
                 <div hidden>
-                    <label for="product">Produkt:</label>
-                    <input type="text" id="product" name="product" value="Bademantel Dallas">
+                    <label for="productD">Produkt:</label>
+                    <input type="text" name="productD" id="productD" value="Bademantel Dallas">
                 </div>
                <!-- <div>
                     <div role="checkbox"
@@ -297,6 +305,8 @@
                     </div>
                 </div> -->
 
+                <fieldset class="is-centered">
+                    <legend hidden>Persönliche Daten</legend>
                 <label for="farbe2">Wähle eine Farbe:</label>
                 <select id="farbe2" name="farbe">
                     <option value="Flanell">Flanell</option>
@@ -306,7 +316,10 @@
                     <option value="Turquoise">Turquoise</option>
                     <option value="Weiss">Weiß</option>
                 </select>
+                </fieldset>
                 <br>
+                <fieldset class="is-centered">
+                    <legend hidden>Persönliche Daten</legend>
                 <label for="groesse2" aria-describedby="GroesseHelp">Wähle eine Größe:</label>
                 <select id="groesse2" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
                     <option value="XS">XS</option>
@@ -316,6 +329,7 @@
                     <option value="XL">XL</option>
                     <option value="XXL">XXL</option>
                 </select>
+                </fieldset>
                <!-- <div>
                     <div role="checkbox"
                          class="group_checkbox"
@@ -366,16 +380,16 @@
                 <fieldset>
                     <legend>Wähle dein Land</legend>
                     <div class="row">
-                        <input type="radio" id="de2" name="land[]" value="de" checked/>
+                        <input type="radio" id="de2" name="land[]" value="de" aria-describedby="landDesc" checked/>
                         <label for="de2" class="checkboxGroesse">Deutschland</label><br>
 
-                        <input type="radio" id="at2" name="land[]" value="at" />
+                        <input type="radio" id="at2" name="land[]" value="at" aria-describedby="landDesc" />
                         <label for="at2" class="checkboxGroesse">Österreich</label><br>
 
-                        <input type="radio" id="ch2" name="land[]" value="ch" />
+                        <input type="radio" id="ch2" name="land[]" value="ch" aria-describedby="landDesc" />
                         <label for="ch2" class="checkboxGroesse">Schweiz</label><br>
 
-                        <input type="radio" id="ot2" name="land[]" value="ot" />
+                        <input type="radio" id="ot2" name="land[]" value="ot" aria-describedby="landDesc" />
                         <label for="ot2" class="checkboxGroesse">Anderes Land</label>
                     </div>
                 </fieldset>
@@ -422,57 +436,49 @@
                 </fieldset>-->
 
                 <fieldset class="is-centered">
+                    <legend hidden>Persönliche Daten</legend>
+
                     <div>
-                        <span id="p5" hidden>Vorname Pflichtfeld</span>
                         <label for="first_name2" class="DataField">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="text" autocomplete="on" id="first_name2" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
                     <div>
-                        <label class="DataField">
-                            Vorname * <input type="text" role="combobox" aria-required="true" required>
-                        </label>
-                    </div>
-                    <div>
-                        <span id="p4" hidden>Nachname Pflichtfeld</span>
                         <label for="last_name2" class="DataField">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="text" autocomplete="on" id="last_name2" name="last_name" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
-                        <span id="p3" hidden>Emailadresse Pflichfeld</span>
                         <label for="email2" class="DataField">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="email" autocomplete="on" id="email2" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
-                        <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
                         <label for="telephone2" class="DataField">Telefon:
                             <input type="tel" pattern="[0-9]{10,13}" autocomplete="on" id="telephone2" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
-                        <span id="p1" hidden>Ihre Wünsche</span>
                         <label for="desires2" class="DataField">Ihre Wünsche:</label>
-                        <textarea type="text" id="desires2" name="desires" aria-labelledby="p1"></textarea>
+                        <textarea id="desires2" name="desires" aria-labelledby="p1"></textarea>
                     </div>
                 </fieldset>
                 <button type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
             </form>
-            <section id="tableButton">
-                <button type="button" name="tabelle" role="button" id="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
-            </section>
+            <div class="tableButton">
+                <button type="button" name="tabelle" role="button" class="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
+            </div>
         </section>
 
 
 
         <section id="bikini" class="requestForm has-text-centered">
-            <h2 id="requestForm">Anfrageformular</h2>
-            <form action="sendPHPmail.php" id="checkbox" method="post" aria-label="Anfrageformular" autocomplete="on">
+            <h2 class="formUE">Anfrageformular</h2>
+            <form action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
                 <strong class="FormHeading">Bademantel Poppy</strong><br><br>
                 <div hidden>
-                    <label for="product">Produkt:</label>
-                    <input type="text" id="product" name="product" value="Bademantel Poppy">
+                    <label for="productP">Produkt:</label>
+                    <input type="text" name="productP" id="productP" value="Bademantel Poppy">
                 </div>
               <!--  <div>
                     <div role="checkbox"
@@ -554,7 +560,8 @@
                         <label for="checkbox6_group2">XXL</label>
                     </div>
                 </div> -->
-
+                <fieldset class="is-centered">
+                    <legend hidden>Persönliche Daten</legend>
                 <label for="farbe3">Wähle eine Farbe:</label>
                 <select id="farbe3" name="farbe">
                     <option value="Purpur">Purpur</option>
@@ -570,9 +577,10 @@
                     <option value="ValleyGreen">Valley Green</option>
                     <option value="Curacao">Curacao</option>
                 </select>
-
+                </fieldset>
                 <br>
-
+                <fieldset class="is-centered">
+                    <legend hidden>Persönliche Daten</legend>
                 <label for="groesse3" aria-describedby="GroesseHelp">Wähle eine Größe:</label>
                 <select id="groesse3" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
                     <option value="XS">XS</option>
@@ -582,68 +590,58 @@
                     <option value="XL">XL</option>
                     <option value="XXL">XXL</option>
                 </select>
-
+                </fieldset>
                 <fieldset>
                     <legend>Wähle dein Land</legend>
                     <div class="row">
-                        <input type="radio" id="de3" name="land[]" value="de" checked/>
+                        <input type="radio" id="de3" name="land[]" value="de" aria-describedby="landDesc" checked/>
                         <label for="de3" class="checkboxGroesse">Deutschland</label><br>
 
-                        <input type="radio" id="at3" name="land[]" value="at" />
+                        <input type="radio" id="at3" name="land[]" value="at" aria-describedby="landDesc" />
                         <label for="at3" class="checkboxGroesse">Österreich</label><br>
 
-                        <input type="radio" id="ch3" name="land[]" value="ch" />
+                        <input type="radio" id="ch3" name="land[]" value="ch" aria-describedby="landDesc" />
                         <label for="ch3" class="checkboxGroesse">Schweiz</label><br>
 
-                        <input type="radio" id="ot3" name="land[]" value="ot" />
+                        <input type="radio" id="ot3" name="land[]" value="ot" aria-describedby="landDesc" />
                         <label for="ot3" class="checkboxGroesse">Anderes Land</label>
                     </div>
                 </fieldset>
 
                 <fieldset class="is-centered">
+                    <legend hidden>Persönliche Daten</legend>
                     <div>
-                        <span id="p5" hidden>Vorname Pflichtfeld</span>
                         <label for="first_name3" class="DataField">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="text" autocomplete="on" id="first_name3" name="first_name" aria-labelledby="p5" required="required">
                         </label>
                     </div>
                     <div>
-                        <label class="DataField">
-                            Vorname * <input type="text" role="combobox" aria-required="true" required>
-                        </label>
-                    </div>
-                    <div>
-                        <span id="p4" hidden>Nachname Pflichtfeld</span>
                         <label for="last_name3" class="DataField">Nachname<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="text" autocomplete="on" id="last_name3" name="last_name" aria-labelledby="p4" required="required">
                         </label>
                     </div>
                     <div>
-                        <span id="p3" hidden>Emailadresse Pflichfeld</span>
                         <label for="email3" class="DataField">E-Mail<abbr class="require" title="Pflichtfeld">*</abbr>
                             <input type="email" autocomplete="on" id="email3" name="email" required="required" aria-labelledby="p3">
                         </label>
                     </div>
                     <div>
-                        <span id="p2" hidden>Telefonnummer ohne Leerzeichen</span>
                         <label for="telephone3" class="DataField">Telefon:
                             <input type="tel" pattern="[0-9]{10,13}" autocomplete="on" id="telephone3" name="telephone" aria-labelledby="p2">
                         </label>
                     </div>
                     <div>
-                        <span id="p1" hidden>Ihre Wünsche</span>
                         <label for="desires3" class="DataField">Ihre Wünsche:</label>
-                        <textarea type="text" id="desires3" name="desires" aria-labelledby="p1"></textarea>
+                        <textarea id="desires3" name="desires" aria-labelledby="p1"></textarea>
                     </div>
                 </fieldset>
                 <button type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
             </form>
-            <section id="tableButton">
-           <button type="button" name="tabelle" role="button" id="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
-            </section>
+            <div class="tableButton">
+           <button type="button" name="tabelle" role="button" class="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
+            </div>
         </section>
 
-        <div id="GroesseHelp" hidden>Sie können mehrere Größen auswählen.</div>
       <!--  <div id="checkboxHelpHide" hidden>Sie können einmal oder mehrmals dasselbe Produkt bestellen.</div>-->
 
 
@@ -751,284 +749,9 @@
     ?>
 
 </div>
+</div>
+
 
 </body>
 </html>
 
-
-<script type="text/javascript">
-
-    function setForm(product, line123) {
-        var x = document.getElementsByClassName("requestForm");
-        var i;
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-
-        var y = document.getElementsByClassName("column");
-        var j;
-        for (j = 0; j < y.length; j++) {
-            y[j].style.backgroundColor = "#F7F7F6";
-        }
-
-        document.getElementById(product).style.display='inline';
-        document.getElementById(line123).style.backgroundColor ='#ffcc00';
-        window.scrollTo(0,document.getElementById(product).offsetTop);
-
-    }
-
-    function setTable() {
-        var g = document.getElementById("groesseTabelle");
-        if(g.style.display === 'inline'){
-            g.style.display = 'none'
-        } else {
-            g.style.display = 'inline'
-        }
-    }
-
-
-
-</script>
-
-<style>
-    .requestForm{
-        display: none;
-    }
-
-    .checkboxGroesse {
-        font-size: 1.5em;
-        margin-right: 10%;
-        line-height: 2.15em;
-        padding: 15px 1px;
-    }
-
-    #groesseTabelle{
-        display: none;
-    }
-
-    .row{
-        float: left;
-        width: 100%;
-    }
-
-    #tableButton{
-        height: 5em;
-    }
-
-    #farbe{
-        margin-bottom: 0.5em;
-    }
-
-    #buttonGroesse{
-        padding: 0.6em 0em;
-        font-size: 1em;
-        width: 130px;
-        float: right;
-        margin-top: 2em;
-    }
-
-    #groesse{
-        float: right;
-        /* line-height: 40px; */
-        min-height: 20px;
-        /* margin: 40px; */
-        padding: 40px;
-    }
-
-    fieldset {
-        display: block;
-        padding-top: 0.35em;
-        padding-bottom: 0.625em;
-        padding-left: 0.75em;
-        padding-right: 0.75em;
-        width: 20em;
-        border: none;
-        margin-top: 1em;
-        margin-bottom: 0.8em;
-    }
-
-    table{
-        margin-top: 2em;
-    }
-
-    input[type="checkbox"],input[type="radio"]{
-        cursor: pointer;
-        -webkit-appearance: none;
-        background: lightgrey;
-        border-radius: 1px;
-        position: relative;
-        box-sizing: content-box ;
-        width: 30px;
-        height: 30px;
-        border-width: 0;
-        transition: all .3s linear;
-    }
-
-
-    button{
-        cursor: pointer;
-        -webkit-appearance: none;
-        background: lightgrey;
-        border-radius: 1px;
-        position: relative;
-        box-sizing: content-box ;
-        width: 85px;
-        height: 30px;
-        border-width: 0;
-        padding: 0.2em;
-        font-size: 1.3em;
-        margin-top: 0.5em;
-        transition: all .3s linear;
-    }
-
-
-    input[type="text"], input[type="email"], input[type="tel"], textarea{
-        cursor: pointer;
-        -webkit-appearance: none;
-        background: lightgrey;
-        border-radius: 1px;
-        position: relative;
-        box-sizing: content-box;
-        margin-bottom: 1.25em;
-        width: 200px;
-        height: 35px;
-        border-width: 0;
-        transition: all .3s linear;
-    }
-
-    textarea{
-        height: 100px;
-        margin-bottom: 0em;
-
-    }
-
-    caption{
-        font-size: 1.5em;
-    }
-
-    select{
-        cursor: pointer;
-        -webkit-appearance: none;
-        background: lightgrey;
-        border-radius: 1px;
-        position: relative;
-        box-sizing: content-box ;
-        margin-bottom: 0.8em;
-        width: 200px;
-        height: 35px;
-        border-width: 0;
-        padding: 0.2em;
-        font-size: 1.5em;
-        transition: all .3s linear;
-    }
-
-    input[type="checkbox"]:checked, input[type="radio"]:checked{
-        background-color: #ffcc00;
-    }
-    input[type="checkbox"]:focus, input[type="radio"]:focus{
-        outline: 0 none;
-        box-shadow: none;
-    }
-
-    .require{
-        text-decoration: none !important;
-    }
-
-    input[type="checkbox"]:after, input[type="radio"]:after {
-        left: 9px;
-        top: 5px;
-        width: 7px;
-        height: 13px;
-        border: solid white;
-        border-width: 0 3px 3px 0;
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-    }
-
-
-    .FormHeading{
-        margin-top: 1.7em;
-        margin-bottom: 1em;
-    }
-
-    #requestForm{
-        margin-top: 2.25em;
-
-    }
-
-    @media only screen and (max-width: 600px) {
-        .DataField{
-            float: left;
-        }
-    }
-   /* .testingIT {
-        margin-left: auto;
-        /* margin-right: auto; */
-        /* width: 960px; */
-      /*  position: relative;
-        font-size: 1.6em;
-        vertical-align: middle;
-        text-align: left;
-        text-transform: none;
-        color: black;
-        padding-left: 2em;
-        /* padding-top: 0.15em; */
-     /*   margin-bottom: 1em;
-        height: 1em;
-        /* float: left; */
-        /* margin-top: 0.2em; */
-    /*   line-height: 1.05em;
-       -webkit-appearance: none;
-   }
-
-  .testingIT input {
-       position: absolute;
-       opacity: 0;
-       cursor: pointer;
-       -webkit-appearance: none;
-   }
-
-   .checkmark {
-       position: absolute;
-       /* top: 0; */
-    /* left: 0;
-     height: 25px;
-     width: 25px;
-     background-color: gainsboro;
-     margin-left: 0.5em;
-     -webkit-appearance: none;
- }
-
-    .testingIT:hover input ~ .checkmark {
-        background-color: #ccc;
-    }
-
-    .testingIT input:checked ~ .checkmark {
-        background-color: darkgray;
-    }
-
-    .checkmark:after {
-        content: "";
-        position: absolute;
-        display: none;
-    }
-
-    .testingIT input:checked ~ .checkmark:after {
-        display: block;
-    }
-
-    .testingIT .checkmark:after {
-        left: 9px;
-        top: 5px;
-        width: 7px;
-        height: 13px;
-        border: solid white;
-        border-width: 0 3px 3px 0;
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-    } */
-
-
-</style>
