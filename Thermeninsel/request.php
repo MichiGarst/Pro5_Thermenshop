@@ -94,97 +94,19 @@
 
 
         <section id="bademantel" class="requestForm has-text-centered">
-            <h2 class="formUE">Anfrageformular</h2>
             <form class="columns" action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
+                <h2 class="formUE">Anfrageformular</h2>
                 <strong class="FormHeading">Bademantel Texas</strong><br><br>
                 <div hidden>
                     <label for="productT">Produkt:</label>
                     <input type="text" name="productT" id="productT" value="bademantel Texas">
                 </div>
-              <!--  <div>
-                    <div role="checkbox"
-                         class="group_checkbox"
-                         aria-checked="false"
-                         aria-labelledby="label1"
-                         aria-describedby="checkboxHelpHide"
-                         tabindex="0"
-                         id="label1"
-                         onclick="toggleGroupCheckbox(event)"
-                         onkeydown="toggleGroupCheckbox(event)"
-                         onfocus="focusCheckbox(event)"
-                         onblur="blurCheckbox(event)">
-                        <img src="./images/checkbox-unchecked-black.png" alt="">
-                        <span> Farbe1: </span>
 
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox1[]" id="checkbox1_group1" value="Atlantic"
-                               aria-labelledby="label1">
-                        <label for="checkbox1_group1">Atlantic</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox1[]" id="checkbox2_group1" value="Purpur"
-                               aria-labelledby="label1">
-                        <label for="checkbox2_group1">Purpur</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox1[]" id="checkbox3_group1" value="Lagoon"
-                               aria-labelledby="label1">
-                        <label for="checkbox3_group1">Lagoon</label>
-                    </div>
-                </div>
-
-                <div>
-                    <div role="checkbox"
-                         class="group_checkbox"
-                         aria-checked="false"
-                         aria-labelledby="label2"
-                         aria-describedby="checkboxHelpHide"
-                         tabindex="0"
-                         id="label2"
-                         onclick="toggleGroupCheckbox(event)"
-                         onkeydown="toggleGroupCheckbox(event)"
-                         onfocus="focusCheckbox(event)"
-                         onblur="blurCheckbox(event)">
-                        <img src="./images/checkbox-unchecked-black.png" alt="">
-                        <span> Größe: </span>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox1_group2" value="xs"
-                               aria-labelledby="label2">
-                        <label for="checkbox1_group2">XS</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox2_group2" value="s"
-                               aria-labelledby="label2">
-                        <label for="checkbox2_group2">S</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox3_group2" value="m"
-                               aria-labelledby="label2">
-                        <label for="checkbox3_group2">M</label>
-                    </div>
-
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox4_group2" value="l"
-                               aria-labelledby="label2">
-                        <label for="checkbox4_group2">L</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox5_group2" value="xl"
-                               aria-labelledby="label2">
-                        <label for="checkbox5_group2">XL</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox6_group2" value="xxl"
-                               aria-labelledby="label2">
-                        <label for="checkbox6_group2">XXL</label>
-                    </div>
-                </div> -->
-<fieldset class="column has-text-centered">
-        <legend hidden>Persönliche Daten</legend>
-                <label for="farbe">Wähle eine Farbe:</label>
-                <select id="farbe" name="farbe">
+<div class="formSections column has-text-centered">
+    <fieldset>
+        <legend hidden>Produkt Daten</legend>
+                <label for="farbe" class="DataField">Wähle eine Farbe:</label>
+                <select id="farbe" name="farbe" class="DataField">
                     <option value="Purpur">Purpur</option>
                     <option value="Lagoon">Lagoon</option>
                     <option value="Winternight">Winternight</option>
@@ -195,14 +117,12 @@
                     <option value="Turquoise">Turquoise</option>
                     <option value="Weiss">Weiß</option>
                     <option value="MeadowGreen">Meadow Green</option>
-
                 </select>
-</fieldset>
-                <br>
-<fieldset class="column">
+    </fieldset>
+    <fieldset>
         <legend hidden>Persönliche Daten</legend>
-                <label for="groesse">Wähle eine Größe:</label>
-                <select id="groesse" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
+                <label for="groesse"  class="DataField">Wähle eine Größe:</label>
+                <select id="groesse" name="groesse[]"  class="DataField" aria-describedby="GroesseHelp" multiple required>
                     <option value="XS">XS</option>
                     <option value="S">S</option>
                     <option value="M">M</option>
@@ -210,8 +130,8 @@
                     <option value="XL">XL</option>
                     <option value="XXL">XXL</option>
                 </select>
-</fieldset>
-                <fieldset class="column">
+    </fieldset>
+                <fieldset>
                     <legend>Wähle dein Land</legend>
                     <div class="row">
                         <input type="radio" id="de" name="land[]" value="de" aria-describedby="landDesc" checked/>
@@ -227,8 +147,9 @@
                         <label for="ot" class="checkboxGroesse">Anderes Land</label>
                     </div>
                 </fieldset>
+</div>
 
-                <fieldset class="column is-centered ">
+                <fieldset class="formSections column is-centered ">
                     <legend hidden>Persönliche Daten</legend>
 
                     <div>
@@ -252,8 +173,9 @@
                         </label>
                     </div>
                     <div>
-                        <label for="desires" class="DataField">Ihre Wünsche:</label>
-                        <textarea id="desires" name="desires" aria-labelledby="p1"></textarea>
+                        <label for="desires" class="DataField">Ihre Wünsche:
+                            <textarea id="desires" name="desires" aria-labelledby="p1"></textarea>
+                        </label>
                     </div>
                 </fieldset>
                 <button type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
@@ -263,52 +185,20 @@
             </div>
         </section>
 
-
         <section id="hose" class="requestForm has-text-centered">
-            <h2 class="formUE">Anfrageformular</h2>
-            <form action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
+            <form class="columns" action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
+                <h2 class="formUE">Anfrageformular</h2>
                 <strong class="FormHeading">Bademantel Dallas</strong><br><br>
                 <div hidden>
                     <label for="productD">Produkt:</label>
                     <input type="text" name="productD" id="productD" value="Bademantel Dallas">
                 </div>
-               <!-- <div>
-                    <div role="checkbox"
-                         class="group_checkbox"
-                         aria-checked="false"
-                         aria-labelledby="label1"
-                         aria-describedby="checkboxHelpHide"
-                         tabindex="0"
-                         id="label1"
-                         onclick="toggleGroupCheckbox(event)"
-                         onkeydown="toggleGroupCheckbox(event)"
-                         onfocus="focusCheckbox(event)"
-                         onblur="blurCheckbox(event)">
-                        <img src="./images/checkbox-unchecked-black.png" alt="">
-                        <span> Farbe2: </span>
+                <div class="formSections column has-text-centered">
 
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox1[]" id="checkbox1_group1" value="Atlantic"
-                               aria-labelledby="label1">
-                        <label for="checkbox1_group1">Atlantic</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox1[]" id="checkbox2_group1" value="Purpur"
-                               aria-labelledby="label1">
-                        <label for="checkbox2_group1">Purpur</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox1[]" id="checkbox3_group1" value="Lagoon"
-                               aria-labelledby="label1">
-                        <label for="checkbox3_group1">Lagoon</label>
-                    </div>
-                </div> -->
-
-                <fieldset class="is-centered">
-                    <legend hidden>Persönliche Daten</legend>
-                <label for="farbe2">Wähle eine Farbe:</label>
-                <select id="farbe2" name="farbe">
+                <fieldset >
+                    <legend hidden>Produkt Daten</legend>
+                <label for="farbe2" class="DataField">Wähle eine Farbe:</label>
+                <select id="farbe2" name="farbe" class="DataField">
                     <option value="Flanell">Flanell</option>
                     <option value="Shell">Shell</option>
                     <option value="Rubin">Rubin</option>
@@ -317,11 +207,10 @@
                     <option value="Weiss">Weiß</option>
                 </select>
                 </fieldset>
-                <br>
                 <fieldset class="is-centered">
                     <legend hidden>Persönliche Daten</legend>
-                <label for="groesse2" aria-describedby="GroesseHelp">Wähle eine Größe:</label>
-                <select id="groesse2" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
+                <label for="groesse2" aria-describedby="GroesseHelp" class="DataField">Wähle eine Größe:</label>
+                <select id="groesse2" name="groesse[]" aria-describedby="GroesseHelp" class="DataField" multiple required>
                     <option value="XS">XS</option>
                     <option value="S">S</option>
                     <option value="M">M</option>
@@ -330,53 +219,7 @@
                     <option value="XXL">XXL</option>
                 </select>
                 </fieldset>
-               <!-- <div>
-                    <div role="checkbox"
-                         class="group_checkbox"
-                         aria-checked="false"
-                         aria-labelledby="label2"
-                         aria-describedby="checkboxHelpHide"
-                         tabindex="0"
-                         id="label2"
-                         onclick="toggleGroupCheckbox(event)"
-                         onkeydown="toggleGroupCheckbox(event)"
-                         onfocus="focusCheckbox(event)"
-                         onblur="blurCheckbox(event)">
-                        <img src="./images/checkbox-unchecked-black.png" alt="">
-                        <span> Größe: </span>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox1_group2" value="xs"
-                               aria-labelledby="label2">
-                        <label for="checkbox1_group2">XS</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox2_group2" value="s"
-                               aria-labelledby="label2">
-                        <label for="checkbox2_group2">S</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox3_group2" value="m"
-                               aria-labelledby="label2">
-                        <label for="checkbox3_group2">M</label>
-                    </div>
 
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox4_group2" value="l"
-                               aria-labelledby="label2">
-                        <label for="checkbox4_group2">L</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox5_group2" value="xl"
-                               aria-labelledby="label2">
-                        <label for="checkbox5_group2">XL</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox6_group2" value="xxl"
-                               aria-labelledby="label2">
-                        <label for="checkbox6_group2">XXL</label>
-                    </div>
-                </div> -->
                 <fieldset>
                     <legend>Wähle dein Land</legend>
                     <div class="row">
@@ -393,49 +236,8 @@
                         <label for="ot2" class="checkboxGroesse">Anderes Land</label>
                     </div>
                 </fieldset>
-
-
-                <!--  <fieldset>
-                      <legend aria-describedby="GroesseHelp">Wähle die Größe:</legend>
-                      <input id="xs" type="checkbox" name="toppings" value="xs" class="checkboxGroesse">
-                      <label for="xs">XS</label><br>
-                      <input id="s" type="checkbox" name="toppings" value="s" class="checkboxGroesse">
-                      <label for="s">S</label><br>
-                <label for="xs" class="testingIT">XS
-                          <input id="xs" type="checkbox" name="toppings" value="xs" class="checkboxGroesse">
-                          <span class="checkmark"></span>
-                      </label><br>
-                      <label for="s" class="testingIT">S
-                          <input id="s" type="checkbox" name="toppings" value="s" class="checkboxGroesse">
-                          <span class="checkmark"></span>
-                      </label><br>
-                      <label for="m" class="testingIT">M
-                          <input id="m" type="checkbox" name="toppings" value="m" class="checkboxGroesse">
-                          <span class="checkmark"></span>
-                      </label><br>
-                      <label for="L" class="testingIT">L
-                          <input id="L" type="checkbox" name="toppings" value="L" class="checkboxGroesse">
-                          <span class="checkmark"></span>
-                      </label><br>
-                      <label for="XL" class="testingIT">XL
-                          <input id="XL" type="checkbox" name="toppings" value="XL" class="checkboxGroesse">
-                          <span class="checkmark"></span>
-                      </label><br>
-                      <label for="XXL" class="testingIT">XXL
-                          <input id="XXL" type="checkbox" name="toppings" value="XXL" class="checkboxGroesse">
-                          <span class="checkmark"></span>
-                      </label><br>
-                    <input id="m" type="checkbox" name="toppings" value="m" class="checkboxGroesse">
-                    <label for="m">M</label><br>
-                    <input id="L" type="checkbox" name="toppings" value="L" class="checkboxGroesse">
-                    <label for="L">L</label><br>
-                    <input id="XL" type="checkbox" name="toppings" value="XL" class="checkboxGroesse">
-                    <label for="XL">XL</label><br>
-                    <input id="XXL" type="checkbox" name="toppings" value="XXL" class="checkboxGroesse">
-                    <label for="XXL">XXL</label>
-                </fieldset>-->
-
-                <fieldset class="is-centered">
+                </div>
+                <fieldset class="formSections column is-centered ">
                     <legend hidden>Persönliche Daten</legend>
 
                     <div>
@@ -459,8 +261,9 @@
                         </label>
                     </div>
                     <div>
-                        <label for="desires2" class="DataField">Ihre Wünsche:</label>
-                        <textarea id="desires2" name="desires" aria-labelledby="p1"></textarea>
+                        <label for="desires2" class="DataField">Ihre Wünsche:
+                            <textarea id="desires2" name="desires" aria-labelledby="p1"></textarea>
+                        </label>
                     </div>
                 </fieldset>
                 <button type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
@@ -473,97 +276,19 @@
 
 
         <section id="bikini" class="requestForm has-text-centered">
-            <h2 class="formUE">Anfrageformular</h2>
-            <form action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
+            <form class="columns" action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
+                <h2 class="formUE">Anfrageformular</h2>
                 <strong class="FormHeading">Bademantel Poppy</strong><br><br>
                 <div hidden>
                     <label for="productP">Produkt:</label>
                     <input type="text" name="productP" id="productP" value="Bademantel Poppy">
                 </div>
-              <!--  <div>
-                    <div role="checkbox"
-                         class="group_checkbox"
-                         aria-checked="false"
-                         aria-labelledby="label1"
-                         aria-describedby="checkboxHelpHide"
-                         tabindex="0"
-                         id="label1"
-                         onclick="toggleGroupCheckbox(event)"
-                         onkeydown="toggleGroupCheckbox(event)"
-                         onfocus="focusCheckbox(event)"
-                         onblur="blurCheckbox(event)">
-                        <img src="./images/checkbox-unchecked-black.png" alt="">
-                        <span> Farbe3: </span>
+                <div class="formSections column has-text-centered">
 
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox1[]" id="checkbox1_group1" value="Atlantic"
-                               aria-labelledby="label1">
-                        <label for="checkbox1_group1">Atlantic</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox1[]" id="checkbox2_group1" value="Purpur"
-                               aria-labelledby="label1">
-                        <label for="checkbox2_group1">Purpur</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox1[]" id="checkbox3_group1" value="Lagoon"
-                               aria-labelledby="label1">
-                        <label for="checkbox3_group1">Lagoon</label>
-                    </div>
-                </div>
-
-                <div>
-                    <div role="checkbox"
-                         class="group_checkbox"
-                         aria-checked="false"
-                         aria-labelledby="label2"
-                         aria-describedby="checkboxHelpHide"
-                         tabindex="0"
-                         id="label2"
-                         onclick="toggleGroupCheckbox(event)"
-                         onkeydown="toggleGroupCheckbox(event)"
-                         onfocus="focusCheckbox(event)"
-                         onblur="blurCheckbox(event)">
-                        <img src="./images/checkbox-unchecked-black.png" alt="">
-                        <span> Größe: </span>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox1_group2" value="xs"
-                               aria-labelledby="label2">
-                        <label for="checkbox1_group2">XS</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox2_group2" value="s"
-                               aria-labelledby="label2">
-                        <label for="checkbox2_group2">S</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox3_group2" value="m"
-                               aria-labelledby="label2">
-                        <label for="checkbox3_group2">M</label>
-                    </div>
-
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox4_group2" value="l"
-                               aria-labelledby="label2">
-                        <label for="checkbox4_group2">L</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox5_group2" value="xl"
-                               aria-labelledby="label2">
-                        <label for="checkbox5_group2">XL</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="checkbox2[]" id="checkbox6_group2" value="xxl"
-                               aria-labelledby="label2">
-                        <label for="checkbox6_group2">XXL</label>
-                    </div>
-                </div> -->
-                <fieldset class="is-centered">
-                    <legend hidden>Persönliche Daten</legend>
-                <label for="farbe3">Wähle eine Farbe:</label>
-                <select id="farbe3" name="farbe">
+                <fieldset>
+                    <legend hidden>Produkt Daten</legend>
+                <label for="farbe3"  class="DataField">Wähle eine Farbe:</label>
+                <select id="farbe3" name="farbe"  class="DataField">
                     <option value="Purpur">Purpur</option>
                     <option value="Timber">Timber</option>
                     <option value="Cranberry">Cranberry</option>
@@ -578,11 +303,11 @@
                     <option value="Curacao">Curacao</option>
                 </select>
                 </fieldset>
-                <br>
+
                 <fieldset class="is-centered">
                     <legend hidden>Persönliche Daten</legend>
-                <label for="groesse3" aria-describedby="GroesseHelp">Wähle eine Größe:</label>
-                <select id="groesse3" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
+                <label for="groesse3" aria-describedby="GroesseHelp"  class="DataField">Wähle eine Größe:</label>
+                <select id="groesse3" name="groesse[]"  class="DataField" aria-describedby="GroesseHelp" multiple required>
                     <option value="XS">XS</option>
                     <option value="S">S</option>
                     <option value="M">M</option>
@@ -607,8 +332,8 @@
                         <label for="ot3" class="checkboxGroesse">Anderes Land</label>
                     </div>
                 </fieldset>
-
-                <fieldset class="is-centered">
+                </div>
+                <fieldset class="formSections column is-centered ">
                     <legend hidden>Persönliche Daten</legend>
                     <div>
                         <label for="first_name3" class="DataField">Vorname<abbr class="require" title="Pflichtfeld">*</abbr>
@@ -631,8 +356,9 @@
                         </label>
                     </div>
                     <div>
-                        <label for="desires3" class="DataField">Ihre Wünsche:</label>
-                        <textarea id="desires3" name="desires" aria-labelledby="p1"></textarea>
+                        <label for="desires3" class="DataField">Ihre Wünsche:
+                            <textarea id="desires3" name="desires" aria-labelledby="p1"></textarea>
+                        </label>
                     </div>
                 </fieldset>
                 <button type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
@@ -641,51 +367,6 @@
            <button type="button" name="tabelle" role="button" class="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
             </div>
         </section>
-
-      <!--  <div id="checkboxHelpHide" hidden>Sie können einmal oder mehrmals dasselbe Produkt bestellen.</div>-->
-
-
-       <!-- <div id="groesseTabelle">
-            <div id="tabelleSummary" hidden>Diese Tabelle beschreibt alle Bikinigrößen.</div>
-            <table summary="In dieser Tabelle werden alle Bikinigößen beschrieben.">
-                <caption aria-describedby="tabelleSummary">Größentabelle</caption>
-                <tr>
-                    <th scope="col">Größe</th>
-                    <th scope="col">XS</th>
-                    <th scope="col">S</th>
-                    <th scope="col">M</th>
-                    <th scope="col">L</th>
-                    <th scope="col">XL</th>
-                    <th scope="col">XXL</th>
-                    <th scope="col">3XL</th>
-                    <th scope="col">4XL</th>
-                    <th scope="col">5XL</th>
-                </tr>
-                <tr>
-                    <th scope="row">Konfektionsgröße</th>
-                    <td>34/40</td>
-                    <td>38/44</td>
-                    <td>42/48</td>
-                    <td>46/52</td>
-                    <td>50/56</td>
-                    <td>54/60</td>
-                    <td>58/64</td>
-                    <td>62/68</td>
-                    <td>66/72</td>
-                </tr>
-                <tr>
-                    <th scope="row">Länge</th>
-                    <td>110</td>
-                    <td>110</td>
-                    <td>110</td>
-                    <td>110</td>
-                    <td>110</td>
-                    <td>114</td>
-                    <td>114</td>
-                    <td>114</td>
-                    <td>114</td>
-                </tr>
-            </table> -->
 
          <div id="groesseTabelle">
             <div id="tabeleSum" hidden>Diese Tabelle beschreibt alle Bademantelgrößen.</div>
