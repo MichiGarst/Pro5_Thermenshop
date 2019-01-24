@@ -37,11 +37,11 @@
                 <section id="Kontakt">
                     <h2>Kontakt</h2>
                     <div class="kontaktUE">Adresse</div>
-                    <div class="kontaktText"><a href="http://maps.google.com/?q=1200 Kurallee 1,Bad Füssing, 94072 " target="_blank">Kurallee 1, 94072 Bad Füssing</a></div>
+                    <div class="kontaktText"><a href="http://maps.google.com/?q=1200 Kurallee 1,Bad Füssing, 94072 " target="_blank" title="zu Google Maps (neue Seite wird geöffnet)">Kurallee 1, 94072 Bad Füssing</a></div>
                     <div class="kontaktUE">Telefon</div>
-                    <div class="kontaktText"> <a href="tel:+49 8531 97 87 06">+49 8531 978706</a></div>
+                    <div class="kontaktText"><a href="tel:+49 8531 97 87 06" title="zum Speichern oder Wählen der Nummer">Tel: +49 8531 97 87 06</a></div>
                     <div class="kontaktUE">E-Mail</div>
-                    <div class="kontaktText"><a href="mailto:info@lorenzer.com">info@lorenzer.com</a></div>
+                    <div class="kontaktText"><a href="mailto:info@lorenzer.com"  title="um eine E-Mail an die Adresse zu schreiben">info@lorenzer.com</a></div>
                 </section>
             </div>
            <div class="column is-centered" id="time">
