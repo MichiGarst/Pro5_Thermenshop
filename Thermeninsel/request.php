@@ -100,16 +100,17 @@
                         <label for="productT">Produkt:</label>
                         <input type="text" name="productT" id="productT" value="bademantel Texas">
                     </div>
+<fieldset>
                     <div class="field is-horizontal">
                         <legend hidden>Produkt Daten</legend>
                         <div class="field-label is-normal">
-                            <label class="label">Farbe</label>
+                            <label for="farbe" class="label">Farbe</label>
                         </div>
                         <div class="field-body">
                             <div class="field is-narrow">
                                 <div class="control">
                                     <div class="select is-fullwidth">
-                                        <select>
+                                        <select id="farbe" name="farbe">
                                             <option value="Purpur">Purpur</option>
                                             <option value="Lagoon">Lagoon</option>
                                             <option value="Winternight">Winternight</option>
@@ -126,16 +127,18 @@
                             </div>
                         </div>
                     </div>
+</fieldset>
+                    <fieldset>
                     <div class="field is-horizontal">
                         <legend hidden>Produkt Daten</legend>
                         <div class="field-label is-normal">
-                            <label class="label">Größe</label>
+                            <label for="groesse" class="label">Größe</label>
                         </div>
                         <div class="field-body">
                             <div class="field is-narrow">
                                 <div class="control">
                                     <div class="select is-fullwidth">
-                                        <select>
+                                        <select id="groesse" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
                                             <option value="XS">XS</option>
                                             <option value="S">S</option>
                                             <option value="M">M</option>
@@ -149,6 +152,8 @@
                             </div>
                         </div>
                     </div>
+                    </fieldset>
+                    <fieldset>
                     <div class="field is-horizontal">
                         <div class="field-label">
                             <label class="label">Land</label>
@@ -156,29 +161,30 @@
                         <div class="field-body">
                             <div class="field is-narrow">
                                 <div class="control">
-                                    <label class="radio">
-                                        <input type="radio" name="de">
+                                    <label class="radio checkboxGroesse" for="de">
+                                        <input type="radio" id="de" name="land[]" value="de" aria-describedby="landDesc" checked/>
                                         Deutschland
                                     </label>
-                                    <label class="radio">
-                                        <input type="radio" name="at">
+                                    <label class="radio checkboxGroesse" for="at">
+                                        <input type="radio" id="at" name="land[]" value="at" aria-describedby="landDesc" />
                                         Österreich
                                     </label>
-                                    <label class="radio">
-                                        <input type="radio" name="ch">
+                                    <label class="radio checkboxGroesse" for="ch">
+                                        <input type="radio" id="ch" name="land[]" value="ch" aria-describedby="landDesc" />
                                         Schweiz
                                     </label>
-                                    <label class="radio">
-                                        <input type="radio" name="ot">
+                                    <label class="radio checkboxGroesse" for="ot">
+                                        <input type="radio" id="ot" name="land[]" value="ot" aria-describedby="landDesc" />
                                         Andere
                                     </label>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    </fieldset>
                     <div class="field is-horizontal">
                         <div class="field-label is-normal">
-                            <label class="label">Name</label>
+                            <label class="label">Name*</label>
                         </div>
                         <div class="field-body">
                             <div class="field">
@@ -195,7 +201,7 @@
                     </div>
                     <div class="field is-horizontal">
                         <div class="field-label is-normal">
-                            <label class="label">Email</label>
+                            <label class="label" for="email">Email*</label>
                         </div>
                         <div class="field-body">
                             <div class="field">
@@ -207,7 +213,7 @@
                     </div>
                     <div class="field is-horizontal">
                         <div class="field-label is-normal">
-                            <label class="label">Telefonnummer</label>
+                            <label class="label" for="telephone">Telefonnummer</label>
                         </div>
                         <div class="field-body">
                             <div class="field">
@@ -219,7 +225,7 @@
                     </div>
                     <div class="field is-horizontal">
                         <div class="field-label is-normal">
-                            <label class="label">Anmerkungen</label>
+                            <label class="label" for="desires">Anmerkungen</label>
                         </div>
                         <div class="field-body">
                             <div class="field">

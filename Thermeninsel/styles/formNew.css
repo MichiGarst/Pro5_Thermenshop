@@ -13,3 +13,75 @@
 .require{
     text-decoration: none !important;
 }
+
+.checkboxGroesse {
+    font-size: 1.5em;
+    margin-right: 10%;
+    line-height: 2.15em;
+    padding: 15px 1px;
+}
+
+input[type="checkbox"],input[type="radio"]{
+    cursor: pointer;
+    -webkit-appearance: none;
+    background: lightgrey;
+    border-radius: 1px;
+    position: relative;
+    box-sizing: content-box ;
+    width: 30px;
+    height: 30px;
+    border-width: 0;
+    transition: all .3s linear;
+}
+
+input[type="checkbox"]:checked, input[type="radio"]:checked{
+    background-color: #ffcc00;
+}
+input[type="checkbox"]:focus, input[type="radio"]:focus{
+    outline: 0 none;
+    box-shadow: none;
+}
+
+.require{
+    text-decoration: none !important;
+}
+
+input[type="checkbox"]:after, input[type="radio"]:after {
+    left: 9px;
+    top: 5px;
+    width: 7px;
+    height: 13px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+select{
+    cursor: pointer;
+    -webkit-appearance: none;
+    background: lightgrey;
+    border-radius: 1px;
+    position: relative;
+    box-sizing: content-box ;
+    margin-bottom: 0.8em;
+    width: 200px;
+    height: 35px;
+    border-width: 0;
+    padding: 0.2em;
+    font-size: 1.5em;
+    transition: all .3s linear;
+}
+
+
+fieldset {
+    border: none;
+  /*  padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    width: 20em;
+    margin-top: 1em;
+    margin-bottom: 0.8em; */
+}
