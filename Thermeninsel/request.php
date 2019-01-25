@@ -174,7 +174,6 @@
                     <fieldset>
 =======
                     </div>-->
->>>>>>> e82acf0ddb01e3cf1a94d461cb2404c4d681f201
                     <div class="field is-horizontal">
                         <legend hidden>Produkt Daten</legend>
                         <div class="field-label is-normal">
@@ -296,7 +295,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="field is-horizontal">
+                </form>
+
+                <div class="field is-horizontal">
                         <div class="field-label">
                             <!-- Left empty for spacing -->
                         </div>
@@ -308,7 +309,6 @@
                             </div>
                         </div>
                     </div>
-                </form>
             </section>
 
 
