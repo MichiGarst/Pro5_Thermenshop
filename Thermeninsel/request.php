@@ -92,7 +92,7 @@
             <div id="GroesseHelp" hidden>Sie können mehrere Größen auswählen.</div>
             <div id="landDesc" hidden>Wähle dein Land.</div>
 
-            <section id="bademantel" class="requestForm">
+            <section id="bademantel" class="requestForm has-text-centered">
                 <form  action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
                     <h2 class="formUE">Anfrageformular</h2>
                     <strong class="FormHeading">Bademantel Texas</strong><br><br>
@@ -102,6 +102,48 @@
                     </div>
 <fieldset>
                     <div class="field is-horizontal">
+                        <div class="field-label">
+                            <label class="label">Farbe</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="radio">
+                                        <img src="images/Purpur.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Cranberry.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/schwarz.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/weiss.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/MEadowGreen.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/flanell.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Atlantik.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Turquoise.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Lagoon.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/winternight.jpg">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                 <!--   <div class="field is-horizontal">
                         <legend hidden>Produkt Daten</legend>
                         <div class="field-label is-normal">
                             <label for="farbe" class="label">Farbe</label>
@@ -126,9 +168,13 @@
                                 </div>
                             </div>
                         </div>
+<<<<<<< HEAD
                     </div>
 </fieldset>
                     <fieldset>
+=======
+                    </div>-->
+>>>>>>> e82acf0ddb01e3cf1a94d461cb2404c4d681f201
                     <div class="field is-horizontal">
                         <legend hidden>Produkt Daten</legend>
                         <div class="field-label is-normal">
@@ -393,7 +439,209 @@
             </section>-->
 
             <section id="hose" class="requestForm has-text-centered">
-                <form class="columns" action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
+                <form  action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
+                    <h2 class="formUE">Anfrageformular</h2>
+                    <strong class="FormHeading">Bademantel Texas</strong><br><br>
+                    <div hidden>
+                        <label for="productT">Produkt:</label>
+                        <input type="text" name="productT" id="productT" value="bademantel Texas">
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <label class="label">Farbe</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-narrow">
+                                <div class="control">
+                                    <label class="radio">
+                                        <img src="images/Purpur.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Cranberry.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/schwarz.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/weiss.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/MEadowGreen.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/flanell.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Atlantik.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Turquoise.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Lagoon.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/winternight.jpg">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                 <!--   <div class="field is-horizontal">
+                        <legend hidden>Produkt Daten</legend>
+                        <div class="field-label is-normal">
+                            <label class="label">Farbe</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-narrow">
+                                <div class="control">
+                                    <div class="select is-fullwidth">
+                                        <select>
+                                            <option value="Flanell">Flanell</option>
+                                            <option value="Shell">Shell</option>
+                                            <option value="Rubin">Rubin</option>
+                                            <option value="Winternight">Winternight</option>
+                                            <option value="Turquoise">Turquoise</option>
+                                            <option value="Weiss">Weiß</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="field is-horizontal">
+                        <legend hidden>Produkt Daten</legend>
+                        <div class="field-label is-normal">
+                            <label class="label">Größe</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-narrow">
+                                <div class="control">
+                                    <div class="select is-fullwidth">
+                                        <select>
+                                            <option value="XS">XS</option>
+                                            <option value="S">S</option>
+                                            <option value="M">M</option>
+                                            <option value="L">L</option>
+                                            <option value="XL">XL</option>
+                                            <option value="XXL">XXL</option>
+                                            <option value="XXXL">XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <label class="label">Land</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-narrow">
+                                <div class="control">
+                                    <label class="radio">
+                                        <input type="radio" name="de">
+                                        Deutschland
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="at">
+                                        Österreich
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="ch">
+                                        Schweiz
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="ot">
+                                        Andere
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Name</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control is-expanded">
+                                    <input class="input" placeholder="Vorname" type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input placeholder="Nachname" class="input" type="text" autocomplete="on" id="last_name" name="last_name" aria-labelledby="p4" required="required">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Email</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input" placeholder="Email" type="email" autocomplete="on" id="email" name="email" aria-labelledby="p3" required="required">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Telefonnummer</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input" pattern="[0-9]{5,15}" placeholder="Telefonnmmer" type="tel" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Anmerkungen</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <textarea id="desires" name="desires" class="textarea" placeholder="Kommentar" aria-labelledby="p1"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <!-- Left empty for spacing -->
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-grouped">
+                                <div class="control">
+                                    <button class="button is-link" type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
+                                </div>
+                                <div class="control">
+                                    <button class="button is-text">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <!-- Left empty for spacing -->
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <button name="tabelle" role="button" class="button" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+             <!--   <form action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
                     <h2 class="formUE">Anfrageformular</h2>
                     <strong class="FormHeading">Bademantel Dallas</strong><br><br>
                     <div hidden>
@@ -477,13 +725,221 @@
                 </form>
                 <div class="tableButton">
                     <button type="button" name="tabelle" role="button" class="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
-                </div>
+                </div>-->
             </section>
 
 
 
             <section id="bikini" class="requestForm has-text-centered">
-                <form class="columns" action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
+                <form  action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
+                    <h2 class="formUE">Anfrageformular</h2>
+                    <strong class="FormHeading">Bademantel Texas</strong><br><br>
+                    <div hidden>
+                        <label for="productT">Produkt:</label>
+                        <input type="text" name="productT" id="productT" value="bademantel Texas">
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <label class="label">Farbe</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-narrow">
+                                <div class="control">
+                                    <label class="radio">
+                                        <img src="images/Purpur.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Cranberry.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/schwarz.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/weiss.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/MEadowGreen.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/flanell.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Atlantik.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Turquoise.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/Lagoon.jpg">
+                                    </label>
+                                    <label class="radio">
+                                        <img src="images/winternight.jpg">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                  <!--  <div class="field is-horizontal">
+                        <legend hidden>Produkt Daten</legend>
+                        <div class="field-label is-normal">
+                            <label class="label">Farbe</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-narrow">
+                                <div class="control">
+                                    <div class="select is-fullwidth">
+                                        <select>
+                                            <option value="Purpur"><img src="images/Purpur.jpg" alt="" >Purpur</option>
+                                            <option value="Timber">Timber</option>
+                                            <option value="Cranberry">Cranberry</option>
+                                            <option value="Flanell">Flanell</option>
+                                            <option value="Winternight">Winternight</option>
+                                            <option value="Anthrazit">Anthrazit</option>
+                                            <option value="Graphit">Graphit</option>
+                                            <option value="Cosmos">Cosmos</option>
+                                            <option value="Violet">Violet</option>
+                                            <option value="Lagoon">Lagoon</option>
+                                            <option value="ValleyGreen">Valley Green</option>
+                                            <option value="Curacao">Curacao</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="field is-horizontal">
+                        <legend hidden>Produkt Daten</legend>
+                        <div class="field-label is-normal">
+                            <label class="label">Größe</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-narrow">
+                                <div class="control">
+                                    <div class="select is-fullwidth">
+                                        <select>
+                                            <option value="XS">XS</option>
+                                            <option value="S">S</option>
+                                            <option value="M">M</option>
+                                            <option value="L">L</option>
+                                            <option value="XL">XL</option>
+                                            <option value="XXL">XXL</option>
+                                            <option value="XXXL">XXXL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <label class="label">Land</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-narrow">
+                                <div class="control">
+                                    <label class="radio">
+                                        <input type="radio" name="de">
+                                        Deutschland
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="at">
+                                        Österreich
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="ch">
+                                        Schweiz
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="ot">
+                                        Andere
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Name</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control is-expanded">
+                                    <input class="input" placeholder="Vorname" type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input placeholder="Nachname" class="input" type="text" autocomplete="on" id="last_name" name="last_name" aria-labelledby="p4" required="required">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Email</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input" placeholder="Email" type="email" autocomplete="on" id="email" name="email" aria-labelledby="p3" required="required">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Telefonnummer</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input" pattern="[0-9]{5,15}" placeholder="Telefonnmmer" type="tel" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Anmerkungen</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <textarea id="desires" name="desires" class="textarea" placeholder="Kommentar" aria-labelledby="p1"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <!-- Left empty for spacing -->
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-grouped">
+                                <div class="control">
+                                    <button class="button is-link" type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
+                                </div>
+                                <div class="control">
+                                    <button class="button is-text">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <!-- Left empty for spacing -->
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <button name="tabelle" role="button" class="button" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+             <!--   <form class="columns" action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
                     <h2 class="formUE">Anfrageformular</h2>
                     <strong class="FormHeading">Bademantel Poppy</strong><br><br>
                     <div hidden>
@@ -572,7 +1028,7 @@
                 </form>
                 <div class="tableButton">
                     <button type="button" name="tabelle" role="button" class="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
-                </div>
+                </div>-->
             </section>
 
             <div id="groesseTabelle">

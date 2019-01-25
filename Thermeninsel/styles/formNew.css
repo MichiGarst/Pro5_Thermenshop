@@ -13,6 +13,7 @@
 .require{
     text-decoration: none !important;
 }
+<<<<<<< HEAD
 
 .checkboxGroesse {
     font-size: 1.5em;
@@ -85,3 +86,8 @@ fieldset {
     margin-top: 1em;
     margin-bottom: 0.8em; */
 }
+=======
+input[type="radio"]:checked {
+    background-color: #ffcc00;
+}
+>>>>>>> e82acf0ddb01e3cf1a94d461cb2404c4d681f201
