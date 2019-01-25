@@ -1,0 +1,15 @@
+.requestForm{
+    display: none;
+}
+
+#groesseTabelle{
+    display: none;
+}
+
+.tableButton{
+    height: 5em;
+}
+
+.require{
+    text-decoration: none !important;
+}

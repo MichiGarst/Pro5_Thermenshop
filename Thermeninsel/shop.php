@@ -53,7 +53,7 @@
         <section id="produkte">
             <h2 class="ueberschrift" id="ueberschrift2">Unsere Produkte</h2>
             <br>
-            <div class="columns is-multiline is-centered"> <!-- Habe tabindex -1 von Petra gelöscht -->
+            <div class="columns is-multiline is-centered">
                 <div class="column is-one-quarter">
                     <img src="images/poppy2.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Bademäntel</strong><br>
@@ -90,8 +90,19 @@
                     <p class="produktText"><strong>Pressefachhandel</strong><br>
                         Tageszeitungen, Zeitschriften, Taschenbücher und Romane  </p>
                 </div>
+               <!-- <div class="column is-one-quarter">
+                    <figure class="effect-sadie">
+                        <img src="images/poppy2.jpg" alt="img02" class="produktPic"/>
+                        <figcaption>
+                            <h2>Bade <span>mäntel</span></h2>
+                            <p>Große Auswahl an Bademäntel. Einige sind in unseren Shop erhältlich.</p>
+                        </figcaption>
+                    </figure>
+                </div> -->
             </div>
         </section>
+
+
         <section id="main2" role="main" class="has-text-centered" tabindex="-1">
             <div id="marken">
                 <h2 id="ueberschrift3">Unsere Marken</h2>

@@ -13,11 +13,7 @@
     display: none;
 }
 
-.row{
-    float: left;
-    width: 100%;
-    text-align: justify;
-}
+
 
 .tableButton{
     height: 5em;
@@ -31,7 +27,6 @@
     padding: 0.6em 0em;
     font-size: 1em;
     width: 130px;
-    float: right;
     margin-top: 2em;
 }
 
@@ -45,7 +40,7 @@
     width: 100%;
 }
 fieldset {
-    display: block;
+
     padding-top: 0.35em;
     padding-bottom: 0.625em;
     padding-left: 0.75em;
@@ -73,10 +68,7 @@ input[type="checkbox"],input[type="radio"]{
     transition: all .3s linear;
 }
 
-.DataField{
-    float: left;
-    text-align: left;
-}
+
 
 
 button{
@@ -163,7 +155,7 @@ input[type="checkbox"]:after, input[type="radio"]:after {
 
 .FormHeading{
     margin-top: 1.7em;
-    float: left;
+
     padding-left: 0.75em;
 }
 
@@ -176,9 +168,7 @@ input[type="checkbox"]:after, input[type="radio"]:after {
 form{
     margin-left: 0;
 }
-legend{
-    float: left;
-}
+
 
 @media only screen and (max-width: 600px) {
 

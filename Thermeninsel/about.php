@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<div class="content">
+<figure class="content">
 
     <!-- Header -->
 
@@ -47,28 +47,28 @@
         <section id="team">
             <h2>Das Team</h2>
             <div tabindex="-1" class="columns is-multiline is-centered">
-                <div class="column is-narrow has-text-centered is-one-quarter">
-                    <img src="images/Karl.jpg" alt="" class="team">
-                    <p>
-                        <strong>Karl Lorenzer</strong><br>Inhaber, Geschäftsführer
-                    </p>
+                <div  class="column is-narrow has-text-centered is-one-quarter">
+                    <figure>
+                        <img src="images/Karl.jpg" alt="" class="team">
+                        <figcaption><strong>Karl Lorenzer</strong><br>Geschäftsführer</figcaption>
+                    </figure>
                 </div>
-                <div class="column is-narrow has-text-centered is-one-quarter">
-                    <img src="images/Resi.jpg" alt="" class="team">
-                    <p>
-                        <strong>Theresa Dichtleder</strong><br>Mitarbeiterin
-                    </p>
+                <div  class="column is-narrow has-text-centered is-one-quarter">
+                    <figure>
+                        <img src="images/Resi.jpg" alt="" class="team">
+                        <figcaption><strong>Theresa Dichtleder</strong><br>Mitarbeiter</figcaption>
+                    </figure>
                 </div>
-                <div class="column is-narrow has-text-centered is-one-quarter">
-                    <img src="images/Mimi.jpeg" alt="" class="team">
-                    <p>
-                        <strong>Mirjam Tweraser</strong><br>Mitarbeiterin
-                    </p>
+                <div  class="column is-narrow has-text-centered is-one-quarter">
+                    <figure>
+                        <img src="images/Mimi.jpeg" alt="" class="team">
+                        <figcaption><strong>Mirjam Tweraser</strong><br>Mitarbeiter</figcaption>
+                    </figure>
                 </div>
-                <div class="column is-narrow has-text-centered is-one-quarter">
-                    <figure>                                                      <!-- Bereich ist kleiner weil ".content figure" margins besitzt -->
+                <div  class="column is-narrow has-text-centered is-one-quarter">
+                    <figure>
                         <img src="images/Kathi.jpeg" alt="" class="team">
-                        <figcaption><strong>Katharina Graf</strong><br>Mitarbeiterin</figcaption>
+                        <figcaption><strong>Katharina Graf</strong><br>Mitarbeiter</figcaption>
                     </figure>
                 </div>
             </div>
@@ -80,7 +80,7 @@
     include("Components/Footer.html");
     ?>
 
-</div>
+</figure>
 
 </body>
 </html>

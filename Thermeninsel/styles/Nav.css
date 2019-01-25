@@ -30,6 +30,11 @@ header {
 #item1:hover, #item2:hover, #item3:hover, #item4:hover, #item5:hover {
     color: #ffcc00;
 }
+#logoLink, logo {
+    padding: 0px;
+    margin: 0px;
+}
+
 /*
 #ueberschrift1, #ueberschrift2, #ueberschrift3, #ueberschrift4, #ueberschrift5, #ueberschrift6, a:hover, .ueberschrift, h1, h2, h3{
     color: #ffcc00; !important;
@@ -38,3 +43,6 @@ a {
     color:black;
 
 }*/
+.active {
+    background-color: black;
+}

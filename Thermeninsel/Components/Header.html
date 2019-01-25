@@ -5,16 +5,19 @@
 <header class="header" role="banner">
     <a class="skipToMain" href="#main">Navigation überspringen</a>
     <div class="level" id="kopfzeile">
-        <div class="level-item has-text-centered is-mobile">
-            <a href="http://maps.google.com/?q=1200 Kurallee 1,Bad Füssing, 94072 " target="_blank" title="zu Google Maps"><img src="images/adressePin.png" alt="" width="3%">Kurallee 1, 94072 Bad Füssing</a>
+        <div class="level-item has-text-centered">
+            <div><a href="http://maps.google.com/?q=1200 Kurallee 1,Bad Füssing, 94072 " target="_blank" title="zu Google Maps">Kurallee 1, 94072 Bad Füssing</a></div>
+            <span id="mapsDes" hidden> </span>
         </div>
         <div class="level-item has-text-centered">
-            <a href="tel:+49 8531 97 87 06" title="zum Speichern oder Wählen der Nummer"><img src="images/telefon.png" alt="" width="4%">Tel: +49 8531 97 87 06</a>
+            <div><a href="tel:+49 8531 97 87 06" title="zum Speichern oder Wählen der Nummer">Tel: +49 8531 97 87 06</a></div>
+            <span id="konDes" hidden> </span>
         </div>
     </div>
+
     <nav aria-label="Navigation" class="navbar" role="navigation">
         <div class="navbar-brand">
-            <img src="images/Logo.jpg" alt="" id="logo">
+            <a id="logoLink" href="index.php"><img src="images/Logo.jpg" alt="" id="logo"></a>
             <a role="button" href="#navMenu" class="navbar-burger" aria-label="menu" data-target="navMenu" aria-expanded="false" id="burger">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -23,10 +26,10 @@
         </div>
         <div class="navbar-menu" id="navMenu" role="menubar" aria-label="Navigation">
             <div class="navbar-start">
-                <a role="menuitem" href="index.php" tabindex="0" class="navbar-item" id="item1"> Home </a>
-                <a role="menuitem" href="about.php" tabindex="0" class="navbar-item" id="item2"> Über uns </a>
+                <a role="menuitem" href="index.php" tabindex="0" onclick="backgroundNav()" class="navbar-item" id="item1"> Home </a>
+                <a role="menuitem" href="about.php" tabindex="0"  class="navbar-item" id="item2"> Über uns </a>
                 <a role="menuitem" href="shop.php" tabindex="0" class="navbar-item" id="item3"> Sortiment </a>
-                <a role="menuitem" href="request.php" tabindex="0" class="navbar-item" id="item4"> Bestellen </a>
+                <a role="menuitem" href="request.php" tabindex="0" class="navbar-item" id="item4"> Shop </a>
                 <a role="menuitem" href="contact.php" tabindex="0" class="navbar-item" id="item5"> Kontakt </a>
             </div>
             <div class="navbar-end">
