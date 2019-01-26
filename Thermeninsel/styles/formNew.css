@@ -23,8 +23,8 @@ input[type="checkbox"],input[type="radio"]{
     border-radius: 1px;
     position: relative;
     box-sizing: content-box ;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-width: 0;
     transition: all .3s linear;
 }
@@ -54,10 +54,19 @@ select{
     cursor: pointer;
     -webkit-appearance: none;
     background: lightgrey;
-
+    height: 45px !important;
     position: relative;
 
 }
+
+input[type="text"], input[type="email"], input[type="tel"]{
+    height: 45px !important;
+}
+
+.dataFieldsSize, .personData{
+    margin-bottom: 2em !important;
+}
+
 
 
 fieldset {

@@ -101,7 +101,9 @@
                         <input type="text" name="productT" id="productT" value="bademantel Texas">
                     </div>
 <fieldset>
-                    <div class="field is-horizontal">
+
+    <legend hidden>Produkt Daten</legend>
+    <div class="field is-horizontal dataFieldsSize">
                         <div class="field-label">
                             <label class="label">Farbe</label>
                         </div>
@@ -174,7 +176,8 @@
                     <fieldset>
 =======
                     </div>-->
-                    <div class="field is-horizontal">
+
+                    <div class="field is-horizontal dataFieldsSize">
                         <legend hidden>Produkt Daten</legend>
                         <div class="field-label is-normal">
                             <label for="groesse" class="label">Größe</label>
@@ -197,9 +200,8 @@
                             </div>
                         </div>
                     </div>
-                    </fieldset>
-                    <fieldset>
-                    <div class="field is-horizontal">
+
+                    <div class="field is-horizontal dataFieldsSize">
                         <div class="field-label">
                             <label class="label">Land</label>
                         </div>
@@ -227,18 +229,22 @@
                         </div>
                     </div>
                     </fieldset>
-                    <div class="field is-horizontal">
+                    <fieldset class="personData">
+                        <legend hidden>Persönliche Daten</legend>
+                        <div class="field is-horizontal">
                         <div class="field-label is-normal">
                             <label class="label">Name*</label>
                         </div>
                         <div class="field-body">
                             <div class="field">
                                 <div class="control is-expanded">
+                                    <label class="label" for="first_name" hidden>Vorname*</label>
                                     <input class="input" placeholder="Vorname" type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
                                 </div>
                             </div>
                             <div class="field">
                                 <div class="control">
+                                    <label class="label" for="last_name" hidden>Nachname*</label>
                                     <input placeholder="Nachname" class="input" type="text" autocomplete="on" id="last_name" name="last_name" aria-labelledby="p4" required="required">
                                 </div>
                             </div>
@@ -280,6 +286,7 @@
                             </div>
                         </div>
                     </div>
+                    </fieldset>
                     <div class="field is-horizontal">
                         <div class="field-label">
                             <!-- Left empty for spacing -->
@@ -288,9 +295,6 @@
                             <div class="field is-grouped">
                                 <div class="control">
                                     <button class="button is-link" type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
-                                </div>
-                                <div class="control">
-                                    <button class="button is-text">Cancel</button>
                                 </div>
                             </div>
                         </div>
@@ -303,6 +307,9 @@
                         </div>
                         <div class="field-body">
                             <div class="field">
+                                <div class="control">
+                                    <button class="button is-text">Cancel</button>
+                                </div>
                                 <div class="control">
                                     <button name="tabelle" role="button" class="button" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
                                 </div>
@@ -622,9 +629,6 @@
                                 <div class="control">
                                     <button class="button is-link" type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
                                 </div>
-                                <div class="control">
-                                    <button class="button is-text">Cancel</button>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -634,6 +638,9 @@
                         </div>
                         <div class="field-body">
                             <div class="field">
+                                <div class="control">
+                                    <button class="button is-text">Cancel</button>
+                                </div>
                                 <div class="control">
                                     <button name="tabelle" role="button" class="button" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
                                 </div>

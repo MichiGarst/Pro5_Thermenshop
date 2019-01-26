@@ -103,7 +103,7 @@
         </section>
 
 
-        <section id="main2" role="main" class="has-text-centered" tabindex="-1">
+        <section id="main2" class="has-text-centered" tabindex="-1">
             <div id="marken">
                 <h2 id="ueberschrift3">Unsere Marken</h2>
                 <br>

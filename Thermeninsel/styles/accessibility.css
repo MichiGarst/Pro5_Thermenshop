@@ -8,6 +8,15 @@ a.skipToMain:focus, a.skipToMain:active {
     z-index: 0;
 }
 
+.clickLink{
+     display:block;
+     height: 48px;
+ }
+
+#SitemapList{
+    list-style-type: none;
+}
+
 
 /*a.skipToMain{
     left:-999em;
