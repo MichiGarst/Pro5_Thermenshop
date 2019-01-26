@@ -25,3 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+function backgroundNav(){
+    let el = document.getElementById("item1");
+   el.style.backgroundColor = '#ffcc00';
+}
