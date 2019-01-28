@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="styles/requeststyleNew.css">
     <link rel="stylesheet" type="text/css" href="styles/formNew.css">
 
-    <script src="JS/Request.js"></script>
+    <script src="js/Request.js"></script>
 
 
 </head>
@@ -105,54 +105,25 @@
                         <legend hidden>Produkt Daten</legend>
                         <div class="field is-horizontal dataFieldsSize">
                             <div class="field-label">
-                                <label class="label">Farbe</label>
+                                <label for="farbe" class="label">Farbe</label>
                             </div>
                             <div class="field-body">
-                                <div class="field">
+                                <div class="field is-narrow">
                                     <div class="control">
-                                        <label class="radio" for="cranberry">
-                                            <input type="radio" id="cranberry" name="farbe[]" value="cranberry" aria-describedby="landDesc" />
-                                            <img src="images/Purpur.jpg">
-                                        </label>
-                                        <label class="radio" for="purpur">
-                                            <input type="radio" id="purpur" name="farbe[]" value="purpur" aria-describedby="landDesc" />
-                                            <img src="images/Cranberry.jpg">
-                                        </label>
-
-                                        <label>
-                                            <input type="radio" name="test" value="big">
-                                            <img src="http://placehold.it/40x60/b0f/fff&text=B">
-                                        </label>
-                                        <label class="radio">
-
-                                        </label>
-                                        <label class="radio">
-                                            <img src="images/Cranberry.jpg">
-                                        </label>
-                                        <label class="radio">
-                                            <img src="images/schwarz.jpg">
-                                        </label>
-                                        <label class="radio">
-                                            <img src="images/weiss.jpg">
-                                        </label>
-                                        <label class="radio">
-                                            <img src="images/MEadowGreen.jpg">
-                                        </label>
-                                        <label class="radio">
-                                            <img src="images/flanell.jpg">
-                                        </label>
-                                        <label class="radio">
-                                            <img src="images/Atlantik.jpg">
-                                        </label>
-                                        <label class="radio">
-                                            <img src="images/Turquoise.jpg">
-                                        </label>
-                                        <label class="radio">
-                                            <img src="images/Lagoon.jpg">
-                                        </label>
-                                        <label class="radio">
-                                            <img src="images/winternight.jpg">
-                                        </label>
+                                        <div class="select is-fullwidth">
+                                            <select id="farbe" name="farbe">
+                                                <option value="Purpur">Purpur</option>
+                                                <option value="Lagoon">Lagoon</option>
+                                                <option value="Winternight">Winternight</option>
+                                                <option value="Cranberry">Cranberry</option>
+                                                <option value="Flanell">Flanell</option>
+                                                <option value="Atlantik">Atlantik</option>
+                                                <option value="Schwarz">Schwarz</option>
+                                                <option value="Turquoise">Turquoise</option>
+                                                <option value="Weiss">Weiß</option>
+                                                <option value="MeadowGreen">Meadow Green</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -321,7 +292,8 @@
                     <div class="field-body">
                         <div class="field">
                             <div class="control">
-                                <button name="tabelle" role="button" class="button" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
+                                <button name="tabelle" role="button" class="button" onclick="setTable('groesseTabelle')" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
+                                <button name="tabelleC" role="button" class="button" onclick="setTable('farbTabelle')" aria-label="Farbtabelle anzeigen">Farbtabelle</button>
                             </div>
                         </div>
                     </div>
@@ -1104,6 +1076,63 @@
                     </tr>
                 </table>
             </div>
+
+
+
+                <div id="farbTabelle">
+                    <div id="tabeleSum1" hidden>Diese Tabelle beschreibt alle Farben.</div>
+                    <table summary="In dieser Tabelle werden alle Farben beschrieben.">
+                        <caption aria-describedby="tabeleSum1">Farbtabelle</caption>
+                        <tr>
+                            <th scope="col" colspan="2">Farbe</th>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Weiß</th>
+                            <td><img src="images/weiss.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Timber</th>
+                            <td><img src="images/timber.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Winternight</th>
+                            <td><img src="images/winternight.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">MeadowGreen</th>
+                            <td><img src="images/MEadowGreen.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Turquoise</th>
+                            <td><img src="images/Turquoise.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Flanell</th>
+                            <td><img src="images/flanell.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Schwarz</th>
+                            <td><img src="images/schwarz.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cranberry</th>
+                            <td><img src="images/Cranberry.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Lagoon</th>
+                            <td><img src="images/Lagoon.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Purpur</th>
+                            <td><img src="images/Purpur.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Atlantik</th>
+                            <td><img src="images/Atlantik.jpg" alt=""></td>
+                        </tr>
+                    </table>
+            </div>
         </main>
         <?php
         include("Footer.html");
@@ -1117,21 +1146,4 @@
 </html>
 
 
-<style>
-    [type=radio] {
-        position: absolute;
-        opacity: 0;
-        width: 0;
-        height: 0;
-    }
 
-    /* IMAGE STYLES */
-    [type=radio] + img {
-        cursor: pointer;
-    }
-
-    /* CHECKED STYLES */
-    [type=radio]:checked + img {
-        outline: 2px solid #f00;
-    }
-</style>

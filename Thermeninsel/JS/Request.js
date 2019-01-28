@@ -17,8 +17,8 @@ function setForm(product, line123) {
 
 }
 
-function setTable() {
-    var g = document.getElementById("groesseTabelle");
+function setTable(objName) {
+    var g = document.getElementById(objName);
     if(g.style.display === 'inline'){
         g.style.display = 'none'
     } else {
