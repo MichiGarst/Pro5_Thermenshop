@@ -186,7 +186,7 @@
                             <div class="field is-narrow">
                                 <div class="control">
                                     <div class="select is-fullwidth">
-                                        <select id="groesse" name="groesse[]" aria-describedby="GroesseHelp" multiple required>
+                                        <select id="groesse" name="groesse[]" aria-describedby="GroesseHelp" required>
                                             <option value="XS">XS</option>
                                             <option value="S">S</option>
                                             <option value="M">M</option>
