@@ -292,7 +292,7 @@
                     <div class="field-body">
                         <div class="field">
                             <div class="control">
-                                <button name="tabelle" role="button" class="button" onclick="setTable('groesseTabelle')" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
+                                <button name="tabelle" role="button" class="button" onclick="setTable('groesseTabelle')" aria-label="Größentabelle für Bademäntel anzeigen">Größentabelle</button>
                                 <button name="tabelleC" role="button" class="button" onclick="setTable('farbTabelle')" aria-label="Farbtabelle anzeigen">Farbtabelle</button>
                             </div>
                         </div>
@@ -435,43 +435,23 @@
                         <label for="productT">Produkt:</label>
                         <input type="text" name="productT" id="productT" value="bademantel Texas">
                     </div>
-                    <div class="field is-horizontal">
+                    <div class="field is-horizontal dataFieldsSize">
                         <div class="field-label">
-                            <label class="label">Farbe</label>
+                            <label for="farbe" class="label">Farbe</label>
                         </div>
                         <div class="field-body">
                             <div class="field is-narrow">
                                 <div class="control">
-                                    <label class="radio">
-                                        <img src="images/Purpur.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/Cranberry.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/schwarz.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/weiss.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/MEadowGreen.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/flanell.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/Atlantik.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/Turquoise.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/Lagoon.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/winternight.jpg">
-                                    </label>
+                                    <div class="select is-fullwidth">
+                                        <select id="farbe2" name="farbe">
+                                            <option value="MeadowGreen">Meadow Green</option>
+                                            <option value="Purpur">Purpur</option>
+                                            <option value="Lagoon">Lagoon</option>
+                                            <option value="Turquoise">Turquoise</option>
+                                            <option value="Weiss">Weiß</option>
+
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -621,10 +601,8 @@
                         <div class="field-body">
                             <div class="field">
                                 <div class="control">
-                                    <button class="button is-text">Cancel</button>
-                                </div>
-                                <div class="control">
-                                    <button name="tabelle" role="button" class="button" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
+                                    <button name="tabelle" role="button" class="button" onclick="setTable('groesseTabelle')" aria-label="Größentabelle für Bademäntel anzeigen">Größentabelle</button>
+                                    <button name="tabelleC" role="button" class="button" onclick="setTable('farbTabelle')" aria-label="Farbtabelle anzeigen">Farbtabelle</button>
                                 </div>
                             </div>
                         </div>
@@ -727,43 +705,24 @@
                         <label for="productT">Produkt:</label>
                         <input type="text" name="productT" id="productT" value="bademantel Texas">
                     </div>
-                    <div class="field is-horizontal">
+                    <div class="field is-horizontal dataFieldsSize">
                         <div class="field-label">
-                            <label class="label">Farbe</label>
+                            <label for="farbe" class="label">Farbe</label>
                         </div>
                         <div class="field-body">
                             <div class="field is-narrow">
                                 <div class="control">
-                                    <label class="radio">
-                                        <img src="images/Purpur.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/Cranberry.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/schwarz.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/weiss.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/MEadowGreen.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/flanell.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/Atlantik.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/Turquoise.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/Lagoon.jpg">
-                                    </label>
-                                    <label class="radio">
-                                        <img src="images/winternight.jpg">
-                                    </label>
+                                    <div class="select is-fullwidth">
+                                        <select id="farbe2" name="farbe">
+                                            <option value="Lagoon">Lagoon</option>
+                                            <option value="Turquoise">Turquoise</option>
+                                            <option value="Weiss">Weiß</option>
+                                            <option value="MeadowGreen">Meadow Green</option>
+                                            <option value="Purpur">Purpur</option>
+
+
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -909,9 +868,6 @@
                                 <div class="control">
                                     <button class="button is-link" type="submit" name="Produktanfrage senden" role="button" aria-label="Produktanfrage senden">Senden</button>
                                 </div>
-                                <div class="control">
-                                    <button class="button is-text">Cancel</button>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -922,7 +878,8 @@
                         <div class="field-body">
                             <div class="field">
                                 <div class="control">
-                                    <button name="tabelle" role="button" class="button" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
+                                    <button name="tabelle" role="button" class="button" onclick="setTable('groesseTabelle')" aria-label="Größentabelle für Bademäntel anzeigen">Größentabelle</button>
+                                    <button name="tabelleC" role="button" class="button" onclick="setTable('farbTabelle')" aria-label="Farbtabelle anzeigen">Farbtabelle</button>
                                 </div>
                             </div>
                         </div>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <?php
-    include("Components/BulmaEinbindung.html");
+    include("BulmaEinbindung.html");
     ?>
 
     <link rel="stylesheet" type="text/css" href="styles/contactstyle.css">
@@ -20,7 +20,7 @@
     <!-- Header -->
 
     <?php
-    include("Components/Header.html");
+    include("Header.html");
     ?>
 
     <!-- Menu -->
@@ -65,7 +65,7 @@
     </main>
 
     <?php
-    include("Components/Footer.html");
+    include("Footer.html");
     ?>
 
 </div>

@@ -10,7 +10,7 @@
 
     <!-- Bulma einbindung -->
     <?php
-    include("Components/BulmaEinbindung.html");
+    include("BulmaEinbindung.html");
     ?>
     <!-- Andere Stylesheets -->
 </head>
@@ -21,7 +21,7 @@
     <!-- Header -->
 
     <?php
-    include("Components/Header.html");
+    include("Header.html");
     ?>
 
     <!-- Menu -->
@@ -77,7 +77,7 @@
     </main>
 
     <?php
-    include("Components/Footer.html");
+    include("Footer.html");
     ?>
 
 </figure>

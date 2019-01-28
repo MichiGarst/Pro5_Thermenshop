@@ -22,8 +22,8 @@ $email = $_POST["email"];
 $telephone = $_POST["telephone"];
 $desire = $_POST["desires"];
 $productT = $_POST["productT"];
-$productD = $_POST["productD"];
-$productP = $_POST["productP"];
+//$productD = $_POST["productD"];
+//$productP = $_POST["productP"];
 
 
 if (!preg_match("/^[a-zA-Z ]*$/",$firstname)) {
@@ -61,10 +61,10 @@ $mail->Body .= "Größe: ";
 foreach($_POST['groesse'] as $selected1) {
     $mail->Body .= $selected1."  ";
 }
-$mail->Body .= "Farbe: ";
-foreach($_POST['farbe'] as $selected) {
-    $mail->Body .= $selected."  ";
-}
+//$mail->Body .= "Farbe: ";
+//foreach($_POST['farbe'] as $selected) {
+ //   $mail->Body .= $selected."  ";
+//}
 
 $mail->Body .= "<br> Land: ";
 foreach($_POST['land'] as $selected2) {
