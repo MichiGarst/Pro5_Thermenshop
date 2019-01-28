@@ -16,15 +16,30 @@ require './PHPMailer/src/SMTP.php';
 //var_dump($_POST);
 
 
+
 $firstname = $_POST["first_name"];
 $lastname = $_POST["last_name"];
 $email = $_POST["email"];
 $telephone = $_POST["telephone"];
-$desire = $_POST["desires"];
-$productT = $_POST["productT"];
+//$productT = $_POST["productT"];
 //$productD = $_POST["productD"];
 //$productP = $_POST["productP"];
 
+if(isset($_POST["productP"])){
+    $product = $_POST["productP"];
+} elseif(isset($_POST["productD"])){
+    $product = $_POST["productD"];
+} elseif(isset($_POST["productT"])) {
+    $product = $_POST["productT"];
+}else{
+    $product = "no Product selected";
+}
+
+if(isset($_POST["desires"])){
+    $desire = $_POST["desires"];
+}else{
+    $desire = "Kein Kommentar eingegeben";
+}
 
 if (!preg_match("/^[a-zA-Z ]*$/",$firstname)) {
     $nameError = "Only letters and white space allowed";
@@ -56,7 +71,7 @@ $mail->addReplyTo('S1610238017@students.fh-hagenberg.at', 'Information');
 $mail->addCC('S1610238017@students.fh-hagenberg.at');
 $mail->isHTML(true);                                  // Set email format to HTML
 $mail->Subject = 'Neue Anfrage';
-$mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> <br>  Produkt: ".$productT.$productD.$productP."<br> ";
+$mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> <br>  Produkt: ".$product."<br> ";
 $mail->Body .= "Größe: ";
 foreach($_POST['groesse'] as $selected1) {
     $mail->Body .= $selected1."  ";
@@ -76,6 +91,7 @@ $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 try{
     $mail->Send();
+    echo("<script>location.href='https://thermenshop.000webhostapp.com/request.php'</script>");
     echo "Success!";
 } catch(Exception $e){
 //Something went bad
