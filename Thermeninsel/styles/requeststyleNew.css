@@ -13,3 +13,6 @@
 .column:hover {
     background-color: #ffcc00;
 }
+.nameHide{
+    display: none;
+}

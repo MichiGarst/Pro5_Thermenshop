@@ -238,13 +238,13 @@
                         <div class="field-body">
                             <div class="field">
                                 <div class="control is-expanded">
-                                    <label class="label" for="first_name" hidden>Vorname*</label>
+                                    <label class="label nameHide" for="first_name" >Vorname*</label>
                                     <input class="input" placeholder="Vorname" type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
                                 </div>
                             </div>
                             <div class="field">
                                 <div class="control">
-                                    <label class="label" for="last_name" hidden>Nachname*</label>
+                                    <label class="label nameHide" for="last_name" hidden>Nachname*</label>
                                     <input placeholder="Nachname" class="input" type="text" autocomplete="on" id="last_name" name="last_name" aria-labelledby="p4" required="required">
                                 </div>
                             </div>
@@ -307,9 +307,6 @@
                         </div>
                         <div class="field-body">
                             <div class="field">
-                                <div class="control">
-                                    <button class="button is-text">Cancel</button>
-                                </div>
                                 <div class="control">
                                     <button name="tabelle" role="button" class="button" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
                                 </div>
