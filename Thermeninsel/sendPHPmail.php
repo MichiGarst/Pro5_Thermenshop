@@ -21,6 +21,8 @@ $firstname = $_POST["first_name"];
 $lastname = $_POST["last_name"];
 $email = $_POST["email"];
 $telephone = $_POST["telephone"];
+$farbe = $_POST["farbe"];
+
 //$productT = $_POST["productT"];
 //$productD = $_POST["productD"];
 //$productP = $_POST["productP"];
@@ -71,7 +73,7 @@ $mail->addReplyTo('S1610238017@students.fh-hagenberg.at', 'Information');
 $mail->addCC('S1610238017@students.fh-hagenberg.at');
 $mail->isHTML(true);                                  // Set email format to HTML
 $mail->Subject = 'Neue Anfrage';
-$mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> <br>  Produkt: ".$product."<br> ";
+$mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> <br>  Produkt: ".$product."<br>  Farbe: ".$farbe."<br> ";
 $mail->Body .= "Größe: ";
 foreach($_POST['groesse'] as $selected1) {
     $mail->Body .= $selected1."  ";

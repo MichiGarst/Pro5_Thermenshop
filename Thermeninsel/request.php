@@ -437,13 +437,13 @@
                     </div>
                     <div class="field is-horizontal dataFieldsSize">
                         <div class="field-label">
-                            <label for="farbe" class="label">Farbe</label>
+                            <label for="farbe1" class="label">Farbe</label>
                         </div>
                         <div class="field-body">
                             <div class="field is-narrow">
                                 <div class="control">
                                     <div class="select is-fullwidth">
-                                        <select id="farbe2" name="farbe">
+                                        <select id="farbe1" name="farbe">
                                             <option value="MeadowGreen">Meadow Green</option>
                                             <option value="Purpur">Purpur</option>
                                             <option value="Lagoon">Lagoon</option>
@@ -707,7 +707,7 @@
                     </div>
                     <div class="field is-horizontal dataFieldsSize">
                         <div class="field-label">
-                            <label for="farbe" class="label">Farbe</label>
+                            <label for="farbe2" class="label">Farbe</label>
                         </div>
                         <div class="field-body">
                             <div class="field is-narrow">
