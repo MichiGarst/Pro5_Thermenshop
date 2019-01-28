@@ -8,7 +8,7 @@
 
     <!-- Bulma einbindung -->
     <?php
-    include("Components/BulmaEinbindung.html");
+    include("BulmaEinbindung.html");
     ?>
     <!-- Andere Stylesheets -->
     <link rel="stylesheet" type="text/css" href="styles/indexstyle.css">
@@ -21,7 +21,7 @@
 
     <!-- Header -->
     <?php
-    include("Components/Header.html");
+    include("Header.html");
     ?>
 
     <!--
@@ -196,7 +196,7 @@
             </div>
 
     <?php
-    include("Components/Footer.html");
+    include("Footer.html");
     ?>
 
     </main>
