@@ -137,11 +137,11 @@
             <div class="column is-centered" id="time">
                 <section id="Öffnungszeiten">
                 <h2 id="ueberschrift3">Öffnungszeiten</h2>
-                <div class="tag">Montag - Freitag</div>
+                <div class="wochentag">Montag - Freitag</div>
                 <div class="zeit">07:30 - 17:30</div>
-                <div class="tag">Samstag</div>
+                <div class="wochentag">Samstag</div>
                 <div class="zeit">08:30 - 16:30</div>
-                <div class="tag">Sonn- und Feiertag</div>
+                <div class="wochentag">Sonn- und Feiertag</div>
                 <div class="zeit">08:30 - 16:30</div>
                 </section>
             </div>
