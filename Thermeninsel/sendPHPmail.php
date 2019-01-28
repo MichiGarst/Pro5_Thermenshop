@@ -21,21 +21,20 @@ $lastname = $_POST["last_name"];
 $email = $_POST["email"];
 $telephone = $_POST["telephone"];
 $desire = $_POST["desires"];
-$product = $_POST["product"];
-$farbe = $_POST['farbe'];
+$productT = $_POST["productT"];
+$productD = $_POST["productD"];
+$productP = $_POST["productP"];
 
 
 if (!preg_match("/^[a-zA-Z ]*$/",$firstname)) {
     $nameError = "Only letters and white space allowed";
 }
 
-echo("<script>console.log('Wunsch ".$product."');</script>");
 echo("<script>console.log('Vorname ".$firstname."');</script>");
 echo("<script>console.log('Nachname ".$lastname."');</script>");
 echo("<script>console.log('E-Mail ".$email."');</script>");
 echo("<script>console.log('Telefon ".$telephone."');</script>");
 echo("<script>console.log('Wunsch ".$desire."');</script>");
-echo("<script>console.log('Wunsch ".$farbe."');</script>");
 
 
 
@@ -57,10 +56,14 @@ $mail->addReplyTo('S1610238017@students.fh-hagenberg.at', 'Information');
 $mail->addCC('S1610238017@students.fh-hagenberg.at');
 $mail->isHTML(true);                                  // Set email format to HTML
 $mail->Subject = 'Neue Anfrage';
-$mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> <br>  Produkt: ".$product."<br>Farbe: ".$farbe."<br> ";
+$mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> <br>  Produkt: ".$productT.$productD.$productP."<br> ";
 $mail->Body .= "Größe: ";
 foreach($_POST['groesse'] as $selected1) {
     $mail->Body .= $selected1."  ";
+}
+$mail->Body .= "Farbe: ";
+foreach($_POST['farbe'] as $selected) {
+    $mail->Body .= $selected."  ";
 }
 
 $mail->Body .= "<br> Land: ";
@@ -79,6 +82,6 @@ try{
     echo "Fail - " . $mail->ErrorInfo;
 }
 //echo("<script>location.href='https://thermenshop.000webhostapp.com/request.php'</script>");
-echo("<script>location.href='http://localhost:63342/Pro5_Thermenshop/Thermeninsel/request.php'</script>");
+//echo("<script>location.href='http://localhost:63342/Pro5_Thermenshop/Thermeninsel/request.php'</script>");
 //header("Location: https://thermenshop.000webhostapp.com/request.php");
 ?>
