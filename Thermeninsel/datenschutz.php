@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <?php
-    include("Components/BulmaEinbindung.html");
+    include("BulmaEinbindung.html");
     ?>
 
     <link rel="stylesheet" type="text/css" href="styles/agbstyle.css">
@@ -21,7 +21,7 @@
     <!-- Header -->
 
     <?php
-    include("Components/Header.html");
+    include("Header.html");
     ?>
 
     <h2 id="ueberschrift">Datenschutzerklärung</h2>
@@ -154,7 +154,7 @@ Dies setzt immer voraus, dass die Drittanbieter dieser Inhalte, die IP-Adresse d
     </div>
 
     <?php
-    include("Components/Footer.html");
+    include("Footer.html");
     ?>
 
 </div>
