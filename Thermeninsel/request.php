@@ -10,14 +10,14 @@
 
     <!-- Bulma einbindung -->
     <?php
-    include("Components/BulmaEinbindung.html");
+    include("BulmaEinbindung.html");
     ?>
 
     <!-- Andere Stylesheets-->
     <link rel="stylesheet" type="text/css" href="styles/requeststyleNew.css">
     <link rel="stylesheet" type="text/css" href="styles/formNew.css">
 
-    <script src="js/Request.js"></script>
+    <script src="JS/Request.js"></script>
 
 
 </head>
@@ -28,7 +28,7 @@
     <!-- Header -->
 
     <?php
-    include("Components/Header.html");
+    include("Header.html");
     ?>
     <!-- Menu -->
 
@@ -1106,7 +1106,7 @@
             </div>
         </main>
         <?php
-        include("Components/Footer.html");
+        include("Footer.html");
         ?>
 
     </div>
