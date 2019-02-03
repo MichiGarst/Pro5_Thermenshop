@@ -162,7 +162,6 @@
                            </div>-->
 
                         <div class="field is-horizontal dataFieldsSize">
-                            <legend hidden>Produkt Daten</legend>
                             <div class="field-label is-normal">
                                 <label for="groesse" class="label">Größe</label>
                             </div>
@@ -187,7 +186,7 @@
 
                         <div class="field is-horizontal dataFieldsSize">
                             <div class="field-label">
-                                <label class="label">Land</label>
+                                <div class="label">Land</div>
                             </div>
                             <div class="field-body">
                                 <div class="field is-narrow">
@@ -217,7 +216,7 @@
                         <legend hidden>Persönliche Daten</legend>
                         <div class="field is-horizontal">
                             <div class="field-label is-normal">
-                                <label class="label">Name*</label>
+                                <div class="label">Name*</div>
                             </div>
                             <div class="field-body">
                                 <div class="field">
@@ -430,18 +429,21 @@
             <section id="hose" class="requestForm has-text-centered">
                 <form  action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
                     <h2 class="formUE">Anfrageformular</h2>
-                    <strong class="FormHeading">Bademantel Texas</strong><br><br>
+                    <strong class="FormHeading">Bademantel Dallas</strong><br><br>
                     <div hidden>
-                        <label for="productT">Produkt:</label>
-                        <input type="text" name="productT" id="productT" value="bademantel Texas">
+                        <label for="productD">Produkt:</label>
+                        <input type="text" name="productD" id="productD" value="bademantel Dallas">
                     </div>
-                    <div class="field is-horizontal dataFieldsSize">
-                        <div class="field-label">
-                            <label for="farbe1" class="label">Farbe</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field is-narrow">
-                                <div class="control">
+                    <fieldset>
+
+                        <legend hidden>Produkt Daten</legend>
+                        <div class="field is-horizontal dataFieldsSize">
+                            <div class="field-label">
+                                <label for="farbe1" class="label">Farbe</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field is-narrow">
+                                    <div class="control">
                                     <div class="select is-fullwidth">
                                         <select id="farbe1" name="farbe">
                                             <option value="MeadowGreen">Meadow Green</option>
@@ -450,13 +452,13 @@
                                             <option value="Turquoise">Turquoise</option>
                                             <option value="Weiss">Weiß</option>
 
-                                        </select>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                    </div>
+                        </div>
                     <!--   <div class="field is-horizontal">
                            <legend hidden>Produkt Daten</legend>
                            <div class="field-label is-normal">
@@ -479,109 +481,114 @@
                                </div>
                            </div>
                        </div> -->
-                    <div class="field is-horizontal">
-                        <legend hidden>Produkt Daten</legend>
-                        <div class="field-label is-normal">
-                            <label class="label">Größe</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field is-narrow">
-                                <div class="control">
-                                    <div class="select is-fullwidth">
-                                        <select>
-                                            <option value="XS">XS</option>
-                                            <option value="S">S</option>
-                                            <option value="M">M</option>
-                                            <option value="L">L</option>
-                                            <option value="XL">XL</option>
-                                            <option value="XXL">XXL</option>
-                                            <option value="XXXL">XXXL</option>
-                                        </select>
+                        <div class="field is-horizontal dataFieldsSize">
+                            <div class="field-label is-normal">
+                                <label for="groesse1" class="label">Größe</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field is-narrow">
+                                    <div class="control">
+                                        <div class="select is-fullwidth">
+                                            <select id="groesse1" name="groesse[]" aria-describedby="GroesseHelp" required>
+                                                <option value="XS">XS</option>
+                                                <option value="S">S</option>
+                                                <option value="M">M</option>
+                                                <option value="L">L</option>
+                                                <option value="XL">XL</option>
+                                                <option value="XXL">XXL</option>
+                                                <option value="XXXL">XXXL</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="field is-horizontal">
-                        <div class="field-label">
-                            <label class="label">Land</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field is-narrow">
-                                <div class="control">
-                                    <label class="radio">
-                                        <input type="radio" name="de">
-                                        Deutschland
-                                    </label>
-                                    <label class="radio">
-                                        <input type="radio" name="at">
-                                        Österreich
-                                    </label>
-                                    <label class="radio">
-                                        <input type="radio" name="ch">
-                                        Schweiz
-                                    </label>
-                                    <label class="radio">
-                                        <input type="radio" name="ot">
-                                        Andere
-                                    </label>
+                        <div class="field is-horizontal dataFieldsSize">
+                            <div class="field-label">
+                                <div class="label">Land</div>
+                            </div>
+                            <div class="field-body">
+                                <div class="field is-narrow">
+                                    <div class="control">
+                                        <label class="radio checkboxGroesse" for="de1">
+                                            <input type="radio" id="de1" name="land[]" value="de" aria-describedby="landDesc" checked/>
+                                            Deutschland
+                                        </label>
+                                        <label class="radio checkboxGroesse" for="at1">
+                                            <input type="radio" id="at1" name="land[]" value="at" aria-describedby="landDesc" />
+                                            Österreich
+                                        </label>
+                                        <label class="radio checkboxGroesse" for="ch1">
+                                            <input type="radio" id="ch1" name="land[]" value="ch" aria-describedby="landDesc" />
+                                            Schweiz
+                                        </label>
+                                        <label class="radio checkboxGroesse" for="ot1">
+                                            <input type="radio" id="ot1" name="land[]" value="ot" aria-describedby="landDesc" />
+                                            Andere
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="field is-horizontal">
-                        <div class="field-label is-normal">
-                            <label class="label">Name</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field">
-                                <div class="control is-expanded">
-                                    <input class="input" placeholder="Vorname" type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
-                                </div>
+                    </fieldset>
+                    <fieldset class="personData">
+                        <legend hidden>Persönliche Daten</legend>
+                        <div class="field is-horizontal">
+                            <div class="field-label is-normal">
+                                <div class="label">Name*</div>
                             </div>
-                            <div class="field">
-                                <div class="control">
-                                    <input placeholder="Nachname" class="input" type="text" autocomplete="on" id="last_name" name="last_name" aria-labelledby="p4" required="required">
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control is-expanded">
+                                        <label class="label nameHide" for="first_name1" >Vorname*</label>
+                                        <input class="input" placeholder="Vorname" type="text" autocomplete="on" id="first_name1" name="first_name" aria-labelledby="p5" required="required">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="field is-horizontal">
-                        <div class="field-label is-normal">
-                            <label class="label">Email</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field">
-                                <div class="control">
-                                    <input class="input" placeholder="Email" type="email" autocomplete="on" id="email" name="email" aria-labelledby="p3" required="required">
+                                <div class="field">
+                                    <div class="control">
+                                        <label class="label nameHide" for="last_name1" hidden>Nachname*</label>
+                                        <input placeholder="Nachname" class="input" type="text" autocomplete="on" id="last_name1" name="last_name" aria-labelledby="p4" required="required">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="field is-horizontal">
-                        <div class="field-label is-normal">
-                            <label class="label">Telefonnummer</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field">
-                                <div class="control">
-                                    <input class="input" pattern="[0-9]{5,15}" placeholder="Telefonnmmer" type="tel" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
+                        <div class="field is-horizontal">
+                            <div class="field-label is-normal">
+                                <label class="label" for="email1">Email*</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control">
+                                        <input class="input" placeholder="Email" type="email" autocomplete="on" id="email1" name="email" aria-labelledby="p3" required="required">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="field is-horizontal">
-                        <div class="field-label is-normal">
-                            <label class="label">Anmerkungen</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field">
-                                <div class="control">
-                                    <textarea id="desires" name="desires" class="textarea" placeholder="Kommentar" aria-labelledby="p1"></textarea>
+                        <div class="field is-horizontal">
+                            <div class="field-label is-normal">
+                                <label class="label" for="telephone1">Telefonnummer</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control">
+                                        <input class="input" pattern="[0-9]{5,15}" placeholder="Telefonnmmer" type="tel" autocomplete="on" id="telephone1" name="telephone" aria-labelledby="p2">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="field is-horizontal">
+                            <div class="field-label is-normal">
+                                <label class="label" for="desires1">Anmerkungen</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control">
+                                        <textarea id="desires1" name="desires" class="textarea" placeholder="Kommentar" aria-labelledby="p1"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
                     <div class="field is-horizontal">
                         <div class="field-label">
                             <!-- Left empty for spacing -->
@@ -594,20 +601,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="field is-horizontal">
-                        <div class="field-label">
-                            <!-- Left empty for spacing -->
-                        </div>
-                        <div class="field-body">
-                            <div class="field">
-                                <div class="control">
-                                    <button name="tabelle" role="button" class="button" onclick="setTable('groesseTabelle')" aria-label="Größentabelle für Bademäntel anzeigen">Größentabelle</button>
-                                    <button name="tabelleC" role="button" class="button" onclick="setTable('farbTabelle')" aria-label="Farbtabelle anzeigen">Farbtabelle</button>
-                                </div>
+                </form>
+
+                <div class="field is-horizontal">
+                    <div class="field-label">
+                        <!-- Left empty for spacing -->
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <button name="tabelle" role="button" class="button" onclick="setTable('groesseTabelle')" aria-label="Größentabelle für Bademäntel anzeigen">Größentabelle</button>
+                                <button name="tabelleC" role="button" class="button" onclick="setTable('farbTabelle')" aria-label="Farbtabelle anzeigen">Farbtabelle</button>
                             </div>
                         </div>
                     </div>
-                </form>
+                </div>
+            </section>
                 <!--   <form action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
                        <h2 class="formUE">Anfrageformular</h2>
                        <strong class="FormHeading">Bademantel Dallas</strong><br><br>
@@ -693,41 +702,42 @@
                    <div class="tableButton">
                        <button type="button" name="tabelle" role="button" class="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
                    </div>-->
-            </section>
 
 
 
             <section id="bikini" class="requestForm has-text-centered">
                 <form  action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
                     <h2 class="formUE">Anfrageformular</h2>
-                    <strong class="FormHeading">Bademantel Texas</strong><br><br>
+                    <strong class="FormHeading">Bademantel Poppy</strong><br><br>
                     <div hidden>
-                        <label for="productT">Produkt:</label>
-                        <input type="text" name="productT" id="productT" value="bademantel Texas">
+                        <label for="productP">Produkt:</label>
+                        <input type="text" name="productP" id="productP" value="bademantel Poppy">
                     </div>
-                    <div class="field is-horizontal dataFieldsSize">
-                        <div class="field-label">
-                            <label for="farbe2" class="label">Farbe</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field is-narrow">
-                                <div class="control">
-                                    <div class="select is-fullwidth">
-                                        <select id="farbe2" name="farbe">
-                                            <option value="Lagoon">Lagoon</option>
-                                            <option value="Turquoise">Turquoise</option>
-                                            <option value="Weiss">Weiß</option>
-                                            <option value="MeadowGreen">Meadow Green</option>
-                                            <option value="Purpur">Purpur</option>
+                    <fieldset>
 
-
-                                        </select>
+                        <legend hidden>Produkt Daten</legend>
+                        <div class="field is-horizontal dataFieldsSize">
+                            <div class="field-label">
+                                <label for="farbe2" class="label">Farbe</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field is-narrow">
+                                    <div class="control">
+                                        <div class="select is-fullwidth">
+                                            <select id="farbe2" name="farbe">
+                                                <option value="Lagoon">Lagoon</option>
+                                                <option value="Turquoise">Turquoise</option>
+                                                <option value="Weiss">Weiß</option>
+                                                <option value="MeadowGreen">Meadow Green</option>
+                                                <option value="Purpur">Purpur</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
 
-                    </div>
                     <!--  <div class="field is-horizontal">
                           <legend hidden>Produkt Daten</legend>
                           <div class="field-label is-normal">
@@ -756,16 +766,15 @@
                               </div>
                           </div>
                       </div> -->
-                    <div class="field is-horizontal">
-                        <legend hidden>Produkt Daten</legend>
+                    <div class="field is-horizontal dataFieldsSize">
                         <div class="field-label is-normal">
-                            <label class="label">Größe</label>
+                            <label for="groesse2" class="label">Größe</label>
                         </div>
                         <div class="field-body">
                             <div class="field is-narrow">
                                 <div class="control">
                                     <div class="select is-fullwidth">
-                                        <select>
+                                        <select id="groesse2" name="groesse[]" aria-describedby="GroesseHelp" required>
                                             <option value="XS">XS</option>
                                             <option value="S">S</option>
                                             <option value="M">M</option>
@@ -779,86 +788,92 @@
                             </div>
                         </div>
                     </div>
-                    <div class="field is-horizontal">
+                    <div class="field is-horizontal dataFieldsSize">
                         <div class="field-label">
-                            <label class="label">Land</label>
+                            <div class="label">Land</div>
                         </div>
                         <div class="field-body">
                             <div class="field is-narrow">
                                 <div class="control">
-                                    <label class="radio">
-                                        <input type="radio" name="de">
+                                    <label class="radio checkboxGroesse" for="de2">
+                                        <input type="radio" id="de2" name="land[]" value="de" aria-describedby="landDesc" checked/>
                                         Deutschland
                                     </label>
-                                    <label class="radio">
-                                        <input type="radio" name="at">
+                                    <label class="radio checkboxGroesse" for="at2">
+                                        <input type="radio" id="at2" name="land[]" value="at" aria-describedby="landDesc" />
                                         Österreich
                                     </label>
-                                    <label class="radio">
-                                        <input type="radio" name="ch">
+                                    <label class="radio checkboxGroesse" for="ch2">
+                                        <input type="radio" id="ch2" name="land[]" value="ch" aria-describedby="landDesc" />
                                         Schweiz
                                     </label>
-                                    <label class="radio">
-                                        <input type="radio" name="ot">
+                                    <label class="radio checkboxGroesse" for="ot2">
+                                        <input type="radio" id="ot2" name="land[]" value="ot" aria-describedby="landDesc" />
                                         Andere
                                     </label>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="field is-horizontal">
-                        <div class="field-label is-normal">
-                            <label class="label">Name</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field">
-                                <div class="control is-expanded">
-                                    <input class="input" placeholder="Vorname" type="text" autocomplete="on" id="first_name" name="first_name" aria-labelledby="p5" required="required">
-                                </div>
+                    </fieldset>
+                    <fieldset class="personData">
+                        <legend hidden>Persönliche Daten</legend>
+                        <div class="field is-horizontal">
+                            <div class="field-label is-normal">
+                                <div class="label">Name*</div>
                             </div>
-                            <div class="field">
-                                <div class="control">
-                                    <input placeholder="Nachname" class="input" type="text" autocomplete="on" id="last_name" name="last_name" aria-labelledby="p4" required="required">
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control is-expanded">
+                                        <label class="label nameHide" for="first_name2" >Vorname*</label>
+                                        <input class="input" placeholder="Vorname" type="text" autocomplete="on" id="first_name2" name="first_name" aria-labelledby="p5" required="required">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="field is-horizontal">
-                        <div class="field-label is-normal">
-                            <label class="label">Email</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field">
-                                <div class="control">
-                                    <input class="input" placeholder="Email" type="email" autocomplete="on" id="email" name="email" aria-labelledby="p3" required="required">
+                                <div class="field">
+                                    <div class="control">
+                                        <label class="label nameHide" for="last_name2" hidden>Nachname*</label>
+                                        <input placeholder="Nachname" class="input" type="text" autocomplete="on" id="last_name2" name="last_name" aria-labelledby="p4" required="required">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="field is-horizontal">
-                        <div class="field-label is-normal">
-                            <label class="label">Telefonnummer</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field">
-                                <div class="control">
-                                    <input class="input" pattern="[0-9]{5,15}" placeholder="Telefonnmmer" type="tel" autocomplete="on" id="telephone" name="telephone" aria-labelledby="p2">
+                        <div class="field is-horizontal">
+                            <div class="field-label is-normal">
+                                <label class="label" for="email2">Email*</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control">
+                                        <input class="input" placeholder="Email" type="email" autocomplete="on" id="email2" name="email" aria-labelledby="p3" required="required">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="field is-horizontal">
-                        <div class="field-label is-normal">
-                            <label class="label">Anmerkungen</label>
-                        </div>
-                        <div class="field-body">
-                            <div class="field">
-                                <div class="control">
-                                    <textarea id="desires" name="desires" class="textarea" placeholder="Kommentar" aria-labelledby="p1"></textarea>
+                        <div class="field is-horizontal">
+                            <div class="field-label is-normal">
+                                <label class="label" for="telephone2">Telefonnummer</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control">
+                                        <input class="input" pattern="[0-9]{5,15}" placeholder="Telefonnmmer" type="tel" autocomplete="on" id="telephone2" name="telephone" aria-labelledby="p2">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="field is-horizontal">
+                            <div class="field-label is-normal">
+                                <label class="label" for="desires2">Anmerkungen</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control">
+                                        <textarea id="desires2" name="desires" class="textarea" placeholder="Kommentar" aria-labelledby="p1"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
                     <div class="field is-horizontal">
                         <div class="field-label">
                             <!-- Left empty for spacing -->
@@ -871,20 +886,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="field is-horizontal">
-                        <div class="field-label">
-                            <!-- Left empty for spacing -->
-                        </div>
-                        <div class="field-body">
-                            <div class="field">
-                                <div class="control">
-                                    <button name="tabelle" role="button" class="button" onclick="setTable('groesseTabelle')" aria-label="Größentabelle für Bademäntel anzeigen">Größentabelle</button>
-                                    <button name="tabelleC" role="button" class="button" onclick="setTable('farbTabelle')" aria-label="Farbtabelle anzeigen">Farbtabelle</button>
-                                </div>
+                </form>
+
+                <div class="field is-horizontal">
+                    <div class="field-label">
+                        <!-- Left empty for spacing -->
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <button name="tabelle" role="button" class="button" onclick="setTable('groesseTabelle')" aria-label="Größentabelle für Bademäntel anzeigen">Größentabelle</button>
+                                <button name="tabelleC" role="button" class="button" onclick="setTable('farbTabelle')" aria-label="Farbtabelle anzeigen">Farbtabelle</button>
                             </div>
                         </div>
                     </div>
-                </form>
+                </div>
+            </section>
                 <!--   <form class="columns" action="sendPHPmail.php" method="post" aria-label="Anfrageformular">
                        <h2 class="formUE">Anfrageformular</h2>
                        <strong class="FormHeading">Bademantel Poppy</strong><br><br>
@@ -975,7 +992,6 @@
                    <div class="tableButton">
                        <button type="button" name="tabelle" role="button" class="buttonGroesse" onclick="setTable()" aria-label="Größentabelle für Bikinis anzeigen">Größentabelle</button>
                    </div>-->
-            </section>
 
             <div id="groesseTabelle">
                 <div id="tabeleSum" hidden>Diese Tabelle beschreibt alle Bademantelgrößen.</div>

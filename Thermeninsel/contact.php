@@ -56,11 +56,11 @@
                 </section>
             </div>
         </div>
-        <div class="column is-centered" id="maps" aria-describedby="mapsDes">
+        <div class="column is-centered" id="maps" aria-describedby="mapsDesContact">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2651.3122690543278!2d13.310488315995087!3d48.3545229792414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4774442c918c4b39%3A0xca1cd92b66fe1e54!2sThermeninsel+Bad+F%C3%BCssing+in+der+Therme+1!5e0!3m2!1sde!2sde!4v1543326955698"
-                    width="400" aria-describedby="mapsDes" title="Google Maps Einbindung" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    width="400" aria-describedby="mapsDesContact" title="Google Maps Einbindung" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-        <div id="mapsDes" hidden>Hier befindet sich eine Google Maps Einbindung</div>
+        <div id="mapsDesContact" hidden>Hier befindet sich eine Google Maps Einbindung</div>
 
     </main>
 
