@@ -24,56 +24,6 @@
     include("Header.html");
     ?>
 
-    <!--
-    <ul id="menubar1"
-        role="menubar"
-        aria-label="Navigation">
-        <li>
-            <a role="menuitem"
-               href="index.html"
-               tabindex="0"
-               lang="en">
-                Home
-            </a>
-        </li>
-        <li>
-            <a role="menuitem"
-               href="about.html"
-               tabindex="0">
-                Über uns
-            </a>
-        </li>
-        <li>
-            <a role="menuitem"
-               href="shop.html"
-               tabindex="0">
-                Sortiment
-            </a>
-        </li>
-        <li>
-            <a role="menuitem"
-               href="request.html"
-               tabindex="0">
-                Anfragen
-            </a>
-        </li>
-        <li>
-            <a role="menuitem"
-               href="coffee.html"
-               tabindex="0">
-                Kaffee
-            </a>
-        </li>
-        <li>
-            <a role="menuitem"
-               href="contact.html"
-               tabindex="0">
-                Kontakt
-            </a>
-        </li>
-    </ul>
-    -->
-
     <!-- Menu -->
     <div class="is-centered">
         <img src="images/fashybild8.jpg" alt="" width="100%" id="thermePic">
@@ -83,25 +33,6 @@
     <!-- Contact -->
 
     <main id="main" role="main" class="has-text-centered" tabindex="-1">
-
-        <div class="italienisch" hidden>
-            Laura non c'è, è andata via
-            Laura non è più cosa mia
-            E te che sei qua, e mi chiedi perché
-            L'amo se niente più mi dà
-            Mi manca da spezzare il fiato
-            Fa male e non lo sa
-            Che non mi è mai passata
-        </div>
-        <div lang="it" class="italienisch" hidden>
-            Laura non c'è, è andata via
-            Laura non è più cosa mia
-            E te che sei qua, e mi chiedi perché
-            L'amo se niente più mi dà
-            Mi manca da spezzare il fiato
-            Fa male e non lo sa
-            Che non mi è mai passata
-        </div>
 
 <div id="welcomeAussen">
         <section id="welcome">
@@ -172,7 +103,7 @@
                         <br> Schauen Sie einfach mal vorbei, es ist für jeden was dabei!
                     </p>
                     <p id="LinkP">
-                        Oder Sie shopen Bademäntel ganz einfach <a href="request.php" title="zur Bestellseite">hier</a>
+                        Oder Sie shoppen Bademäntel ganz einfach <a href="request.php" title="zur Bestellseite">hier</a>
                         bei uns.
                     </p>
                 </section>

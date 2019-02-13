@@ -35,8 +35,8 @@
             </div>
             <section id="welcome">
                 <h1 class="ueberschrift" id="ueberschrift1">Der Thermenshop</h1>
-                <p class="text">Bei uns erhältst du alles, was du für einen entspannten Bade- und Saunaaufenthalt benötigst. Wir sind dein Profi, wenn es
-                    um Bademoden für Damen und Herren geht.<br> Mit unseren großen Auswahl findet jeder das richtige. Modisch immer aktuell auf dem neuesten
+                <p class="text">Bei uns erhalten Sie alles, was Sie für einen entspannten Bade- und Saunaaufenthalt benötigen. Wir sind Ihr Profi, wenn es
+                    um Bademoden für Damen und Herren geht.<br> Mit unseren großen Auswahl findet jeder das Richtige. Modisch immer aktuell auf dem neuesten
                     Stand und exklusive Bademode aus Italien.<br> Egal ob Bademäntel, Badeanzüge, Bikini, Tankini, Badehosen oder Bermudas, bei uns ist alles von bester Qualität
                     und ausgewählten Marken, auch Made-in-Germany.
                 </p>
@@ -82,7 +82,7 @@
                 <div class="column is-one-quarter">
                     <img src="images/kosmetik.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Kosmetik</strong><br>
-                        In unserer Kosmetikabteilung findest du Duschgel, Shampoo,<br> Aloe Vera
+                        In unserer Kosmetikabteilung finden Sie Duschgel, Shampoo,<br> Aloe Vera
                      Produkte, Spitzner Duschschaum, Bodylotion, Sunlotion <abbr title="und viele mehr">uvm.</abbr></p>
                 </div>
                 <div class="column is-one-quarter">
