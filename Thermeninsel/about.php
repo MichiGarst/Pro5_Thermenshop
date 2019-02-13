@@ -36,7 +36,7 @@
                 <p class="text">
                     Die Seele der Thermeninsel sind unsere Mitarbeiter, die mit viel Herz, Erfahrung und Tatendrang ihre Arbeit
                     erledigen.
-                    Mit unserer jahrenlagen Erfahrung beraten wir dich gerne und helfen dir das richtige zu finden.
+                    Mit unserer jahrenlagen Erfahrung beraten wir Sie gerne und helfen Ihnen das Richtige zu finden.
                 </p>
             </section>
         </div>
@@ -50,27 +50,22 @@
                 <div  class="column is-narrow has-text-centered is-one-quarter">
                     <figure>
                         <img src="images/Karl.jpg" alt="" class="team">
-                        <figcaption><strong>Karl Lorenzer</strong><br>Geschäftsführer</figcaption>
+                        <figcaption><strong>Karl Lorenzer</strong><br>Inhaber, Geschäftsführer</figcaption>
                     </figure>
                 </div>
                 <div  class="column is-narrow has-text-centered is-one-quarter">
-                    <figure>
-                        <img src="images/Resi.jpg" alt="" class="team">
-                        <figcaption><strong>Theresa Dichtleder</strong><br>Mitarbeiter</figcaption>
-                    </figure>
+                    <p>
+                        Die Thermeninsel gibt es seit 2008 und befindet sich im Eingangsbereich der THERME EINS. So
+                        ist es mir möglich alle Kunden glücklich zu machen, egal ob Gast der Therme 1 oder Besucher von außerhalb.
+                        Ich liebe meine Arbeit und den Kontakt mit Kunden. Am Ende vom Tag bin ich glücklich, wenn ich allen helfen konnte
+                        und einen erholsamen Urlaub ohne Stress genießen können. Besuchen auch Sie mich und meine netten Kollegen
+                        gerne in der Thermeninsel.
+                    </p>
                 </div>
-                <div  class="column is-narrow has-text-centered is-one-quarter">
-                    <figure>
-                        <img src="images/Mimi.jpeg" alt="" class="team">
-                        <figcaption><strong>Mirjam Tweraser</strong><br>Mitarbeiter</figcaption>
-                    </figure>
+                <div>
+
                 </div>
-                <div  class="column is-narrow has-text-centered is-one-quarter">
-                    <figure>
-                        <img src="images/Kathi.jpeg" alt="" class="team">
-                        <figcaption><strong>Katharina Graf</strong><br>Mitarbeiter</figcaption>
-                    </figure>
-                </div>
+
             </div>
         </section>
 

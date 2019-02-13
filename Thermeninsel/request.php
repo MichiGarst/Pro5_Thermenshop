@@ -1106,6 +1106,16 @@
                         </tr>
                     </table>
             </div>
+
+
+
+            <section id="fashy" class="has-text-centered">
+                <h1 class="ueberschrift" id="h1">Weiter shoppen</h1>
+                <p>Weiter tolle Angebote wie beispielsweise Badeanzüge, Bikinis, Badehosen, Badeaccessoires und viele weiter
+                Artikel für einen perfekten Badetag finden Sie bei unserem Partner <a href="http://www.fashy.de/bademoden/">Fashy</a>.
+                Ausgewählte Produkte finden Sie natürlich auch bei uns im Geschäft!
+                </p>
+            </section>
         </main>
         <?php
         include("Footer.html");
