@@ -30,13 +30,13 @@
 
     <div id="shopAussen">
         <div class="columns is-centered" id="shop">
-            <div class="is-centered">
+            <div class=" column is-centered">
                 <img src="images/fashybild2.jpg" alt="" id="thermePic">
             </div>
-            <section id="welcome">
+            <section class="column is-centered has-text-centered" id="welcome">
                 <h1 class="ueberschrift" id="ueberschrift1">Der Thermenshop</h1>
                 <p class="text">Bei uns erhalten Sie alles, was Sie für einen entspannten Bade- und Saunaaufenthalt benötigen. Wir sind Ihr Profi, wenn es
-                    um Bademoden für Damen und Herren geht.<br> Mit unseren großen Auswahl findet jeder das Richtige. Modisch immer aktuell auf dem neuesten
+                    um Bademoden für Damen und Herren geht.<br> Mit unserer großen Auswahl findet jeder das Richtige. Modisch immer aktuell auf dem neuesten
                     Stand und exklusive Bademode aus Italien.<br> Egal ob Bademäntel, Badeanzüge, Bikini, Tankini, Badehosen oder Bermudas, bei uns ist alles von bester Qualität
                     und ausgewählten Marken, auch Made-in-Germany.
                 </p>
@@ -62,7 +62,7 @@
                 <div class="column is-one-quarter">
                     <img src="images/fashyStart2.jpg" alt="" class="produktPic">
                     <p class="produktText"><strong>Damen Bademode</strong><br>
-                        Von Badeanzüge, über Tankini bis hin zu Bikni ist alles dabei.</p>
+                        Von Badeanzügen, über Tankinis bis hin zu Bikinis ist alles dabei.</p>
                 </div>
                 <div class="column is-one-quarter">
                     <img src="images/mann3.jpg" alt="" class="produktPic" >

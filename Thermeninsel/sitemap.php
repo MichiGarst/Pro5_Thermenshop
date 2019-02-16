@@ -39,9 +39,6 @@
                     <a href="index.php" tabindex="0" lang="en" class="clickLink"> Home </a>
                 </li>
                 <li>
-                    <a href="about.php" tabindex="0" class="clickLink"> Über uns </a>
-                </li>
-                <li>
                     <a href="shop.php" tabindex="0" class="clickLink"> Sortiment </a>
                 </li>
                 <li>

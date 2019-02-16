@@ -45,8 +45,8 @@
                 <br> KEIN PROBLEM: Bei unserem großen Sortiment finden Sie immer das Richtige. Wir sind für jeden
                 Notfall ausgerüstet! <br>
                 Wir bieten: Bademoden, Bade-Accessoires, Kosmetik, Aloe-Vera-Produkte, Sonnenschutz, Zeitschriften,
-                Bücher und erstklassigen Kaffe an unserer Café-Bar! <br>
-                Außerdem sind wir <strong>365 Tage im Jahr </strong>für Sie da. Schau einfach vorbei. <br>
+                Bücher und erstklassigen Kaffee an unserer Café-Bar! <br>
+                Außerdem sind wir <strong>365 Tage im Jahr </strong>für Sie da. <br>
                 Wir freuen uns auf Sie!
             </p>
         </section>
@@ -87,7 +87,7 @@
                         Bei uns gibt es immer die neusten Designs in Sachen Bademode. Egal ob Badeanzug, Bikini, Tankini
                         oder Badehose, bei uns kommt jeder auf seine Kosten. Mit bekannten Marken aus Italien aber auch
                         Made-in-Germany achten wir auf Qualität und bieten unseren Kunden dennoch preiswerte Bademode.
-                        Auch für Lesestoff ist gesorgt mit unserem riesigen Auswahl an Zeitschriften, Tagezeitungen und
+                        Auch für Lesestoff ist gesorgt mit unserer riesigen Auswahl an Zeitschriften, Tagezeitungen und
                         Büchern. <br>
                         <a href="shop.php" title="zum Sortiment">Hier ansehen!</a>
                     </p>
@@ -123,8 +123,25 @@
                         Lassen Sie noch einen Moment die Seele baumeln, bevor der stressige Alltag Sie wieder einholt.
                     </p>
                 </section>
-
             </div>
+            <div class="columns is-centered" id="teamSec">
+                <section class="column  has-text-centered">
+                    <h2>Über uns</h2>
+                    <p id="teamtext">
+                        Die Seele der Thermeninsel sind unsere Mitarbeiter, die mit viel Herz, Erfahrung und Tatendrang ihre Arbeit
+                        erledigen. <br>
+                        Mit unserer jahrenlagen Erfahrung beraten wir Sie gerne und helfen Ihnen das Richtige zu finden.
+                        Die Thermeninsel gibt es seit 2003 und befindet sich im Eingangsbereich der <a href="https://www.therme1.de/">THERME EINS</a>. So
+                        ist es mir möglich alle Kunden glücklich zu machen, egal ob Gast der Therme oder Besucher von außerhalb.
+                        Wir freuen uns auch Sie bei uns im Shop begrüßen zu dürfen!
+                    </p>
+                </section>
+                <div class="column">
+                    <img src="images/Karl.jpg" alt="" id="team">
+                </div>
+            </div>
+        </div>
+
 
     <?php
     include("Footer.html");

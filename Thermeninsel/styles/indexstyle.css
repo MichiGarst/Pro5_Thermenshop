@@ -2,7 +2,7 @@
     background-color: #F7F7F6;
 }
 
-#welcome, #kaffee, #angebot, #sortiment{
+#welcome, #kaffee, #angebot, #sortiment, #teamSec{
     margin: 20px;
     padding: 10px;
 
@@ -19,14 +19,14 @@
 
 
 @media screen and (max-width: 768px) {
-    #sort, #coffee, #mann {
+    #sort, #coffee, #mann, #team{
         width:150px !important;
         height: 150px !important;
     }
 }
 
 @media screen and (min-width: 769px) {
-    #sort, #coffee, #mann {
+    #sort, #coffee, #mann, #team{
         width:250px !important;
         height: 250px !important;
     }
@@ -45,7 +45,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    #sort, #coffee, #mann {
+    #sort, #coffee, #mann, #team {
         width:350px !important;
         height: 350px !important;
     }
@@ -76,7 +76,4 @@
     }
 }
 
-.italienisch {
-    visibility: hidden;
-}
 

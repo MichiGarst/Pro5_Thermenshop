@@ -68,9 +68,9 @@ $mail->Password = 'Geheim007'; //this account's password.
 $mail->Port = "465";
 $mail->isSMTP();  // telling the class to use SMTP
 $mail->SetFrom('thermeninsel@gmail.com');
-$mail->addAddress('S1610238017@students.fh-hagenberg.at', 'Joe User');     // Add a recipient
-$mail->addReplyTo('S1610238017@students.fh-hagenberg.at', 'Information');
-$mail->addCC('S1610238017@students.fh-hagenberg.at');
+$mail->addAddress('info@lorenzer.com', 'Karl Lorenzer');     // Add a recipient
+$mail->addReplyTo('info@lorenzer.com', 'Information');
+$mail->addCC('info@lorenzer.com');
 $mail->isHTML(true);                                  // Set email format to HTML
 $mail->Subject = 'Neue Anfrage';
 $mail->Body    = "Du hast eine neue Anfrage von: <br> Name: ".$firstname." ".$lastname."<br> Email: ".$email."<br> Telefon: ".$telephone."<br> Wunsch: ".$desire."<br> <br>  Produkt: ".$product."<br>  Farbe: ".$farbe."<br> ";
@@ -93,7 +93,7 @@ $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 try{
     $mail->Send();
-    echo("<script>location.href='https://thermenshop.000webhostapp.com/request.php'</script>");
+    echo("<script>location.href='http://localhost/Pro5_Thermenshop/Thermeninsel/request.php'</script>");
     echo "Success!";
 } catch(Exception $e){
 //Something went bad
